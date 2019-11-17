@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mon"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/detail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mon1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tue"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/detail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tue1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wed"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/detail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wed1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thur"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/detail4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thur1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fri"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/detail5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fri1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/title6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/detail6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sat1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/title7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sun"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/detail7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sun1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

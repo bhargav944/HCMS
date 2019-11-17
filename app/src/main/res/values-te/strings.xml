@@ -1,0 +1,708 @@
+<resources>
+    <string name="app_name">HCMS</string>
+    <string name="skip">దాటవేయి</string>
+    <string name="next">తరువాత</string>
+    <string name="start">ప్రారంభం</string>
+    <string name="slide_1_title">డైలీ వర్కౌట్</string>
+    <string name="slide_1_desc">శిక్షణ సాధన ద్వారా మీ రోజువారీ వ్యాయామ నియమాన్ని సెట్ చేయండి</string>
+    <string name="slide_2_title">ధ్యాన పద్ధతులు</string>
+    <string name="slide_2_desc">వివిధ ధ్యాన పద్ధతులను గురించి తెలుసుకోండి మరియు వాటిని ఆచరించండి</string>
+    <string name="slide_3_title">డైట్ చార్ట్</string>
+    <string name="slide_3_desc">ఆరోగ్య నిపుణుల సహాయంతో మీ ఆహారం చార్ట్ను చేయండి</string>
+    <string name="Welcome">స్వాగతం</string>
+    <string name="choose">భాషను ఎంచుకోండి</string>
+    <string name="health">అరోగ్య రక్షణ నిర్వహణ వ్యవస్థ</string>
+    <string name="login">లాగిన్</string>
+    <string name="login_activities">ఇక్కడ లాగిన్</string>
+    <string name="about">మా గురించి</string>
+    <string name="about_activities">హాస్పిటల్ ఇన్ఫ్రాస్ట్రక్చర్</string>
+    <string name="contact">మమ్మల్ని సంప్రదించండి</string>
+    <string name="contact_activities">మీ వివరాలను వివరించండి</string>
+    <string name="developed">అభివృద్ధి చేయబడింది</string>
+    <string name="name">జి భార్గవ్</string>
+    <string name="text">దయచేసి మీ సందేహాలను వివరించడానికి మరియు మీ దరఖాస్తు స్థితిని మెరుగుపరచడానికి మమ్మల్ని సంప్రదించండి</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="emailid">g.bhargav2015@vit.ac.in</string>
+    <string name="contact1">సంప్రదించండి</string>
+    <string name="phone">7097034116</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="forgot_password">పాస్వర్డ్ మర్చిపోయారా</string>
+    <string name="link_to_register">ఇక్కడ నమోదు చేయండి</string>
+    <string name="minimum_password">పాస్ వర్డ్ చాలా చిన్నది, కనీసం 6 అక్షరాలను నమోదు చేయండి!</string>
+    <string name="auth_failed">ప్రామాణీకరణ విఫలమైంది, మీ ఇమెయిల్ మరియు పాస్వర్డ్ తనిఖీ లేదా సైన్ అప్ చేయండి</string>
+    <string name="portal">పోర్టల్ పేజీ</string>
+    <string name="sign_in_short">నమోదు</string>
+    <string name="link_to_login">ఇప్పటికే రిజిస్ట్రేట్.ఇక్కడ లాగిన్!</string>
+    <string name="forgot_password_msg">మీకు పాస్ వర్డ్ రీసెట్ సూచనలను పంపించడానికి మీ రిజిస్టర్డ్ ఇమెయిల్ ఐడి అవసరం.</string>
+    <string name="reset_password">రహస్యపదాన్ని మార్చుకోండి</string>
+    <string name="back">తిరిగి</string>
+    <string name="admin">అడ్మిన్</string>
+    <string name="admin_details">అడ్మిన్ వివరాలు</string>
+    <string name="doctor">డాక్టర్</string>
+    <string name="doctor_activities">డాక్టర్ వివరాలు</string>
+    <string name="message">సందేశం</string>
+    <string name="message_me">డాక్టర్ మరియు నిర్వహణకు సందేశం</string>
+    <string name="call">కాల్</string>
+    <string name="call_me">డాక్టర్ మరియు అడ్మినిస్ట్రేషన్కు కాల్ చేయండి</string>
+    <string name="feedback">అభిప్రాయం</string>
+    <string name="livechat_userinfo">చాట్ మరియు వాడుకరి సమాచారం</string>
+    <string name="livechatuserinfo">LC మరియు UI</string>
+    <string name="googlemap">గూగుల్ పటం</string>
+    <string name="google_map">సమీపంలోని ఆసుపత్రులను నావిగేట్ చేయండి</string>
+    <string name="totalhealth">మొత్తం ఆరోగ్య చిట్కాలు</string>
+    <string name="totalhealth_me">మొత్తం ఆరోగ్య సంరక్షణ చిట్కాలు</string>
+    <string name="tophospital">అగ్ర ఆస్పత్రులు</string>
+    <string name="tophospital_me">భారతదేశంలో టాప్ 15 హాస్పిటల్స్</string>
+    <string name="hospital">హాస్పిటల్స్</string>
+    <string name="hospital1">భారతదేశం లో హోప్స్</string>
+    <string name="hospitals">ఇండియాలో హాస్పిటల్స్</string>
+    <string name="logout_message">మీరు ఖచ్చితంగా HCMS నుండి లాగ్ అవుట్ చేయాలనుకుంటున్నారా?</string>
+    <string name="thanks_message">HCMS అప్లికేషన్ను ఉపయోగించినందుకు ధన్యవాదాలు. ఏవైనా సందేహాలు దయచేసి చూడు</string>
+    <string name="yes">అవును</string>
+    <string name="no">తోబుట్టువుల</string>
+    <string name="india_me">భారతదేశంలో రాష్ట్రాలు మరియు నగరాల ఆస్పత్రులు</string>
+    <string name="blooddonation">రక్తం దానం</string>
+    <string name="blooddonation_me">రక్తాన్ని రక్షించండి దానం</string>
+    <string name="alarm">అలారం</string>
+    <string name="alarm_me">ఆరోగ్యం రిమైండర్</string>
+    <string name="vitamins">విటమిన్లు</string>
+    <string name="vitamins_me">విటమిన్స్ చిట్కాలు</string>
+    <string name="medications">మందులు</string>
+    <string name="medications_me">టాబ్లెట్ వివరాలు</string>
+    <string name="phoneno">ఫోన్ సంఖ్యను నమోదు చేయండి ....</string>
+    <string name="message1">మీ సందేశం పంపండి ....</string>
+    <string name="sendmessage">సందేశము పంపుము</string>
+    <string name="msg_sent">సందేశం పంపబడింది</string>
+    <string name="integer_only">దయచేసి పూర్ణాంకానికి మాత్రమే నమోదు చేయండి</string>
+    <string name="msg_permission">యాక్షన్ చేయడానికి మీకు అనుమతి అవసరం లేదు</string>
+    <string name="title_activity_tophospital_web_view">హాస్పిటల్ వివరాలు</string>
+    <string name="text1">పేరు, బ్లడ్ గ్రూప్, ఫోన్ నంబర్ నమోదు చేయండి</string>
+    <string name="donateblood">రక్తం దానం</string>
+    <string name="title_activity_login">సైన్ ఇన్ చేయండి</string>
+    <string name="title_activity_register">చేరడం</string>
+    <string name="title_activity_reset_password">పాస్వర్డ్ కార్యాచరణను రీసెట్ చేయండి</string>
+    <string name="to">టు:</string>
+    <string name="subject">Subject:</string>
+    <string name="message2">సందేశం:</string>
+    <string name="feedback1">మీ సందేహాలు స్పష్టం చెయ్యడానికి మా అభిప్రాయం</string>
+    <string name="doctordetails">డాక్టర్ వివరాలు</string>
+    <string name="admindetails">అడ్మిన్ వివరాలు</string>
+    <string name="help">అడ్మిన్ వివరాలు</string>
+    <string name="help_me">మీ సందేహాలు వివరించండి</string>
+    <string name="logout">లాగౌట్</string>
+    <string name="logout_me">HCMS నుండి లాగ్అవుట్</string>
+    <string name="immunization">ఇమ్యూనైజేషన్</string>
+    <string name="diet_plan">ఆహారం ప్రణాళిక</string>
+    <string name="exercise">వ్యాయామం</string>
+    <string name="routinemaker">రొటీన్ మేకర్</string>
+    <string name="workoutmanagement">వర్క్అవుట్ మేనేజ్మెంట్</string>
+    <string name="pimples">మొటిమ / మొటిమలు</string>
+    <string name="scars">స్కార్స్</string>
+    <string name="facecare">ఫేస్ కేర్</string>
+    <string name="hairloss">జుట్టు ఊడుట</string>
+    <string name="dandruff">చుండ్రు</string>
+    <string name="hairgrowth">హెయిర్ గ్రోత్</string>
+    <string name="cough">చల్లని మరియు దగ్గు</string>
+    <string name="stomach_ache">కడుపు నొప్పి</string>
+    <string name="headache">తలనొప్పి</string>
+    <string name="backpain">వెన్నునొప్పి</string>
+    <string name="jointpain">కీళ్ళ నొప్పి</string>
+    <string name="sunburn">సన్ బర్న్</string>
+    <string name="immunization_me">ప్రపంచ ఆరోగ్య సంస్థ</string>
+    <string name="a">A</string>
+    <string name="b1">B1</string>
+    <string name="b2">B2</string>
+    <string name="b3">B3</string>
+    <string name="b5">B5</string>
+    <string name="b6">B6</string>
+    <string name="b7">B7</string>
+    <string name="b9">B9</string>
+    <string name="b12">B12</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="k">K</string>
+    <string name="vitamina">విటమిన్ ఎ</string>
+    ------------------
+    <string name="vitaminb1">విటమిన్ B1</string>
+    -------------------
+    <string name="vitaminb2">విటమిన్ B2</string>
+    ---------------------
+    <string name="vitaminb3">విటమిన్ B3</string>
+    ---------------------
+    <string name="vitaminb5">విటమిన్ B5</string>
+    ------------------------
+    <string name="vitaminb6">విటమిన్ B6</string>
+    ------------------------
+    <string name="vitaminb7">విటమిన్ B7</string>
+    ---------------------------
+    <string name="vitaminb9">విటమిన్ B9</string>
+    --------------------------
+    <string name="vitaminb12">విటమిన్ బి 12</string>
+    ------------------------------
+    <string name="vitaminc">విటమిన్ సి</string>
+    ----------------------------
+    <string name="vitamind">విటమిన్ D</string>
+    ------------------------
+    <string name="vitamine">విటమిన్ ఇ</string>
+    -----------------------------
+    <string name="vitamink">విటమిన్ K</string>
+    --------------------------------
+    <string name="pb">పోర్ట్ బ్లెయిర్</string>
+    <string name="hi">హేవ్ లాక్ ఐలాండ్</string>
+    <string name="ni">నీల్ ఐలాండ్</string>
+    <string name="la">లిటిల్ అండమాన్</string>
+    <string name="anantapur">అనంతపురం</string>
+    <string name="eg">తూర్పు గోదావరి</string>
+    <string name="guntur">గుంటూరు</string>
+    <string name="krishna">కృష్ణ</string>
+    <string name="kurnool">కర్నూలు</string>
+    <string name="prakasam">ప్రకాశం</string>
+    <string name="srikakulam">శ్రీకాకుళం</string>
+    <string name="nellore">నెల్లూరు</string>
+    <string name="visakhapatnam">విశాఖపట్నం</string>
+    <string name="vizianagaram">విజయనగరం</string>
+    <string name="wg">పశ్చిమ గోదావరి</string>
+    <string name="ysr">Y.S.R (కడప)</string>
+    <string name="anjaw">Anjaw</string>
+    <string name="changlang">చాంగ్లాంగ్</string>
+    <string name="dv">దిబంగ్ వాలీ</string>
+    <string name="ek">తూర్పు కమెంగ్</string>
+    <string name="es">ఈస్ట్ సింగ్</string>
+    <string name="lohit">లోహిత్</string>
+    <string name="tawang">తవాంగ్</string>
+    <string name="morigaon">Morigaon(Marigaon)</string>
+    <string name="sonitpur">సోనిత్పూర్</string>
+    <string name="udalguri">Udalguri</string>
+    <string name="patna">పాట్నా</string>
+    <string name="saharsa">Saharsa</string>
+    <string name="vaishali">వైశాలి</string>
+    <string name="bj">బీజాపూర్</string>
+    <string name="bilaspur">బిలాస్పూర్</string>
+    <string name="durg">దుర్గ్</string>
+    <string name="raipur">రాయ్పూర్</string>
+    <string name="dn">దాద్రా మరియు నాగర్ హవేలీ</string>
+    <string name="daman">డామన్</string>
+    <string name="diu">డయ్యూ</string>
+    <string name="nd">న్యూఢిల్లీ</string>
+    <string name="ng">ఉత్తర గోవా</string>
+    <string name="sg">దక్షిణ గోవా</string>
+    <string name="ahmadabad">అహ్మదాబాద్ (అహ్మదాబాద్)</string>
+    <string name="narmada">నర్మదా</string>
+    <string name="patan">పటాన్</string>
+    <string name="rajkot">రాజ్కోట్</string>
+    <string name="gurgaon">గుర్గావ్</string>
+    <string name="panipat">పానిపట్</string>
+    <string name="shimla">సిమ్లా</string>
+    <string name="jammu">జమ్మూ</string>
+    <string name="srinagar">శ్రీనగర్</string>
+    <string name="kollam">కొల్లాం</string>
+    <string name="malappuram">మలప్పురం</string>
+    <string name="thiruvananthapuram">తిరువంతపురం</string>
+    <string name="lw">లక్షద్వీప్</string>
+    <string name="bhopal">భూపాల్</string>
+    <string name="indore">ఇండోర్</string>
+    <string name="jabalpur">జబల్పూర్</string>
+    <string name="mumbai">ముంబై</string>
+    <string name="pune">పూనే</string>
+    <string name="nagpur">నాగ్పూర్</string>
+    <string name="shridi">షిర్డీ</string>
+    <string name="imphal">ఇంఫాల్</string>
+    <string name="thoubal">తౌబాల్</string>
+    <string name="shillong">షిల్లాంగ్</string>
+    <string name="guwahati">గౌహతి</string>
+    <string name="aizawl">ఏయిసావ్ల్</string>
+    <string name="kohima">కోహిమా</string>
+    <string name="bhubaneswar">భువనేశ్వర్</string>
+    <string name="sambalpur">సంబల్పూర్</string>
+    <string name="puri">పూరి</string>
+    <string name="pondicherry">పాండిచ్చేరి</string>
+    <string name="yanam">యానాం</string>
+    <string name="amritsar">అమృత్సర్</string>
+    <string name="chandigarh">చండీగఢ్</string>
+    <string name="jaipur">జైపూర్</string>
+    <string name="udaipur">ఉదయపూర్</string>
+    <string name="gangtok">గాంగ్టక్</string>
+    <string name="chennai">చెన్నై</string>
+    <string name="madurai">మధురై</string>
+    <string name="coimbatore">కోయంబత్తూరు</string>
+    <string name="salem">సేలం</string>
+    <string name="thanjavur">తంజావూరు</string>
+    <string name="vellore">వెల్లూర్</string>
+    <string name="ooty">ఊటీ</string>
+    <string name="hosur">హోసూర్</string>
+    <string name="hyderabad">హైదరాబాద్</string>
+    <string name="warangal">వరంగల్</string>
+    <string name="nalagonda">నల్గొండ</string>
+    <string name="secunderabad">సికింద్రాబాద్</string>
+    <string name="agartala">అగర్తల</string>
+    <string name="lucknow">లక్నో</string>
+    <string name="agra">ఆగ్రా</string>
+    <string name="kanpur">కాన్పూర్</string>
+    <string name="dehradun">డెహ్రాడూన్</string>
+    <string name="badrinath">బద్రీనాథ్</string>
+    <string name="kolkata">కోలకతా</string>
+    <string name="durgapur">దుర్గాపూర్</string>
+    <string name="bokaro">బొకారో</string>
+    <string name="Ranchi">రాంచీ</string>
+    <string name="bangalore">బెంగుళూర్</string>
+    <string name="kolar">కోలార్</string>
+    <string name="mysore">మైసూర్</string>
+    <string name="chittoor">చిత్తూరు</string>
+    <string name="ranchi">రాంచీ</string>
+    ------------------------------------------------------------------
+    <string name="alarm_on">అలారం ఆన్</string>
+    <string name="alarm_off">అలారం ఆఫ్</string>
+    <string name="alarm_text">మీ అలారంను రిమైండర్ చేయండి</string>
+    -------------------------------------------------------------------
+    <string-array name="whale_array">
+        <item>వేల్ ధ్వనిని ఎంచుకోండి!</item>
+        <item>హంప్బ్యాక్ బబుల్ నెట్</item>
+        <item>హంప్బ్యాక్ పరిచయం కాల్ మూ</item>
+        <item>Humpback పరిచయం కాల్ Whup</item>
+        <item>హంప్ బాక్ ఫీడింగ్ కాల్</item>
+        <item>హంప్బ్యాక్ ఫ్లిప్పర్ స్ప్లాష్</item>
+        <item>హంప్బాక్ టైల్ స్లాప్స్</item>
+        <item>హంప్బ్యాక్ వేల్ పాట</item>
+        <item>ఔట్బోర్డ్ ఇంజిన్తో హంప్ బ్యాక్ వేల్ పాట</item>
+        <item>హంప్బ్యాక్ శ్వేతజాతి దెబ్బలు</item>
+        <item>కిల్లర్ వేల్ ఎకోలాకేషన్ క్లిక్లు</item>
+        <item>కిల్లర్ వేల్ ఆఫ్షోర్</item>
+        <item>కిల్లర్ వేల్ నివాసి</item>
+        <item>కిల్లర్ వేల్ ట్రాన్సియంట్</item>
+    </string-array>
+    -----------------------------------------------------
+    <string name="title_activity_portal">పోర్టల్</string>
+    <string name="navigation_drawer_open">నావిగేషన్ డ్రాయర్ తెరవండి</string>
+    <string name="navigation_drawer_close">నావిగేషన్ డ్రాయర్ని మూసివేయి</string>
+    <string name="nav_header_title">HCMS</string>
+    <string name="nav_header_subtitle">అరోగ్య రక్షణ నిర్వహణ వ్యవస్థ</string>
+    <string name="nav_header_desc">నావిగేషన్ శీర్షిక</string>
+    <string name="action_settings">సెట్టింగులు</string>
+    <string name="title_activity_admin">అడ్మిన్ వివరాలు</string>
+    <string name="title_activity_doctor">డాక్టర్ వివరాలు</string>
+    <string name="title_activity_google_map">గూగుల్ పటం</string>
+    <string name="title_activity_top_hsp">భారతదేశంలో టాప్ 15 హాస్పిటల్స్</string>
+    <string name="title_activity_hospital">ఇండియాలో హాస్పిటల్స్</string>
+    <string name="title_activity_donate_bld">రక్తం దానం</string>
+    <string name="title_activity_msg">సందేశం</string>
+    <string name="title_activity_calls">కాల్</string>
+    <string name="title_activity_vitamin">విటమిన్</string>
+    <string name="title_activity_total_hlth">మొత్తం ఆరోగ్యం</string>
+    <string name="title_activity_alarms">అలారం రిమైండర్</string>
+    <string name="title_activity_live_cht">చాట్ లైవ్</string>
+    <string name="title_activity_alrm">అలారం</string>
+    ---------------------------------------------------------
+    <string-array name="States_and_Cities">
+        <item>Andaman and Nicobar Islands (আন্দামান ও নিকোবর আইল্যান্ডস)</item>
+        <item>Andhra Pradesh (ఆంధ్రప్రదేశ్)</item>
+        <item>Arunachal Pradesh (অরুণাচল প্রদেশ)</item>
+        <item>Assam (অশাম)</item>
+        <item>Bihar (बिहार)</item>
+        <item>Chhattisgarh (छत्तीसगढ़)</item>
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
+        <item>Daman and Diu (ડામાન ાનદ ડિુ)</item>
+        <item>Delhi (दिल्ली)</item>
+        <item>Goa (घॊा)</item>
+        <item>Gujarat (ઙુજારાત)</item>
+        <item>Haryana (हरयाणा)</item>
+        <item>Himachal Pradesh (हिमाचल प्रदेश)</item>
+        <item>Jammu and Kashmir (ژاممو اند خاسحمير)</item>
+        <item>Jharkhand (झारखंड)</item>
+        <item>Karnataka (ಕರ್ನಾಟಕ)</item>
+        <item>Kerala (കേരളം)</item>
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
+        <item>Madhya Pradesh (मध्य प्रदेश)</item>
+        <item>Maharashtra (महाराष्ट्र)</item>
+        <item>Manipur (Mानिपुर)</item>
+        <item>Meghalaya (Mেগহালায়া)</item>
+        <item>Mizoram (Mizoram)</item>
+        <item>Nagaland (नगालैंड)</item>
+        <item>Odisha (ଓଦିସହା)</item>
+        <item>Puducherry (Pுடுசஹெ்ரய)</item>
+        <item>Punjab (Pੁਨਜਾਬ)</item>
+        <item>Rajasthan (राजस्थान)</item>
+        <item>Sikkim (शिखिम)</item>
+        <item>Tamil Nadu (தமிழ்நாடு)</item>
+        <item>Telangana (తెలంగాణ)</item>
+        <item>Tripura (টরিপুরা)</item>
+        <item>Uttar Pradesh (उत्तर प्रदेश)</item>
+        <item>Uttarkhand (उत्तराखंड)</item>
+        <item>West Bengal (Wেসত ভেনগাল)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Andaman">
+        <item>Port Blair (পোর্ট ব্লেয়ার)</item>
+        <item>Havelock Island (হাভেলক দ্বীপ)</item>
+        <item>Neil Island (নীল দ্বীপ)</item>
+        <item>Little Andaman (লিটল আন্দামান)</item>
+    </string-array>
+    ------------------------------------
+    <string-array name="Andhra_Pradesh">
+        <item>Anantapur (అనంతపురం)</item>
+        <item>Chittoor (చిత్తూరు)</item>
+        <item>East Godavari (తూర్పు గోదావరి)</item>
+        <item>Guntur (గుంటూరు)</item>
+        <item>Krishna (కృష్ణ)</item>
+        <item>Kurnool (కర్నూలు)</item>
+        <item>Prakasam (ప్రకాశం)</item>
+        <item>Srikakulam (శ్రీకాకుళం)</item>
+        <item>Nellore (నెల్లూరు)</item>
+        <item>Visakhapatnam (విశాఖపట్నం)</item>
+        <item>Vizianagaram (విజయనగరం)</item>
+        <item>West Godavari (పశ్చిమ గోదావరి)</item>
+        <item>Y.S.R(Kadapa) (కడప)</item>
+    </string-array>
+    ---------------------------------------------
+    <string-array name="Arunachal_Pradesh">
+        <item>Anjaw (Anjaw)</item>
+        <item>Changlang (Changlang)</item>
+        <item>Dibang Valley (দিবাং ভ্যালি)</item>
+        <item>East Kameng (পূর্ব কামেন)</item>
+        <item>East Siang (পূর্ব সিয়াং)</item>
+        <item>Lohit (লোহিত)</item>
+        <item>Tawang (Tawang)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Assam">
+        <item>Morigaon(Marigaon) (Mোৰিগাোন(Mাৰিগাোন))</item>
+        <item>Sonitpur (শোনিতপুৰ)</item>
+        <item>Udalguri (উদালগুৰি)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Bihar">
+        <item>Patna (पटना)</item>
+        <item>Saharsa (सहरसा</item>
+        <item>Vaishali (वैशाली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Chhattisgarh">
+        <item>Bijapur (बीजापुर)</item>
+        <item>Bilaspur (बिलासपुर)</item>
+        <item>Durg (दुर्ग)</item>
+        <item>Raipur (रायपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Dadra_and_Nagar_Haveli">
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Daman_and_Diu">
+        <item>Daman (ડામાન)</item>
+        <item>Diu (ડિુ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Delhi">
+        <item>New Delhi (नई दिल्ली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Goa">
+        <item>North Goa (णॊरतह घॊा)</item>
+        <item>South Goa (शॊुतह घॊा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Gujarat">
+        <item>Ahmadabad(Ahmedabad) (અહમાદાબાદ(અહમેદાબાદ))</item>
+        <item>Narmada (ણારમાદા)</item>
+        <item>Patan (Pાતાન)</item>
+        <item>Rajkot (ઋાજકોત)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Haryana">
+        <item>Gurgaon (गुडगाँव)</item>
+        <item>Panipat (पानीपत)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Himachal_Pradesh">
+        <item>Shimla (शिमला)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jammu_and_Kashmir">
+        <item>Jammu (ژاممو)</item>
+        <item>Srinagar (صريناگار)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jharkhand">
+        <item>Bokaro (बोकारो)</item>
+        <item>Ranchi (रांची)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Karnataka">
+        <item>Bangalore (ಬೆಂಗಳೂರು)</item>
+        <item>Kolar (ಕೋಲಾರ್)</item>
+        <item>Mysore (ಮೈಸೂರು)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Kerala">
+        <item>Kollam (കൊല്ലം)</item>
+        <item>Malappuram (മലപ്പുറം)</item>
+        <item>Thiruvananthapuram (തിരുവനന്തപുരം)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Lakshadweep">
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Madhya_Pradesh">
+        <item>Bhopal (भोपाल)</item>
+        <item>Indore (इंदौर)</item>
+        <item>Jabalpur (जबलपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Maharashtra">
+        <item>Mumbai (मुंबई)</item>
+        <item>Pune (पुणे)</item>
+        <item>Nagpur (नागपुर)</item>
+        <item>Shridi (शिरडी)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Manipur">
+        <item>Imphal (इमपहाल)</item>
+        <item>Thoubal (टहोुबाल)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Meghalaya">
+        <item>Shillong (শহিঌোনগ)</item>
+        <item>Guwahati (ঘুবাহাতি)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Mizoram">
+        <item>Aizawl (Aizawl)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Nagaland">
+        <item>Kohima (कोहिमा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Odisha">
+        <item>Bhubaneswar (ଭହୁବାନେସୱାର)</item>
+        <item>Sambalpur (ଶାମବାଲପୁର)</item>
+        <item>Puri (Pୁରି)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Puducherry">
+        <item>Pondicherry (Pொநடிசஹெ்ரய)</item>
+        <item>Yanam (ஞாநாம)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Punjab">
+        <item>Amritsar (ਅਮਰਿਤਸਾਰ)</item>
+        <item>Chandigarh (ਛਹਾਨਦਿਗਾਰਹ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Rajasthan">
+        <item>Jaipur (जयपुर)</item>
+        <item>Udaipur (उदयपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Sikkim">
+        <item>Gangtok (घानगतोक)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tamil_Nadu">
+        <item>Chennai (சென்னை)</item>
+        <item>Madurai (மதுரை)</item>
+        <item>Coimbatore (கோயம்புத்தூர்)</item>
+        <item>Salem (சேலம்)</item>
+        <item>Thanjavur (தஞ்சாவூர்)</item>
+        <item>Vellore (வேலூர்)</item>
+        <item>Ooty (ஊட்டி)</item>
+        <item>Hosur (ஓசூர்)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Telangana">
+        <item>Hyderabad (హైదరాబాద్)</item>
+        <item>Warangal (వరంగల్)</item>
+        <item>Nalgonda (నల్గొండ)</item>
+        <item>Secunderabad (సికింద్రాబాద్)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tripura">
+        <item>Agartala (অগারতালা)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttar_Pradesh">
+        <item>Lucknow (अगरतला)</item>
+        <item>Agra (आगरा)</item>
+        <item>Kanpur (कानपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttarkhand">
+        <item>Dehradun (देहरादून)</item>
+        <item>Badrinath (बद्रीनाथ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="West_Bengal">
+        <item>Kolkata (খোলকাতা)</item>
+        <item>Durgapur (ডুরগাপুর)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Settings">
+        <item>మా గురించి</item>
+        <item>మమ్మల్ని సంప్రదించండి</item>
+        <item>భాషను ఎంచుకోండి</item>
+        <item>పాస్వర్డ్ మార్చండి</item>
+        <item>అభిప్రాయం</item>
+        <item>వెర్షన్</item>
+        <item>సైన్ అవుట్ చేయండి</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="SkipSettings">
+        <item>మా గురించి</item>
+        <item>మమ్మల్ని సంప్రదించండి</item>
+        <item>భాషను ఎంచుకోండి</item>
+        <item>అభిప్రాయం</item>
+        <item>వెర్షన్</item>
+    </string-array>
+    -------------------------------------------------
+    <string name="login_success">విజయవంతమైన విజయం</string>
+    <string name="Username">ఇమెయిల్</string>
+    <string name="Password">పాస్వర్డ్</string>
+    <string name="forgot_your_password">మీ పాస్వర్డ్ను మర్చిపోయారా?</string>
+    <string name="repeat_password">పాస్వర్డ్ మళ్ళి చెప్పండి</string>
+    <string name="register">నమోదు</string>
+    <string name="hint_username">క్రొత్త యూజర్ పేరును నమోదు చేయండి</string>
+    <string name="hint_email_reset">మీ ఇమెయిల్ను నమోదు చేయండి</string>
+    <string name="enter_group_name">గుంపు పేరును నమోదు చేయండి</string>
+    <string name="title_activity_portal_page">పోర్టల్ పేజీ</string>
+    <string name="title_activity_other">ఇతర కార్యాచరణ</string>
+    <string name="hcms_chat">HCMS చాట్</string>
+    ------------------------------------------------
+    <string name="communicate">కమ్యూనికేట్</string>
+    <string name="daily_tips">రోజువారీ చిట్కాలు</string>
+    <string name="others">ఇతరులు</string>
+    -------------------------------------------------------
+    <string name="feedback2">దయచేసి బటన్ను నొక్కడం ద్వారా లేదా రైట్-టాప్ మూడు చుక్కల ద్వారా ఫీడ్బ్యాక్ చేయండి</string>
+    <string name="feedback3">దయచేసి మా అభిప్రాయాన్ని తెలియజేయండి ...</string>
+    <string name="feedback_btn">మా అభిప్రాయం</string>
+    --------------------------------------------------------
+    ChatActivity
+    <string name="getting_all_users">అందరు వినియోగదారులను పొందడం ....</string>
+    <string name="add_user">వినియోగదారుని జోడించు</string>
+    <string name="enter_user_email">యూజర్ ఇమెయిల్ను నమోదు చేయండి</string>
+    <string name="email_not_found">ఇమెయిల్ కనుగొనబడలేదు</string>
+    <string name="finding_user">వినియోగదారుని కనుగొనడం ...</string>
+    <string name="fail">విఫలం</string>
+    <string name="email_not_valid">ఇమెయిల్ చెల్లదు</string>
+    <string name="false1">తప్పుడు</string>
+    <string name="false_to_add_user_account">యూజర్ విజయాన్ని జోడించడానికి తప్పు</string>
+    <string name="false_to_add_user_success">యూజర్ విజయాన్ని జోడించడానికి తప్పు</string>
+    <string name="success">విజయం</string>
+    <string name="add_user_success">వినియోగదారు విజయాన్ని జోడించు</string>
+    <string name="delete_user">వాడుకరిని తొలగించండి</string>
+    <string name="delete_msg">ఖచ్చితంగా తొలగించాలనుకుంటున్నారా</string>
+    <string name="delete_msg1">తొలగిస్తోంది ...</string>
+    <string name="error">లోపం</string>
+    <string name="error_msg">వినియోగదారుని తొలగించడంలో లోపం సంభవించింది</string>
+    <string name="user_deleting_successfully">వాడుకరి విజయవంతంగా తొలగించబడింది</string>
+    <string name="avatar">అవతార్</string>
+    <string name="avatar_msg">మీరు ఖచ్చితంగా అవతార్ ప్రొఫైల్ను మార్చాలనుకుంటున్నారా?</string>
+    <string name="avatar_update">అవతార్ నవీకరించడం....</string>
+    <string name="avatar_update1">అవతార్ విజయవంతంగా నవీకరించండి!</string>
+    <string name="avatar_false">అవతార్ అప్డేట్ చెయ్యడానికి తప్పు</string>
+    <string name="edit_username">యూజర్ పేరు సవరించు</string>
+    <string name="save">సేవ్</string>
+    <string name="cancel">రద్దు</string>
+    <string name="reset_pswd">పాస్వర్డ్ను రీసెట్ చేయాలనుకుంటున్నారా?</string>
+    <string name="pswd_recovery">పాస్వర్డ్ రికవరీ</string>
+    <string name="sent_email_to">ఇమెయిల్ పంపారు</string>
+    <string name="ok">అలాగే</string>
+    <string name="false_email">పంపిన ఇమెయిల్కు తప్పు</string>
+    <string name="no_internet">ఇంటర్నెట్ కనెక్షన్ లేదు</string>
+    <string name="no_internet_msg">దీన్ని ప్రాప్యత చేయడానికి మీరు మొబైల్ డేటా లేదా వైఫైని కలిగి ఉండాలి. నిష్క్రమణకు సరే నొక్కండి</string>
+    <string name="prepare_alarm">నోటిఫికేషన్ను పంపడానికి సిద్ధమౌతోంది ...:</string>
+    <string name="call_msg">ఈ చర్యకు మద్దతు ఇచ్చే అనువర్తనం లేదు</string>
+    <string name="showing_nearby_hospital">సమీపంలోని వైద్యశాలలను చూపుతోంది</string>
+    <string name="showing_nearby_medicalshops">సమీపంలోని వైద్య దుకాణాలను చూపుతోంది</string>
+    <string name="hospitals_in_states_and_cities">రాష్ట్రాలు మరియు సిటీ లో హాస్పిటల్స్</string>
+    <string name="invalid_password">చెల్లని ఇమెయిల్ లేదా ఖాళీ పాస్వర్డ్</string>
+    <string name="invalid_email">చెల్లని ఇమెయిల్</string>
+    <string name="register1">నమోదు చేస్తోంది ....</string>
+    <string name="register_false">తప్పుడు నమోదు</string>
+    <string name="email_exist_or_weak">ఇమెయిల్ ఉనికిలో ఉంది లేదా బలహీనమైన పాస్వర్డ్!</string>
+    <string name="register_and_login_success">నమోదు మరియు లాగిన్ విజయం</string>
+    <string name="login1">లాగిన్ ....</string>
+    <string name="login_false">లాగిన్ అయ్యింది</string>
+    <string name="email_not_exist_or_weak">ఇమెయిల్ ఉనికిలో లేదు లేదా తప్పు పాస్వర్డ్!</string>
+    <string name="sms">sms:</string>
+    <string name="field_cant_be_empty">ఫీల్డ్ కాంట్ ఖాళీగా ఉంది</string>
+    <string name="msg_action">యాక్షన్ చేయడానికి మీకు అనుమతి అవసరం లేదు</string>
+    <string name="invalid_email_or_password">చెల్లని ఇమెయిల్ లేదా పాస్వర్డ్ సరిపోలలేదు</string>
+    <string name="version_hcms">HCMS 1.0</string>
+    <string name="daily_tips1">డైలీ హెల్త్ టిప్స్</string>
+    <string name="some_types_of_vitamins">కొన్ని రకాల వైద్యులు</string>
+    <string name="andaman_nicobar">అండమాన్ మరియు నికోబార్ ఐలాండ్ సిటీస్</string>
+    <string name="ap">ఆంధ్ర ప్రదేశ్ నగరాలు</string>
+    <string name="arp">అరుణాచల్ ప్రదేశ్ నగరాలు</string>
+    <string name="assam">అస్సాం నగరాలు</string>
+    <string name="bihar">బీహార్ నగరాలు</string>
+    <string name="chhattisgarh">ఛత్తీస్గఢ్ నగరాలు</string>
+    <string name="dadra">దాద్రా మరియు నాగర్ హవేలీ నగరాలు</string>
+    <string name="daman1">డామన్ మరియు డయు నగరాలు</string>
+    <string name="delhi">ఢిల్లీ నగరాలు</string>
+    <string name="goa">గోవా నగరాలు</string>
+    <string name="gujarat">గుజరాత్ నగరాలు</string>
+    <string name="haryana">హర్యానా నగరాలు</string>
+    <string name="himachal">హిమాచల్ ప్రదేశ్ నగరాలు</string>
+    <string name="jammu1">జమ్మూ మరియు కాశ్మీర్ నగరాలు</string>
+    <string name="jharkhand">జార్ఖండ్ నగరాలు</string>
+    <string name="karnataka">కర్ణాటక నగరాలు</string>
+    <string name="kerala">కేరళ నగరాలు</string>
+    <string name="lakshadweep">లక్షద్వీప్ నగరాలు</string>
+    <string name="madhya">మధ్యప్రదేశ్ నగరాలు</string>
+    <string name="maharashtra">మహారాష్ట్ర నగరాలు</string>
+    <string name="manipur">మణిపూర్ నగరాలు</string>
+    <string name="meghalaya">మేఘాలయ నగరాలు</string>
+    <string name="mizoram">మిజోరం నగరాలు</string>
+    <string name="nagaland">నాగాలాండ్ నగరాలు</string>
+    <string name="odisha">ఒడిషా నగరాలు</string>
+    <string name="puducherry">పుదుచ్చేరి నగరాలు</string>
+    <string name="punjab">పంజాబ్ నగరాలు</string>
+    <string name="rajasthan">రాజస్థాన్ నగరాలు</string>
+    <string name="sikkim">సిక్కిం నగరాలు</string>
+    <string name="telangana">తెలంగాణ నగరాలు</string>
+    <string name="tn">తమిళనాడు నగరాలు</string>
+    <string name="tripura">త్రిపుర నగరాలు</string>
+    <string name="up">ఉత్తరప్రదేశ్ నగరాలు</string>
+    <string name="uttarakhand">ఉత్తరాఖండ్ నగరాలు</string>
+    <string name="wb">పశ్చిమబెంగాల్ నగరాలు</string>
+    ----------------------------------------------------------------
+    ResetPassword
+    <string name="email_id">మీ నమోదిత ఇమెయిల్ ఐడిని నమోదు చేయండి</string>
+    <string name="reset_msg">మీ పాస్ వర్డ్ ను రీసెట్ చెయ్యడానికి మీకు సూచనలను పంపాము!</string>
+    <string name="reset_msg1">రీసెట్ ఇమెయిల్ పంపడం విఫలమైంది!</string>
+    -----------------------------------------------------------------
+    <string name="name1">పేరు</string>
+    <string name="blood_group">రక్తపు గ్రూపు</string>
+    <string name="view">చూడండి</string>
+    <string name="msg">సందేహాలు స్పష్టతకు సందేశం</string>
+    <string name="msg1">సాధారణ సందేశ అనువర్తనం ద్వారా ఈ విల్ మెసేజ్</string>
+    <string name="call1">సందేహాలు స్పష్టం చేయడానికి కాల్ చేయండి</string>
+    <string name="call2">ఈ సాధారణ కాల్ అనువర్తనం ద్వారా కాల్ చేస్తుంది</string>
+    <string name="remedy1">పరిహారము 1</string>
+    <string name="remedy2">పరిహారము 2</string>
+    <string name="remedy3">పరిహారము 3</string>
+    <string name="remedy4">పరిహారము 4</string>
+    <string name="remedy5">పరిహారము 5</string>
+    <string name="ginger">అల్లం జ్యూస్</string>
+    <string name="gargle">గార్గిల్ థెరపీ</string>
+    <string name="water">నీటి</string>
+    <string name="herbal">మూలికల టీ</string>
+    <string name="turmeric">పసుపు</string>
+    <string name="diet1">డైట్ 1</string>
+    <string name="diet2">డైట్ 2</string>
+    <string name="diet3">డైట్ 3</string>
+    <string name="diet4">డైట్ 4</string>
+    <string name="face_mask1">ముఖ ముసుగు 1</string>
+    <string name="face_mask2">ముఖ ముసుగు 2</string>
+    <string name="face_mask3">ముఖ ముసుగు 3</string>
+    <string name="face_mask4">ముఖ ముసుగు 4</string>
+    <string name="face_mask5">ముఖ ముసుగు 5</string>
+    <string name="honey_lemon">తేనె-నిమ్మకాయ</string>
+    <string name="lemon_juice">నిమ్మరసం</string>
+    <string name="sample1">నమూనా 1</string>
+    <string name="sample2">నమూనా 2</string>
+    <string name="sample3">నమూనా 3</string>
+
+    <string name="title_activity_communicate">కమ్యూనికేట్</string>
+</resources>

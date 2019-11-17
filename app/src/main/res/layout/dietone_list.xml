@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Header"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/dot_inactive_screen2"/>
+
+        <TextView
+            android:id="@+id/dTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="title"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
+
+        <ImageView
+            android:id="@+id/dImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/loadingimage"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dHeaderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Header Title"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dAdvantage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advantage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="25dp"
+            android:textColor="@color/LightBlue"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dAdvatgeDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advantage Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dDayOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day One"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDayOneDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day One Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dDayTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Two"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDayTwoDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Two Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dDayThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Three"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDayThreeDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Three Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dDayFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Four"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDayFourDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Four Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dDayFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Five"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDayFiveDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Five Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dDaySix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Six"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDaySixDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Six Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dDaySeven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Seven"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="23dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dDaySevenDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Seven Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

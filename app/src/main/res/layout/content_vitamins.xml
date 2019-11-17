@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Vitamins"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_vitamins">
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundcolor"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/vitamin"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_a"
+                android:layout_marginTop="5dp"
+                android:onClick="a"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/a"
+                    android:textSize="60dp"
+                    android:onClick="a"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="a"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Vitamin A"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="a"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Retinol/Retinal"
+                    android:textSize="20dp"
+                    android:onClick="a"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Eggs,Vegetables,Fruits"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="a"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:onClick="b1"
+                android:background="@drawable/round_vitamin_b1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b1"
+                    android:textSize="48dp"
+                    android:onClick="b1"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="b1"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin B1"
+                    android:onClick="b1"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Thiamine"
+                    android:onClick="b1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Beef,Lentis,Navy Beans"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="b1"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_vitamin_b2"
+                android:onClick="b2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b2"
+                    android:textSize="48dp"
+                    android:onClick="b2"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="b2"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin B2"
+                    android:onClick="b2"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Riboflavin"
+                    android:onClick="b2"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Meat,Beef,Liver,Eggs"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:onClick="b2"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:onClick="b3"
+                android:background="@drawable/round_vitamin_b3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b3"
+                    android:textSize="48dp"
+                    android:onClick="b3"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    android:onClick="b3"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin B3"
+                    android:textSize="25dp"
+                    android:onClick="b3"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Niacin"
+                    android:onClick="b3"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Yeast,Meat,Poultry,Milk"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="b3"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_vitamin_b5"
+                android:onClick="b5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b5"
+                    android:textSize="48dp"
+                    android:onClick="b5"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="b5"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="b5"
+                    android:text="Vitamin B5"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Pantothenic Acid"
+                    android:onClick="b5"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Meat,Fish,Grains"
+                    android:onClick="b5"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_vitamin_b6"
+                android:onClick="b6"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b6"
+                    android:textSize="48dp"
+                    android:onClick="b6"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="b6"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin B6"
+                    android:onClick="b6"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Pyridoxine"
+                    android:onClick="b6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Cabbage,Tuna,Salmon"
+                    android:onClick="b6"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_vitamin_b7"
+                android:onClick="b7"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b7"
+                    android:textSize="48dp"
+                    android:onClick="b7"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="b7"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="b7"
+                    android:text="Vitamin B7"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Biotin"
+                    android:onClick="b7"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Tomatoes,Carrots"
+                    android:onClick="b7"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_vitamin_b9"
+                android:onClick="b9"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b9"
+                    android:textSize="48dp"
+                    android:onClick="b9"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="b9"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="b9"
+                    android:text="Vitamin B9"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Folic Acid"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="b9"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Lentils,Papaya,Broccoli"
+                    android:onClick="b9"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_vitamin_b12"
+                android:onClick="b12"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/b12"
+                    android:textSize="33dp"
+                    android:onClick="b12"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="b12"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin B12"
+                    android:onClick="b12"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Cyanocobalamin"
+                    android:onClick="b12"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Almonds,Fish,Crab,Milk"
+                    android:onClick="b12"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_c"
+                android:layout_marginTop="5dp"
+                android:onClick="c"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/c"
+                    android:textSize="60dp"
+                    android:onClick="c"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="c"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin C"
+                    android:textSize="25dp"
+                    android:onClick="c"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Ascorbic Acid"
+                    android:onClick="c"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Cherries,Potatoes"
+                    android:onClick="c"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_d"
+                android:layout_marginTop="5dp"
+                android:onClick="d"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/d"
+                    android:textSize="60dp"
+                    android:onClick="d"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="d"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="d"
+                    android:text="Vitamin D"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Cholecalciferol"
+                    android:onClick="d"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Salmon,Egg yolk"
+                    android:onClick="d"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_e"
+                android:layout_marginTop="5dp"
+                android:onClick="e"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/e"
+                    android:textSize="60dp"
+                    android:onClick="e"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="e"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin E"
+                    android:textSize="25dp"
+                    android:onClick="e"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Tocopherols"
+                    android:onClick="e"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Wheat,Corn,Almond"
+                    android:onClick="e"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_k"
+                android:layout_marginTop="5dp"
+                android:onClick="k"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/k"
+                    android:textSize="60dp"
+                    android:onClick="k"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="k"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Vitamin K"
+                    android:onClick="k"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Name: Phylloquinone"
+                    android:onClick="k"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Kale,Spinach,Chard"
+                    android:onClick="k"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

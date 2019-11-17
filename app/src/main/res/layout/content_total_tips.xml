@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TotalTips"
+    tools:showIn="@layout/app_bar_total_tips">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundcolor"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/totalhealthcare"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_a"
+                android:layout_marginTop="5dp"
+                android:onClick="dietplan"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/diet_plan"
+                    android:onClick="dietplan"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="dietplan"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:text="Diet Plan"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="dietplan"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Diet Plan Tips"
+                    android:textSize="20dp"
+                    android:onClick="dietplan"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Water,Avoid Sugar"
+                    android:layout_marginLeft="110dp"
+                    android:onClick="dietplan"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b12"
+                android:layout_marginTop="5dp"
+                android:onClick="exercise"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/exercise"
+                    android:onClick="exercise"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="exercise"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:text="Exercise"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="exercise"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Exercise Tips"
+                    android:textSize="20dp"
+                    android:onClick="exercise"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Walking,Push Up,Yoga"
+                    android:layout_marginLeft="110dp"
+                    android:onClick="exercise"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b5"
+                android:layout_marginTop="5dp"
+                android:onClick="routinemaker"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/routinemaker"
+                    android:onClick="routinemaker"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="routinemaker"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Routine Maker"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="routinemaker"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Daily Schedule Maker"
+                    android:textSize="20dp"
+                    android:onClick="routinemaker"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Vitamin D,Atkins Diet"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="routinemaker"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b3"
+                android:layout_marginTop="5dp"
+                android:onClick="workoutmanagement"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/workoutmanagement"
+                    android:onClick="workoutmanagement"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="workoutmanagement"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Workout Mgmt"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="workoutmanagement"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Workout Mgmt Tips"
+                    android:textSize="20dp"
+                    android:onClick="workoutmanagement"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Aerobic,Cycling"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="workoutmanagement"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b9"
+                android:layout_marginTop="5dp"
+                android:onClick="pimples"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/pimples"
+                    android:onClick="pimples"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="pimples"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Pimples / Acne"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="pimples"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Pimples on your Cheeks"
+                    android:textSize="20dp"
+                    android:onClick="pimples"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Ice,Lemon,Garlic,Steam"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="pimples"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b2"
+                android:layout_marginTop="5dp"
+                android:onClick="scars"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/scars"
+                    android:onClick="scars"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="scars"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Scars"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="scars"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Scars to be Healthy"
+                    android:textSize="20dp"
+                    android:onClick="scars"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Ice,Aloe Vera,Honey"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="scars"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_k"
+                android:layout_marginTop="5dp"
+                android:onClick="facecare"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/facecare"
+                    android:onClick="facecare"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="facecare"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Face Care"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="facecare"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="To glow beautiful"
+                    android:textSize="20dp"
+                    android:onClick="facecare"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Walnut,Mint,Almond"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="facecare"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b1"
+                android:layout_marginTop="5dp"
+                android:onClick="hairloss"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/hairloss"
+                    android:onClick="hairloss"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="hairloss"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Hair Loss"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="hairloss"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="To Control Hairloss"
+                    android:textSize="20dp"
+                    android:onClick="hairloss"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Massage,Onion Juice"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="hairloss"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b6"
+                android:layout_marginTop="5dp"
+                android:onClick="dandruff"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/dandruff"
+                    android:onClick="dandruff"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="dandruff"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Dandruff"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="dandruff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="To Control Hairloss"
+                    android:textSize="20dp"
+                    android:onClick="dandruff"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Massage,Lemon Juice"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="dandruff"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_d"
+                android:layout_marginTop="5dp"
+                android:onClick="hairgrowth"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/hairgrowth"
+                    android:onClick="hairgrowth"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="hairgrowth"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Hair Growth"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="hairgrowth"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="For Hair Growth"
+                    android:textSize="20dp"
+                    android:onClick="hairgrowth"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Protein,Oil Massage"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="hairgrowth"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_c"
+                android:layout_marginTop="5dp"
+                android:onClick="cough"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/cough"
+                    android:onClick="cough"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="cough"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Cold &amp; Cough"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="cough"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Maintain Healhty Body"
+                    android:textSize="20dp"
+                    android:onClick="cough"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Water,Turmeric"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="cough"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b7"
+                android:layout_marginTop="5dp"
+                android:onClick="stomachache"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/stomachache"
+                    android:onClick="stomachache"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="stomachache"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Stomach Ache"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="stomachache"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Stomach Ache Tips"
+                    android:textSize="20dp"
+                    android:onClick="stomachache"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Mint,Aloe Vera,Yogurt"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="stomachache"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_e"
+                android:layout_marginTop="5dp"
+                android:onClick="headache"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/headache"
+                    android:onClick="headache"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="headache"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Head Ache"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="headache"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Head Ache Tips"
+                    android:textSize="20dp"
+                    android:onClick="headache"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Basil,Ice,Cloves"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="headache"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_a"
+                android:layout_marginTop="5dp"
+                android:onClick="backpain"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/backpain"
+                    android:onClick="backpain"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="backpain"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Back Pain"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="backpain"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Back Pain Tips"
+                    android:textSize="20dp"
+                    android:onClick="backpain"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Exercise,Rest"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="backpain"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b9"
+                android:layout_marginTop="5dp"
+                android:onClick="jointpain"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/jointpain"
+                    android:onClick="jointpain"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="jointpain"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Joint Pain"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="jointpain"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Joint Pain Tips"
+                    android:textSize="20dp"
+                    android:onClick="jointpain"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Turmeric,Water"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="jointpain"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_vitamin_b2"
+                android:layout_marginTop="5dp"
+                android:onClick="sunburn"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/sunburn"
+                    android:onClick="sunburn"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"
+                    android:onClick="sunburn"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="35dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:text="Sun Burn"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="sunburn"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Sun Burn Tips"
+                    android:textSize="20dp"
+                    android:onClick="sunburn"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="90dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sources: Potato Paste,Mint"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="sunburn"
+                    android:textSize="15dp"
+                    android:layout_marginTop="80dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

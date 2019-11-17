@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_liveuser"
+            android:icon="@drawable/livechat"
+            android:title="@string/livechat_userinfo" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/doctor"
+            android:title="@string/doctordetails" />
+        <item
+            android:id="@+id/nav_google"
+            android:icon="@drawable/googlemap"
+            android:title="@string/title_activity_google_map" />
+        <item
+            android:id="@+id/nav_tophsp"
+            android:icon="@drawable/tophospital"
+            android:title="@string/tophospital_me" />
+        <item
+            android:id="@+id/nav_hspinindia"
+            android:icon="@drawable/hostpital_building"
+            android:title="@string/hospitals" />
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/blooddonation"
+            android:title="@string/blooddonation" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_communicate"
+                android:icon="@drawable/ic_communicate"
+                android:title="@string/communicate" />
+        </menu>
+    </item>
+
+    <item android:title="Daily Tips">
+        <menu>
+            <item
+                android:id="@+id/nav_vitamins"
+                android:icon="@drawable/vitamins"
+                android:title="@string/some_types_of_vitamins" />
+            <item
+                android:id="@+id/nav_totalhealth"
+                android:icon="@drawable/totalhealth"
+                android:title="@string/daily_tips1" />
+        </menu>
+    </item>
+
+    <item android:title="Daily Tips">
+        <menu>
+            <item
+                android:id="@+id/nav_alarm"
+                android:icon="@drawable/alarm"
+                android:title="@string/alarm" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

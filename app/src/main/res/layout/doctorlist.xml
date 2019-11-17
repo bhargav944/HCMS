@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_corner1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="25dp"
+                android:id="@+id/doctor_image"
+                android:src="@drawable/hcms"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:id="@+id/doctor_name"
+                    android:text="Doctor Name"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="end"
+                    android:textAlignment="textEnd"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:id="@+id/doctor_gender"
+                    android:text="Gender"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="end"
+                    android:textAlignment="textEnd"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:id="@+id/hos_name"
+                    android:text="Hospital Name"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="end"
+                    android:textAlignment="textEnd"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:id="@+id/doctor_desi"
+                    android:text="Designation"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="end"
+                    android:textAlignment="textEnd"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:id="@+id/doctor_email"
+                    android:text="Email"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="end"
+                    android:textAlignment="textEnd"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:id="@+id/doctor_phone"
+                    android:text="Phone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="end"
+                    android:textAlignment="textEnd"
+                    android:textSize="16sp"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MessageFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="Enter Phone Number..."
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Message..."
+        android:gravity="left"
+        android:ems="10"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText2"/>
+
+    <Button
+        android:text="SEND"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"/>
+
+</RelativeLayout>

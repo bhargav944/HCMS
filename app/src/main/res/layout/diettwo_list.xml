@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/loadingimage"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Header"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/dot_inactive_screen2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/BreakFast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Break fast"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/BDescrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Break fast Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Lunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/LDescrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch Description"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/DDescrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner Descripiton 1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/DDescrpi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner Description 2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

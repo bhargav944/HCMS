@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bhargav.hcms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hcms"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hcms"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Communicate"
+            android:label="@string/communicate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PostDetailActivity" />
+        <activity android:name=".ThereProfileActivity" />
+        <activity android:name=".AddPostActivity" />
+        <activity android:name=".AddDonateBlood" />
+        <activity
+            android:name=".ChatActivity"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DonateBlood"
+            android:label="@string/title_activity_donate_blood"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Alarms"
+            android:label="@string/title_activity_alarm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.AddEditAlarmActivity" />
+        <activity
+            android:name=".ui.AlarmLandingPageActivity"
+            android:theme="@style/AlertLandingPageTheme" />
+
+        <service android:name=".service.LoadAlarmsService" />
+        <service
+            android:name=".notifications.FirebaseService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_SERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".notifications.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".service.LoadAlarmsReceiver" />
+        <receiver android:name=".service.AlarmReceiver" />
+
+        <activity
+            android:name=".detail.DoctorDetail"
+            android:label="@string/title_activity_doctor" />
+        <activity
+            android:name=".detail.HspDetail"
+            android:label="Hospital Detail" />
+        <activity
+            android:name=".Doctor"
+            android:label="Doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settings.Feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".settings.ContactUs"
+            android:label="@string/contact" />
+        <activity android:name=".settings.AboutUs"
+            android:label="@string/about"/>
+        <activity
+            android:name=".Settings"
+            android:label="@string/action_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TotalHealthTips.BackPain"
+            android:label="@string/backpain" />
+        <activity
+            android:name=".TotalHealthTips.Cough"
+            android:label="@string/cough" />
+        <activity
+            android:name=".TotalHealthTips.Dandruff"
+            android:label="@string/dandruff" />
+        <activity
+            android:name=".TotalHealthTips.Exercise"
+            android:label="@string/exercise" />
+        <activity
+            android:name=".TotalHealthTips.FaceCare"
+            android:label="@string/facecare" />
+        <activity
+            android:name=".TotalHealthTips.HairGrowth"
+            android:label="@string/hairgrowth" />
+        <activity
+            android:name=".TotalHealthTips.HairLoss"
+            android:label="@string/hairloss" />
+        <activity
+            android:name=".TotalHealthTips.HeadAche"
+            android:label="@string/headache" />
+        <activity
+            android:name=".TotalHealthTips.JointPain"
+            android:label="@string/jointpain" />
+        <activity
+            android:name=".TotalHealthTips.Pimples"
+            android:label="@string/pimples" />
+        <activity
+            android:name=".TotalHealthTips.Scars"
+            android:label="@string/scars" />
+        <activity
+            android:name=".TotalHealthTips.StomachAche"
+            android:label="@string/stomach_ache" />
+        <activity
+            android:name=".TotalHealthTips.SunBurn"
+            android:label="@string/sunburn" />
+        <activity
+            android:name=".TotalHealthTips.WorkoutManagement"
+            android:label="@string/workoutmanagement" />
+        <activity
+            android:name=".TotalHealthTips.RoutineMaker"
+            android:label="@string/routinemaker" />
+        <activity
+            android:name=".TotalHealthTips.DietPlan"
+            android:label="@string/diet_plan" />
+        <activity
+            android:name=".TotalTips"
+            android:label="@string/title_activity_total_tips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vitamin.VitaminA"
+            android:label="@string/vitamina" />
+        <activity
+            android:name=".Vitamin.VitaminB1"
+            android:label="@string/vitaminb1" />
+        <activity
+            android:name=".Vitamin.VitaminB2"
+            android:label="@string/vitaminb2" />
+        <activity
+            android:name=".Vitamin.VitaminB3"
+            android:label="@string/vitaminb3" />
+        <activity
+            android:name=".Vitamin.VitaminB5"
+            android:label="@string/vitaminb5" />
+        <activity
+            android:name=".Vitamin.VitaminB6"
+            android:label="@string/vitaminb6" />
+        <activity
+            android:name=".Vitamin.VitaminB7"
+            android:label="@string/vitaminb7" />
+        <activity
+            android:name=".Vitamin.VitaminB9"
+            android:label="@string/vitaminb9" />
+        <activity
+            android:name=".Vitamin.VitaminB12"
+            android:label="@string/vitaminb12" />
+        <activity
+            android:name=".Vitamin.VitaminC"
+            android:label="@string/vitaminc" />
+        <activity
+            android:name=".Vitamin.VitaminD"
+            android:label="@string/vitamind" />
+        <activity
+            android:name=".Vitamin.VitaminE"
+            android:label="@string/vitamine" />
+        <activity
+            android:name=".Vitamin.VitaminK"
+            android:label="@string/vitamink" />
+        <activity
+            android:name=".Vitamins"
+            android:label="@string/title_activity_vitamins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hospital"
+            android:label="@string/title_activity_hospital"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HospitalsInINDIA.Andaman"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.AP"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.ARP"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Assam"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Bihar"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Chhattisgarh"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Dadra"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Daman"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Delhi"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Goa"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Gujarat"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Haryana"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Himachal"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Jammu"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Jharkhand"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Karnataka"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Kerala"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Lakshadweep"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Madhya"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Maharashtra"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Manipur"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Meghalaya"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Mizoram"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Nagaland"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Odisha"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Puducherry"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Punjab"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Rajasthan"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Sikkim"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.TN"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Telangana"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Tripura"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.UP"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Uttarakhand"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.WB"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".HospitalsInINDIA.Andaman_Nicobar.PB"
+            android:label="@string/pb" />
+        <activity
+            android:name=".HospitalsInINDIA.Andaman_Nicobar.HI"
+            android:label="@string/hi" />
+        <activity
+            android:name=".HospitalsInINDIA.Andaman_Nicobar.NI"
+            android:label="@string/ni" />
+        <activity
+            android:name=".HospitalsInINDIA.Andaman_Nicobar.LA"
+            android:label="@string/la" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Anantapur"
+            android:label="@string/anantapur" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Chittoor"
+            android:label="@string/chittoor" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.EG"
+            android:label="@string/eg" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Guntur"
+            android:label="@string/guntur" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Krishna"
+            android:label="@string/krishna" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Kurnool"
+            android:label="@string/kurnool" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Prakasam"
+            android:label="@string/prakasam" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Srikakulam"
+            android:label="@string/srikakulam" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Nellore"
+            android:label="@string/nellore" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Visakhapatnam"
+            android:label="@string/visakhapatnam" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Vizianagaram"
+            android:label="@string/vizianagaram" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.WG"
+            android:label="@string/wg" />
+        <activity
+            android:name=".HospitalsInINDIA.Andhra_Pradesh.Kadapa"
+            android:label="@string/ysr" />
+        <activity
+            android:name=".HospitalsInINDIA.Arunachal_Pradesh.Anjaw"
+            android:label="@string/anjaw" />
+        <activity
+            android:name=".HospitalsInINDIA.Arunachal_Pradesh.Changlang"
+            android:label="@string/changlang" />
+        <activity
+            android:name=".HospitalsInINDIA.Arunachal_Pradesh.DV"
+            android:label="@string/dv" />
+        <activity
+            android:name=".HospitalsInINDIA.Arunachal_Pradesh.EK"
+            android:label="@string/ek" />
+        <activity
+            android:name=".HospitalsInINDIA.Arunachal_Pradesh.ES"
+            android:label="@string/es" />
+        <activity
+            android:name=".HospitalsInINDIA.Arunachal_Pradesh.Lohit"
+            android:label="@string/lohit" />
+        <activity
+            android:name=".HospitalsInINDIA.Arunachal_Pradesh.Tawang"
+            android:label="@string/tawang" />
+        <activity
+            android:name=".HospitalsInINDIA.Asam.Morigaon"
+            android:label="@string/morigaon" />
+        <activity
+            android:name=".HospitalsInINDIA.Asam.Sonitpur"
+            android:label="@string/sonitpur" />
+        <activity
+            android:name=".HospitalsInINDIA.Asam.Udalguri"
+            android:label="@string/udalguri" />
+        <activity
+            android:name=".HospitalsInINDIA.Bi_har.Patna"
+            android:label="@string/patna" />
+        <activity
+            android:name=".HospitalsInINDIA.Bi_har.Saharsa"
+            android:label="@string/saharsa" />
+        <activity
+            android:name=".HospitalsInINDIA.Bi_har.Vaishali"
+            android:label="@string/vaishali" />
+        <activity
+            android:name=".HospitalsInINDIA.Chattisgarh.BJ"
+            android:label="@string/bj" />
+        <activity
+            android:name=".HospitalsInINDIA.Chattisgarh.Bilaspur"
+            android:label="@string/bilaspur" />
+        <activity
+            android:name=".HospitalsInINDIA.Chattisgarh.Durg"
+            android:label="@string/durg" />
+        <activity
+            android:name=".HospitalsInINDIA.Chattisgarh.Raipur"
+            android:label="@string/raipur" />
+        <activity
+            android:name=".HospitalsInINDIA.Dadra_and_Nagar_Haveli.DN"
+            android:label="@string/dn" />
+        <activity
+            android:name=".HospitalsInINDIA.Daman_and_Diu.Damans"
+            android:label="@string/daman" />
+        <activity
+            android:name=".HospitalsInINDIA.Daman_and_Diu.Diu"
+            android:label="@string/diu" />
+        <activity
+            android:name=".HospitalsInINDIA.N_Delhi.ND"
+            android:label="@string/nd" />
+        <activity
+            android:name=".HospitalsInINDIA.Goas.NG"
+            android:label="@string/ng" />
+        <activity
+            android:name=".HospitalsInINDIA.Goas.SG"
+            android:label="@string/sg" />
+        <activity
+            android:name=".HospitalsInINDIA.Guj_rat.Ahmadabad"
+            android:label="@string/ahmadabad" />
+        <activity
+            android:name=".HospitalsInINDIA.Guj_rat.Narmada"
+            android:label="@string/narmada" />
+        <activity
+            android:name=".HospitalsInINDIA.Guj_rat.Patan"
+            android:label="@string/patan" />
+        <activity
+            android:name=".HospitalsInINDIA.Guj_rat.Rajkot"
+            android:label="@string/rajkot" />
+        <activity
+            android:name=".HospitalsInINDIA.Hary_na.Gurgaon"
+            android:label="@string/gurgaon" />
+        <activity
+            android:name=".HospitalsInINDIA.Hary_na.Panipat"
+            android:label="@string/panipat" />
+        <activity
+            android:name=".HospitalsInINDIA.Himachal_Pradesh.Shimla"
+            android:label="@string/shimla" />
+        <activity
+            android:name=".HospitalsInINDIA.Jammu_and_Kashmir.Jammus"
+            android:label="@string/jammu" />
+        <activity
+            android:name=".HospitalsInINDIA.Jammu_and_Kashmir.Srinagar"
+            android:label="@string/srinagar" />
+        <activity
+            android:name=".HospitalsInINDIA.Jhark_and.Bokaro"
+            android:label="@string/bokaro" />
+        <activity
+            android:name=".HospitalsInINDIA.Jhark_and.Ranchi"
+            android:label="@string/ranchi" />
+        <activity
+            android:name=".HospitalsInINDIA.Karn_taka.Bangalore"
+            android:label="@string/bangalore" />
+        <activity
+            android:name=".HospitalsInINDIA.Karn_taka.Kolar"
+            android:label="@string/kolar" />
+        <activity
+            android:name=".HospitalsInINDIA.Karn_taka.Mysore"
+            android:label="@string/mysore" />
+        <activity
+            android:name=".HospitalsInINDIA.Ker_la.Kollam"
+            android:label="@string/kollam" />
+        <activity
+            android:name=".HospitalsInINDIA.Ker_la.Malappuram"
+            android:label="@string/malappuram" />
+        <activity
+            android:name=".HospitalsInINDIA.Ker_la.Thiruvananthapuram"
+            android:label="@string/thiruvananthapuram" />
+        <activity
+            android:name=".HospitalsInINDIA.Laksh_dweep.LW"
+            android:label="@string/lw" />
+        <activity
+            android:name=".HospitalsInINDIA.Madhya_Pradesh.Bhopal"
+            android:label="@string/bhopal" />
+        <activity
+            android:name=".HospitalsInINDIA.Madhya_Pradesh.Indore"
+            android:label="@string/indore" />
+        <activity
+            android:name=".HospitalsInINDIA.Madhya_Pradesh.Jabalpur"
+            android:label="@string/jabalpur" />
+        <activity
+            android:name=".HospitalsInINDIA.Maha_ashtra.Mumbai"
+            android:label="@string/mumbai" />
+        <activity
+            android:name=".HospitalsInINDIA.Maha_ashtra.Pune"
+            android:label="@string/pune" />
+        <activity
+            android:name=".HospitalsInINDIA.Maha_ashtra.Nagpur"
+            android:label="@string/nagpur" />
+        <activity
+            android:name=".HospitalsInINDIA.Maha_ashtra.Shridi"
+            android:label="@string/shridi" />
+        <activity
+            android:name=".HospitalsInINDIA.Man_pur.Imphal"
+            android:label="@string/imphal" />
+        <activity
+            android:name=".HospitalsInINDIA.Man_pur.Thoubal"
+            android:label="@string/thoubal" />
+        <activity
+            android:name=".HospitalsInINDIA.Megh_laya.Shillong"
+            android:label="@string/shillong" />
+        <activity
+            android:name=".HospitalsInINDIA.Megh_laya.Guwahati"
+            android:label="@string/guwahati" />
+        <activity
+            android:name=".HospitalsInINDIA.Miz_ram.Aizawl"
+            android:label="@string/aizawl" />
+        <activity
+            android:name=".HospitalsInINDIA.Nag_land.Kohima"
+            android:label="@string/kohima" />
+        <activity
+            android:name=".HospitalsInINDIA.Od_sha.Bhubaneswar"
+            android:label="@string/bhubaneswar" />
+        <activity
+            android:name=".HospitalsInINDIA.Od_sha.Sambalpur"
+            android:label="@string/sambalpur" />
+        <activity
+            android:name=".HospitalsInINDIA.Od_sha.Puri"
+            android:label="@string/puri" />
+        <activity
+            android:name=".HospitalsInINDIA.Pudu_herry.Pondicherry"
+            android:label="@string/pondicherry" />
+        <activity
+            android:name=".HospitalsInINDIA.Pudu_herry.Yanam"
+            android:label="@string/yanam" />
+        <activity
+            android:name=".HospitalsInINDIA.Pun_ab.Amritsar"
+            android:label="@string/amritsar" />
+        <activity
+            android:name=".HospitalsInINDIA.Pun_ab.Chandigarh"
+            android:label="@string/chandigarh" />
+        <activity
+            android:name=".HospitalsInINDIA.Raja_than.Jaipur"
+            android:label="@string/jaipur" />
+        <activity
+            android:name=".HospitalsInINDIA.Raja_than.Udaipur"
+            android:label="@string/udaipur" />
+        <activity
+            android:name=".HospitalsInINDIA.Sik_im.Gangtok"
+            android:label="@string/gangtok" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Chennai"
+            android:label="@string/chennai" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Madurai"
+            android:label="@string/madurai" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Coimbatore"
+            android:label="@string/coimbatore" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Salem"
+            android:label="@string/salem" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Thanjavur"
+            android:label="@string/thanjavur" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Vellore"
+            android:label="@string/vellore" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Ooty"
+            android:label="@string/ooty" />
+        <activity
+            android:name=".HospitalsInINDIA.Tamil_Nadu.Hosur"
+            android:label="@string/hosur" />
+        <activity
+            android:name=".HospitalsInINDIA.Tela_gana.Hyderabad"
+            android:label="@string/hyderabad" />
+        <activity
+            android:name=".HospitalsInINDIA.Tela_gana.Warangal"
+            android:label="@string/warangal" />
+        <activity
+            android:name=".HospitalsInINDIA.Tela_gana.Nalagonda"
+            android:label="@string/nalagonda" />
+        <activity
+            android:name=".HospitalsInINDIA.Tela_gana.Secunderabad"
+            android:label="@string/secunderabad" />
+        <activity
+            android:name=".HospitalsInINDIA.Tri_ura.Agartala"
+            android:label="@string/agartala" />
+        <activity
+            android:name=".HospitalsInINDIA.Uttar_Pradesh.Lucknow"
+            android:label="@string/lucknow" />
+        <activity
+            android:name=".HospitalsInINDIA.Uttar_Pradesh.Agra"
+            android:label="@string/agra" />
+        <activity
+            android:name=".HospitalsInINDIA.Uttar_Pradesh.Kanpur"
+            android:label="@string/kanpur" />
+        <activity
+            android:name=".HospitalsInINDIA.Uttar_hand.Dehradun"
+            android:label="@string/dehradun" />
+        <activity
+            android:name=".HospitalsInINDIA.Uttar_hand.Badrinath"
+            android:label="@string/badrinath" />
+        <activity
+            android:name=".HospitalsInINDIA.West_Bengal.Kolkata"
+            android:label="@string/kolkata" />
+        <activity
+            android:name=".HospitalsInINDIA.West_Bengal.Durgapur"
+            android:label="@string/durgapur" />
+        <activity
+            android:name=".TopHsp"
+            android:label="@string/title_activity_top_hsp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppThemeNo" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.bhargav.hcms.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+    </application>
+
+</manifest>

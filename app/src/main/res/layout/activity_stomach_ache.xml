@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bhargav.hcms.TotalHealthTips.StomachAche">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablayout"
+        android:background="@color/colorgreyBlue"
+        app:tabTextColor="@color/colorWhite"
+        app:tabSelectedTextColor="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_above="@+id/toolbar"
+        app:tabMode="scrollable"
+        app:tabGravity="fill"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/pager">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

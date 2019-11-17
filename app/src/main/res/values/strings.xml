@@ -1,0 +1,1147 @@
+<resources>
+    <string name="app_name" translatable="false">HCMS</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="slide_1_title">Daily Workout</string>
+    <string name="slide_1_desc">Set your daily workout routine by the help of trainer</string>
+    <string name="slide_2_title">Meditation Techniques </string>
+    <string name="slide_2_desc">Learn about the different meditation techniques and practice them</string>
+    <string name="slide_3_title">Diet Chart</string>
+    <string name="slide_3_desc">Make your diet chart by the help of health experts</string>
+    <string name="Welcome" translatable="false">Welcome</string>
+    <string name="choose">Choose Language</string>
+    <string name="health">Health Care Management system</string>
+    <string name="login">Login</string>
+    <string name="login_activities">Login Here</string>
+    <string name="about" translatable="false">About Us</string>
+    <string name="about_activities" translatable="false">Hospital InfraStructure</string>
+    <string name="contact">Contact Us</string>
+    <string name="contact_activities">Clarify Your Details</string>
+    <string name="developed">Developed by</string>
+    <string name="name">G BHARGAV</string>
+    <string name="text">Please Feel Free Us to Contact to clarify your doubts and improve your application status</string>
+    <string name="email">Email</string>
+    <string name="emailid">bhargav.gurramkonda@gmail.com</string>
+    <string name="contact1">Contact</string>
+    <string name="phone">9492515352</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="link_to_register">Register Here</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="portal">Portal Page</string>
+    <string name="sign_in_short">Register</string>
+    <string name="link_to_login">Already registered.Login Here!</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back">Back</string>
+    <string name="admin" translatable="false">Admin</string>
+    <string name="admin_details" translatable="false">Admin Details</string>
+    <string name="doctor">Doctor</string>
+    <string name="doctor_activities">Doctor Details</string>
+    <string name="message">Message</string>
+    <string name="message_me">Message to Doctor and Admin</string>
+    <string name="call">Call</string>
+    <string name="call_me">Call to Doctor and Admin</string>
+    <string name="feedback">Feedback</string>
+    <string name="livechat_userinfo">Live Chat and User Info</string>
+    <string name="livechatuserinfo">LC and UI</string>
+    <string name="googlemap">Google Map</string>
+    <string name="google_map">Navigate Nearby Hospitals</string>
+    <string name="totalhealth">Total Health Tips</string>
+    <string name="totalhealth_me">Total Health Care Tips</string>
+    <string name="tophospital">Top Hospitals</string>
+    <string name="tophospital_me">Top 15 Hospitals in India</string>
+    <string name="hospital">Hospitals</string>
+    <string name="hossettingspital1">Hosps in India</string>
+    <string name="hospitals">Hospitals in India</string>
+    <string name="logout_message">Are you sure u want to Logout from HCMS</string>
+    <string name="thanks_message">Thanks for using HCMS Application.Any Doubts Please Feedback</string>
+    <string name="india_me">States and Cities Hospitals in India</string>
+    <string name="blooddonation">Donate Blood</string>
+    <string name="blooddonation_me">Donate Blood Save Life</string>
+    <string name="alarm" translatable="false">Alarm</string>
+    <string name="alarm_me">Health Reminder</string>
+    <string name="vitamins">Vitamins</string>
+    <string name="vitamins_me">Vitamins Tips</string>
+    <string name="medications">Medications</string>
+    <string name="medications_me">Tablets Details</string>
+    <string name="phoneno">Enter Phone Number....</string>
+    <string name="message1">Text Your Message....</string>
+    <string name="sendmessage">Send Message</string>
+    <string name="msg_sent">Message Sent</string>
+    <string name="integer_only">Please Enter Integer Only</string>
+    <string name="msg_permission">You don\'t have required permission to make the Action</string>
+    <string name="title_activity_tophospital_web_view">Hospital Details</string>
+    <string name="text1">Enter Name,Blood Group,Phone No</string>
+    <string name="donateblood">Donate Blood</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_register">Sign Up</string>
+    <string name="title_activity_reset_password">Reset Password Activity</string>
+    <string name="to">To:</string>
+    <string name="subject">Subject:</string>
+    <string name="message2">Message:</string>
+    <string name="feedback1">Feedback Us to Clarify Your Doubts</string>
+    <string name="doctordetails">Doctor Details</string>
+    <string name="admindetails" translatable="false">Admin Details</string>
+    <string name="help">Help</string>
+    <string name="help_me">Clarify Your Doubts</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="logout_me">Logout from HCMS</string>
+    <string name="immunization">Immunization</string>
+    <string name="diet_plan">Diet Plan</string>
+    <string name="exercise">Exercise</string>
+    <string name="routinemaker">Routine Maker</string>
+    <string name="workoutmanagement">Workout Management</string>
+    <string name="pimples">Acne/Pimples</string>
+    <string name="scars">Scars</string>
+    <string name="facecare">Face Care</string>
+    <string name="hairloss">Hair Loss</string>
+    <string name="dandruff">Dandruff</string>
+    <string name="hairgrowth">Hair Growth</string>
+    <string name="cough">Cold &amp; Cough</string>
+    <string name="stomach_ache">Stomach Ache</string>
+    <string name="headache">Head Ache</string>
+    <string name="backpain">Back Pain</string>
+    <string name="jointpain">Joint Pain</string>
+    <string name="sunburn">Sun Burn</string>
+    <string name="immunization_me">World Health Organization</string>
+    <string name="a" translatable="false">A</string>
+    <string name="b1">B1</string>
+    <string name="b2">B2</string>
+    <string name="b3">B3</string>
+    <string name="b5">B5</string>
+    <string name="b6">B6</string>
+    <string name="b7">B7</string>
+    <string name="b9">B9</string>
+    <string name="b12">B12</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="k">K</string>
+    <string name="vitamina">Vitamin A</string>
+    <string name="vita_heading">Retinol/Retinal</string>
+    <string name="vita_mesg">Vitamin A is also called as Retinal.Vitamin A is a group of fat-soluble substances that are found in animal products.These substances include retinol(an alchol) and retinal(an aldehyde).Retinal is responsible for porduction of an acid that affects gene transcription.By means of cellular differentiation,physiological roles of cells are specialized.Vitamin A also includes carotenoids,which are produced by plants.These are transformed to retinalFruits and vegetables for example contain beta-carotene,which is converted to Vitamin A in the human body.</string>
+    <string name="vit_funcs">Functions</string>
+    <string name="vita_funcs">Vitamin A is essential for the development of bones,skin and eyesight.It strengthens the immune system, creating resistance to infection and disease.It also regulates growth by regulating the expression of the growth hormone gene.When Vitamin A deficiency occurs, a person may suffer from night blindness (caused by inadequate retinol supply), dry skin, poor growth and development difficulties.</string>
+    <string name="vit_interact" translatable="false">Interactions</string>
+    <string name="rich_foods">Rich Foods</string>
+    <string name="overdose">Overdose</string>
+    <string name="vita_interact">Zinc deficiency interferes with the vitamin A metabolism as a result of decreased retinol synthesis and decreased retinol to retinal transformation. When Vitamin A is used in combination with iron anaemia is less likely to occur. Chronic alcohol consumption results in depletion of Vitamin A storage in the liver. This contributes to alcohol-induced liver damaged.</string>
+    <string name="note">NOTE</string>
+    <string name="vita_note">Vitamin A i not recommended for pregnant women. Excess vitamin A may cause birth defects. However, an adequate supply of vitamin A is still required because of its essential role in embryonic development.</string>
+    ------------------
+    <string name="vitaminb1">Vitamin B1</string>
+    <string name="vitb1_heading">Thiamine</string>
+    <string name="vitb1_mesg">Vitamin B1 is also called as Thiamine. Like others B-Complex Vitamins, thiamine is sometimes called an "anti-stress" vitamin because it may strengthen the immune system and improve the body\'s ability to withstand stressful conditions. It is named B1 because it was the first B vitamin discovered.</string>
+    <string name="vitb1_funcs">Vitamin B1, or thiamine, helps to prevent complication in the nervous system, brain, muscles, heart, stomach, and intestines. It is also involved in the flow of electrolytes into and out of the muscles and nerves cells. It helps to prevent diseases such as beriberi, which involves disorders of the heart, nerves, and digestive system. B1 is necessary for key metabolic processes.</string>
+    <string name="vitb1_richfoods">Here are many natural ways to add thiamine-rich foods to an every diet. Did sources of thiamine includes beef liver, nuts, oats, oranges, pork, eggs, seeds legumes, peas and B. Foods are also fortified with thiamine. Some foods that are often fortified with B1 are rice, pasta, bears, cereals and flour etc.,</string>
+    <string name="vitb1_overdose">Overdosing on B1 is extremely rare. Overdosing of B1 leads to stomach upset, skin irritation, nausea, dizziness, shortness of breath, swelling of the hands, face, mouth or threat.</string>
+    -------------------
+    <string name="vitaminb2">Vitamin B2</string>
+    <string name="vitb2_heading">Riboflavin</string>
+    <string name="vitb2_mesg">Vitamin B2 or riboflavin is among the lead discussed viewing, probably because not many people suffer from its deficiency, However B2 is one of the most important vitamin from the B complex series that plays a role in various processes of the body.</string>
+    <string name="vitb2_funcs">Boosts metabolism\nPrevents anemia\nIt promotes boosts natural immunity\nHelps wound healing\nRequired for eye health\nProtect the nervous system</string>
+    <string name="vitb2_richfoods">The best source of riboflavin includes: Brewer\'s yeast, Almonds, Organ meats, Whole grains, Wheat germ, Wild rice, Mushrooms, Soybeans, Milk, Yogurt, Eggs, Broccoli, Brussels sprouts, Spinach etc.,</string>
+    <string name="vitb2_overdose">Robinson is generally considered safe, even at high doses. Riboflavin does not seems to cause any serious side effects. Very high doses may causes:\nItching\nNumbness\nBurning out pickling sensations\nYellow or orange urine\nSensitivity to light\nTaking any one of the B vitamins for a long period of time can result in an imbalance of other B vitamins. For this reason, You may want to take aB-Complex vitamin which includes the B vitamins</string>
+    ---------------------
+    <string name="vitaminb3">Vitamin B3</string>
+    <string name="vitb3_heading">Niacin</string>
+    <string name="vitb3_funcs">Niacin is an important vitamin for maintaining a healthy cardiovascular syste, and metabolism especially balancing blood cholesterol levels. In addition niacin helps with brain function,healthy skin formation and maintenance and even preventing or treating diabetes. Niacin helps with Joint Mobility and to Treat Arthritis, treats Pellagra, a Disease Caused by Low B Vitamin Levels, Prevent Impotence (Erectile Dysfunction.)</string>
+    <string name="vitb3_mesg">Vitamin B3 is also called as Niacin. Niacin is a part of the Vitamin B complex, along with other B vitamins including vitamin B1(thiamine), vitamin B2(riboflavin) and more.</string>
+    <string name="vitb3_richfoods">Turkey\nChicken breast\nPeanuts\nMushrooms\nLiver\nTuna\nGreen peas\nGrass-fed beef\nSunflower seeds</string>
+    <string name="vitb3_overdose">Niacin overdose signs and symptoms includes:\nServer skin flushing combined with dizziness\nRapid heart beat\nItching\nNausea and vomiting\nAbdominal pain\nDiarrhea\nGout</string>
+    ---------------------
+    <string name="vitaminb5">Vitamin B5</string>
+    <string name="vitb5_heading">Pantothenic Acid</string>
+    <string name="vitb5_mesg">Vitamin B5 is also called as pantothenic acid, is one of 8 B vitamins. All B vitamins helps the body convert food(carbohydrate) into fuel(glucose), which the body uses to produce energy. It\'s name originates from the Greek words pantos, meaning everywhere as it can be found throughout all living cells. Pantothenic Acid occurs in the form of a vital coenzyme in numerous chemical reactions</string>
+    <string name="vitb5_funcs">Vitamin B5 is critical to the manufacture of red blood cells, as well as sex and stress-related hormones produced in the adrenal glands, small glands that sit atop of the kidneys. Vitamin B5 is a component of an essential coenzyme required for chemical reactions that generate energy from food(fast, carbohydrates and proteins)</string>
+    <string name="vitb5_richfoods">Chicken Liver\nSunflower seeds\nSalmon(fish)\nAvocados\nSun-dried tomatoes\nCorn\nBroccoli\nMushrooms\nCauliflower\nYogurt</string>
+    <string name="vitb5_overdose">Vitamin-B5 is a water-soluble vitamin, which means that can excess vitamin is excreted in the urine. However, It is not possible to overdose on vitamin B5. Excess Vitamin B5 intake may lead to diarrhoea, heart burn, nausea, dehydration, oedema, joint pain, calcification in bloob vessels and depression.</string>
+    ------------------------
+    <string name="vitaminb6">Vitamin B6</string>
+    <string name="vitb6_heading">Pyridoxine</string>
+    <string name="vitb6_mesg">Vitamin B6 is also called as Pyridoxine, is one of 8 B Vitamins. Vitamin B6 is a water-soluble vitamin. There are three different natural forms of vitamin B6, namely pyridoxine, pyridoxamine, pyridoxal, all of which are normally present in foods. For human metabolism the active derivative of the Vitamin, pyridoxal 5-phosphate(PLP), is of major importance add the metabolically active coenzyme form</string>
+    <string name="vitb6_funcs">Make antibiotics. Antibiotics are needed to fight many diseases.\nMaintain normal nerve system\nMake hemoglobin. Hemoglobin carries oxygen in the red blood cells to the tissues. A vitamin B6 deficiency can cause a form of efficiency\nBreak down proteins. The more protein you eat. The more Vitamin B6 you need.\nKeep blood sugar(glucose) in normal range.</string>
+    <string name="vitb6_richfoods">Wild caught tuna\nBanana\nSalmon\nGrass-fed beef\nChicken breast\nSpinach(cooked)\nSweet potato\nHazelnuts\nTukkey\nGarlic etc.,</string>
+    <string name="vitb6_overdose">Overdose of Vitamin B6 can cause:\nDifficulty coordinating movement\nNumbness\nDeficiency of Vitamin B6 can cause:\nConfusion\nDepression\nIrritability\nMouth and tongue sores\n(Vitamin B6 deficiency is not common in the Untied States).</string>
+    ------------------------
+    <string name="vitaminb7">Vitamin B7</string>
+    <string name="vitb7_heading">Biotin</string>
+    <string name="vitb7_mesg">Vitamin B7, more commonly known as Biotin, is a water-soluble nutrient that is a part of the B Vitamin family. B Vitamin help support adrenal function, help calm and maintain a healthy nervous system, and are necessary for key metabolic processes. Biotin is essential for the metabolic of carbohydrate and fat.</string>
+    <string name="vitb7_funcs">Biotin has vital metabolic functions. Without Biotin as a co-factor, many enzymes does not work properly, and serious complications can occur, including varied diseases of the skin, intestinal tract, and nervous system. Biotin can help address high blood glucose levels in people with type 2 diabetes, and may be helpful in maintaining healthy hair and nails, decreasing insulin resistance and improving glucose tolerance, cancer, Crohn\'s disease, hair loss, Parkinson\'s disease, peripheral neuropathy, Rett syndrome, seborrheic dermatitis,and vaginal candidiasis.</string>
+    <string name="vitb7_richfoods">Tomatoes, Almonds, Eggs, Onions, Carrots, Romaine-Lettuce, Cauliflower, Meat livers, Beef, Chicken, and fish like Salmon, Sardines, haddock, and tuna</string>
+    <string name="vitb7_overdose">Vitamin B7 is a water-soluble vitamin, which means that can excess is excreted in the urine and faeces. Symptoms of vitamin B7 overdose include an increased urge to urinate, abnormal sweating Frequency; and rapid nail and hair growth.A condition called eosinophilic pleuropericardial effusion may result when excess Vitamin B7 is ingested along with Vitamin B5</string>
+    ---------------------------
+    <string name="vitaminb9">Vitamin B9</string>
+    <string name="vitb9_heading">Folic Acid</string>
+    <string name="vitb9_mesg">Vitamin B9, is also called as folic acid serves as a coenzymes during the creation of DNA. This vitamin is also very important to the growth and reproduction of all body cells, including red blood cells. Vitamin B9 works with vitamin B6 and B12 and other nutrients to control blood levels of the amino acid homocysteine</string>
+    <string name="vitb9_funcs">Formation is red blood cells. Creation of genetic material. Promotes a healthy pregnancy by regulating a nervous system development the fetus. Helps treat anemia patients resulting from folic acid deficiency. Functions to metabolize proteins. Cervical dysplasia may be reduced.</string>
+    <string name="vitb9_richfoods">Spinach\nCollard Greens\nTurnip Greens\nPapaya\nLentils\nPinto Beans\nGarbanzo Beans\nBlack beans\nNavy beans\nKidney beans\nLima beans\nAvocado etc.,</string>
+    <string name="vitb9_overdose">In large doses, the following may occur: Loss of appetite, Nausea, Flatulence. Abdominal distension. May produce folacin crystals in kidney.</string>
+    --------------------------
+    <string name="vitaminb12">Vitamin B12</string>
+    <string name="vitb12_heading">Cyanocobalamin</string>
+    <string name="vitb12_mesg">Vitamin B12 is also called as cyanocobalamin. Methylcobalamin and 5-deoxyadenosylcobalamin are the forms of Vitamin B12 that are active in human metabolism.</string>
+    <string name="vitb12_funcs">Vitamin B12 is required for proper red blood cell formation and DNA synthesis.\nVitamin B12 is also needed for building proteins in the body and normal functions of nervous tissues.</string>
+    <string name="vitb12_richfoods">Beef Liver\nSardines\nBeef\nTuna\nRaw Cheese\nCottage Cheese\nLamb\nRaw Milk\nEggs\nSalmon etc.,</string>
+    <string name="vitb12_overdose">Numbness, improper heart functioning, giddiness and regular headaches. The most serious side effect limited to overtime abuse of the vitamin, is increasing the risk of getting cancer. If you are undergoing pernicious anemia, an overdose of this vitamin can lead to leukemia. If you are consuming a diet that has a high concentration of cholesterol along with different animal proteins, you stand a very high chance of getting cancer of the esophagus and stomach.</string>
+    ------------------------------
+    <string name="vitaminc">Vitamin C</string>
+    <string name="vitc_heading">Ascorbic Acid</string>
+    <string name="vitc_mesg">Vitamin C, also known as ascorbic acid, is a water-soluble vitamin. It is essential for normal body functioning. Humans most obtain Vitamin C trough the diet. Other mammals have the opportunity to produce their own vitamin C apply.</string>
+    <string name="vitc_funcs">Vitamin C is need for the growth and repair of tissues in all parts of your body. It helps the body make collagen, tendons, ligaments, and blood vessels. Vitamin C is needed for healing wounds, and for repairing and maintenance bones and teeth. It also helps the body absorb iron from nonheme sources.</string>
+    <string name="vitc_richfoods">Oranges\nRed peppers\nKale 1 cup\nBrussels sprouts half cup cooked\nBroccoli half cup cooked\nStrawberries\nGrape fruit\nGuava\nKiwi\nGreen peppers\nMango\nLemon etc.,</string>
+    <string name="vitc_overdose">Overdose on vitamin C leads to:\nDiarrhea\nNausea\nVomiting\nHeartburn\nAbdominal boating and cramps\nHeadache\nInsomnia\nKidney stones</string>
+    ----------------------------
+    <string name="vitamind">Vitamin D</string>
+    <string name="vitd_heading">Cholecalciferol</string>
+    <string name="vitd_mesg">Vitamin D is a fat-soluble vitamin, often referred to as the "sunshine-vitamin". Vitamin D is important for good overall health and strongy and healthy bones. It\'s also an important facts in making sure your muscles, hearts, lungs, and brain work well and that your body can fight infection. Your body can make its own vitamin D from sunlight. You can also get vitamin D from supplements and a very small amounts comes from a few food you eat.</string>
+    <string name="vitd_funcs">Vitamin D is produced when your skin is exposed sunshine. There amount of Vitamin D that your skin makes depends on such factors as the season(i.e., there\'s usually less sunshine in winter months), the time of day(the sun\'s rays are most powerful between 10 am or 3 pm), the amount of could cover and air pollution, and where you live(cities near the equator have higher UV levels). It\'s the UV(ultraviolet) light in sunshine that causes your skin to make Vitamin D.</string>
+    <string name="vitd_richfoods">Sunlight promotes Vitamin D synthesis from cholesterol in the skin\nCod liver oil\nSardines\nSalmon\nMackerel\nTuna\nRaw Milk\nCaviar\nEggs\nMushrooms etc.,</string>
+    ------------------------
+    <string name="vitamine">Vitamin E</string>
+    <string name="vite_heading">Tocopherols/Tocotrienols</string>
+    <string name="vite_mesg">Vitamin E also called as Tocopherols. Tocotrienols The term "Vitamin E" describes eight different compounds. Alpha-tocopherols is the most active one in humans. Vitamin E is an antioxidant. It may help protect your cells from damage.</string>
+    <string name="vite_funcs">Vitamin E is used as treatment for a variety of degenerative diseases. Including hardening of the arteries, high blood, pressure, heart diseases, cancer. It also balances Cholesterol, Fights Free Radicals and Prevents Diseases Development, Repairs Damaged Skin, Thickers Hair, Balances Hormones, Helps PMS symptoms, Improves Vision, Helps people with Alzheimer\'s Disease, Improves Effects of Medical Treatments, Improves Physical Endurance and Muscle strengths</string>
+    <string name="vite_richfoods">Sunflower seeds\nAlmonds\nHazelnuts\nWheat Germ\nMango\nAvocado\nButternut Squash\nBroccoli\nSpinach\nKiwi\nTomato etc.,</string>
+    <string name="vite_overdose">Overdoses of Vitamin E area rare. It\'s virtually impossible to overdose through diet alone. If you take more than the tolerable upper intake level for your age, you might risk blurred vision, weakness, dizziness, nausea and diarrhea. If you\'re also taking an anticoagulant medication, such as warfarin, bleeding can result</string>
+    -----------------------------
+    <string name="vitamink">Vitamin K</string>
+    <string name="vitk_heading">Phylloquinone</string>
+    <string name="vitk_mesg">The K in Vitamin K is derived from the German word koagulation. Vitamin K is a fat-soluble Vitamin which plays a vital role in blood clotting. There are several forms of Vitamin K, one synthesized by plants, one synthesized animals(including humans) and a large range of types synthesized by bacteria in the small intensine of humans</string>
+    <string name="vitk_funcs">Vitamin K delivers the required coenzyme for a vitamin K dependent carboxylation of amino acids. It is essential for the provision of proteins that play a role in blood clotting. Therefore, It is clear that deficiency causes bleeding disorders such as haemorrhagic (uncontrolled bleeding). This may cause nose bleeds, blood in the urine, or extremely heavy menstrual bleeding. In infants vitamin K deficiency may even result in internal haemorrhaging of the skull. A vitamin K deficiency is fairly uncommon in healthy adults, because bacteria in the intestines synthesize the vitamin, It may However occur in individual that take medicinal vitamin K antagonists.</string>
+    <string name="vitk_richfoods">Green leafy vegetables\nNatto\nSpringy onions\nBrussels Sprouts\nCabbage\nBroccoli\nDairy(fermented)\nPrunes\nCucumbers\nDried Brasil etc.,</string>
+    <string name="vitk_overdose">Vitamin K toxicity is typically seen in formula-fed infants or those receiving synthetic vitamin K-3(menadione) injections. Because of its toxicity, menadione is no longer used for treatment of Vitamin K deficiency. The effects of Vitamin K toxicity can include jaundice in newborns,hemolytic anemia, and hyperbilirubinemia. Toxicity also blocks the effects of oral anticoagulants.</string>
+    --------------------------------
+    <string name="diet1head">7 DAYS DIET PLAN</string>
+    <string name="diet1sub">Lose 3-5 Kgs in a Week</string>
+    <string name="diet1sub1">THE 7 DAY DIET PLAN FOR WEIGHT LOSS</string>
+    <string name="diet1sub2">What? Just 7 days and we lose those unwanted fat from our body ...isn\'t that great. Yes, it is, with this diet plan one is able to lose 5-10 pounds and help oneself achieve their desirable weight and body shape. This diet is also known as the GM-Diet plan which was made for the motor workers to stay fit and healthy. This diet plan just takes little of your dedication and gives you your desirable goal. So are you all ready to get a new look ?</string>
+    <string name="diet1sub3">Advantages of GM Diet Plan:</string>
+    <string name="diet1sub4">This 7 day vegetarian diet plan was developed for the well being of General Motors Inc. employees. That is the reason it is called the GM Diet Plan. The aim of the program is to gain a healthy body. You can expect the following things by practicing this Diet Plan regime:\n\n1. Lose around 5 to 8 kilograms in 7 days Natural glow to skin.\n2. Elimination of toxins will make you feel light and energetic.\n3. Reduces the flab around the tummy and waist.\n\nAll these in just 7 days! It is a miracle diet plan!\n\n[NOTE: DO DRINK PLENTY OF WATER DURING YOUR DIET 8-10 GLASS OF WATER.]</string>
+    <string name="diet1day1">##Day One##</string>
+    <string name="diet1day1sub">Let\'s start with day one, on the first day of your diet you have to consume only fruits for the day as it is an all-fruit-day. Fruits are great for our health full of benefits and one must include fruits in their diet. Fruits not only help to lose weight but provide you with glowing and flawless skin and many nutrients required by your body. You are allowed to consume any fruit of your choice for the day and in any number (except banana). But do remember to divide your intakes in different numbers for the day. Eat in small quantity but more often. I would suggest to indulge on melons for the day as it will help to lose 1 pound of your weight on the very first day.(say NO to bananas).</string>
+    <string name="diet1day2">##Day Two##</string>
+    <string name="diet1day2sub">Like the first day, the second day is "AllVeggies day". You can eat nothing but vegetables and only vegetables. You can eat to your heart\'s content, feel your stomach filled up with vegetables if you need to. Boiled or raw vegetables will do. You can even begin your day with a boiled potato and a tea spoon of butter. This is done in order to give the body enough energy and carbohydrates for the day. But after that only raw and boiled vegetables. Only one potato this day is enough, don\'t consume more than that. Adding a pinch of oregano or basil seasoning to make the vegetables more edible is perfect. Day 2 is a calorie free day with a good amount of fibre and nutrients. If you make it through day two, you are definitely dedicated!</string>
+    <string name="diet1day3">##Day Three##</string>
+    <string name="diet1day3sub">Day 3 is a combination of day 1 and 2. You can eat the mentioned fruits and vegetables. Eat any quantity and any amount you like and drink lots of water as directed. You need to avoid potatoes on day 3 as you are getting enough carbohydrates supply from the fruits. Your system is all set to burn the excess pounds. Your cravings may try to dominate, but think about the weight loss and the great results. You will feel light and happy by this time.</string>
+    <string name="diet1day4">##Day Four##</string>
+    <string name="diet1day4sub">Remember how you were told not to eat bananas on the first three days? Well on the 4th day of the vegetarian diet for losing weight, you have the liberty to eat up to 6 bananas for the whole day. You can drink up to 4 glasses of milk. You must have heard that bananas help in weight gain, however in this diet, they act as a source of potassium and sodium for the body. Since the intake of salt is reduced, bananas will do the job. You can also have one cup of a highly diluted soup for a meal. The soup should consist of capsicum, onions, garlic and tomatoes. It is a tasty and healthy recipe which will help in the weight loss process. You can drink it only 1 time a day, it is only to refresh your taste buds from all the vegetable and fruit intake. Be careful to resist yourself. You are just 3 days far from your dream figure.</string>
+    <string name="diet1day5">##Day Five##</string>
+    <string name="diet1day5sub">Day five is like a treat for you as on this day you can consume all the tasty but very healthy meals like tomatoes, sprouts and cottage cheese, also known as Paneer in India. You can also add Soya chunks to your meal. Make a tasty soup with the mentioned ingredients and drink it. Make sure to increase your water intake on day 5. You can eat up to 6 tomatoes and increase the water intake with 1/4 of the daily consumption. This is done in order to cleanse your body from uric acid. The tomatoes are for the fibre and digestion process. The water will purify your body from all kinds of toxins.</string>
+    <string name="diet1day6">##Day Six##</string>
+    <string name="diet1day6sub">Day 6 is a little different to day 5. You will be eating sprouts, cottage cheese and other vegetables but by excluding tomatoes. No tomatoes on day 6, avoid them. The tasty soup and lots of water should help you through your day. Vegetables will provide vitamins and fibre to your body. You will already notice change in your body by this time. Continue consuming a good amount of water everyday.</string>
+    <string name="diet1day7">##Day Seven##</string>
+    <string name="diet1day7sub">THE LAST DAY of your diet. You will be feeling light on your toes and happy inside out. You can have fresh fruit juice, one cup of brown rice or half chapati/bread and other vegetables you would want to eat. You can complete your day with the consumption of water.That is the whole diet plan for 7 days. If you can follow it strictly, no one can stop you from gaining a healthy and slimmer body.</string>
+    ---------------------------------------------
+    <string name="diet2sub1">Diet Plan 2</string>
+    <string name="diet2sub2">"Ohh that dress it\'s so pretty, I wish I could get one." Does this happens to you when you go out for shopping? You want to buy that dress but you know its too small for you. That\'s all right, here is a diet plan to help you attain a perfect size in matter of a month and then there will be no such dress or your favorite attire you wish to get but you just couldn\'t.</string>
+    <string name="diet2sub3">This diet plan is very simple and helps you shed off those extra pounds. So let\'s get started... here\'s how you start your day for your journey of weight loss.</string>
+    <string name="diet2breakfast">BREAKFAST-</string>
+    <string name="diet2breakfastsub">Before munching on anything drink one glass of Luke warm lemon water (made of 1 or 1/2 lemon) on empty stomach so as to detoxify your body and after half an hour or so you can eat fruits of your choice,but remember keep the quantity small. Fruits will help you fill up your stomach and provide energy you require. You can also eat either oats or munch on some dry fruits for your breakfast.</string>
+    <string name="diet2lunch">LUNCH-</string>
+    <string name="diet2lunchsub">(Half or one) chapati/bread or brown rice (one cup), low-fat yogurt and one fruit (such as apple, orange). Don\'t forget to drink one glass of water before you have your lunch.</string>
+    <string name="diet2dinner">DINNER-</string>
+    <string name="diet2dinnersub">You can drink soup, or eat half chapati/bread with vegetables either boiled or cooked in less oil and do have some salad without oil and other form of dressing.</string>
+    <string name="diet2sub4">This is how simple your diet is to make you shed those pounds and you even need not starve as sometimes you do while following the other strict diet plans. Following this diet will help you reach your goal and who knows you may end up shopping the perfect fit for yourself much more prettier than the dresses you once had deep love for.</string>
+    --------------------------------------
+    <string name="diet3sub1">Simple cleanse diet</string>
+    <string name="diet3sub2">[Do drink plenty of water during diet plan]</string>
+    <string name="diet3day1">Day 1</string>
+    <string name="diet3day1sub">Breakfast- Oatmeal, 1 apple.\n\nSnack- green tea with 1/2 lemon and ginger.\n\nLunch- tomato soup and one cup of fresh fruits of your choice.\n\nSnack- raw veggies such as cucumber, carrots.\n\nDinner- one cup brown rice or chapati/bread, spinach, lemon juice.</string>
+    <string name="diet3day2">Day 2</string>
+    <string name="diet3day2sub">Breakfast- Fresh fruits,handful of dry fruits .\n\nSnack- green tea with lemon and ginger.\n\nLunch- vegetable soup, one or two slice of brown bread, 1 citrus fruit.\n\nSnack- one apple.\n\nDinner- steamed vegetables (broccoli, cauliflower, carrots etc).</string>
+    <string name="diet3day3">Day 3</string>
+    <string name="diet3day3sub">Breakfast- one glass of milk, dry fruits.\n\nSnack- green tea.\n\nLunch- one chapati/bread, sprouts and tomato soup.\n\nSnack- watermelon or any other fruit.\n\nDinner- plain cottage cheese, chapati/bread, salad.</string>
+    -------------------------------
+    <string name="diet4sub1">Diet Plan 4</string>
+    <string name="diet4sub2">Cucumbers make tasty and filling salads that can keep you going all along the day. Mix 2 lbs of cucumbers with a pinch of salt, a teaspoon of herbs such as oregano,parsley and dill, and olive oil to make a delicious salad for your cucumber diet.Besides the health benefits of cucumbers, the herbs are rich in vitamins and minerals that provide essential nourishment to the body. It works as a fantastic natural skin care product, which can instantly brighten up your skin and eyes. Here\'s an idea for a standard cucumber diet.</string>
+    <string name="diet4sub3">The Cucumber Diet</string>
+    <string name="diet4sub4">For breakfast: 1 bowl of cucumber salad, 1 cup of tea, and a toast of wheat bread .\n\nFor lunch: Chapati/Bread, a bowl of cucumber salad.\n\nFor dinner: Only salad.</string>
+    ---------------------------------
+    <string name="cardio">Cardio</string>
+    <string name="walking">Walking</string>
+    <string name="walking1">Walking is an ideal exercise for weight loss: It doesn\'t require any equipment, other than a decent pair of walking shoes, and you don\'t need a gym membership to do it. Depending on how much you weigh, walking at a pace of four miles per hour will burn between 5 and 8 calories every minute, or between 225 and 360 calories for a 45-minute walk.</string>
+    <string name="swimming">Swimming</string>
+    <string name="swimming1">Vigorous swimming can burn anywhere from 400 to 700 calories an hour. All types of swimming are effective for helping you shed pounds, from a front crawl to a breast stroke or even the dog paddle. Swimming is a highly effective exercise for weight loss and toning. It\'s one of the lowest-impact exercises out there,and it strengthens, tones and conditions your whole body.</string>
+    <string name="cycling">Cycling</string>
+    <string name="cycling1">Bicycling is another low impact, high-rewards activity for losing weight. Cycling can burn anywhere from 372 to over 1,100 calories per hour, depending on your weight, your speed and the terrain you\'re biking across.Unlike running, cycling is easy on the joints, and even the most out-of-shape beginner can hop on a bicycle and ride several miles without feeling like they\'ve just been through the wringer. Outdoor cycling is best,because the varied terrain enables you to get a well-rounded workout that includes strengthening your lower body and getting a good cardiovascular workout.</string>
+    <string name="running">Running</string>
+    <string name="running1">If you\'re one of the many people who love to run, you\'re in luck. Running burns about 600 calories per hour, helps build strong bones and connective tissue and gets your heart pumping at a healthy rate to help preventheart disease, stroke and certain cancers.The only equipment running requires is a good pair of shoes to protect your joints and, if it helps you keep the pace and maintain motivation, an iPod with your favorite tunes.Interval training can bump up the calories you burn on your daily run. Also called speed work, interval training involves short spurts, usually between 30 seconds and two minutes, of running at top speed. Intervals burn a large number of calories in a short amount of time, improve your resting metabolism to help you burn more calories during the day,and increase your muscle mass.</string>
+    <string name="jumpingrope">Jumping Rope</string>
+    <string name="jumpingrope1">Just ten minutes of rope jumping is worth an eight minute mile when it comes to cardio benefits and calorie burning.An hour of jumping rope burns over 800calories and works the arms, legs, and core, as well as strengthens bones and joints. A great 13-minute rope-jumping workout involves one minute of intense activity followed by one minute of rest. Start with the basic jump, during which both feet push off and land at the same time.Next, alternate your feet. Follow that with a combination jump during which you do the basic jump for ten turns of the rope followed by alternating your feet for ten turns.Finally, perform the high step:Alternate your feet, but bring your knees up to a 90-degree angle with each jump. End the workout with an endurance round during which you jump rope in your favorite way for at least five minutes.</string>
+    -------------------------------------
+    <string name="strength_training">Strength Training</string>
+    <string name="push_up">Push Up</string>
+    <string name="push_up1">Push-up is a basic exercise that is done by simply raising and lowering the body with the support of the arms. Triceps push-ups are done by placing your hands on the floor right below your shoulders, while holding your body straight. Now lower your chest by bending your elbows and pushing back into the initial position. If you feel this exercise difficult, you can make it easier by placing your knees on the floor. This exercise trains the muscles of chest, shoulders and arms.</string>
+    <string name="bridge" translatable="false">Bridge</string>
+    <string name="bridge1">Bridge exercise usually strengthens the whole abdominal region, hamstrings, the lower back and the glutes. It is considered as the basic rehab exercise that improves spinal stabilization. Lie down on your back by putting your arms by your sides. Now bend your knees and raise your hips while maintain your back straight and keeping your feet on the floor. Let the hips be in a straight line with your shoulders and knees.Hold it there for 30 seconds and gently lower your hips back to the initial position and repeat the same for several minutes.</string>
+    <string name="squats">Squats</string>
+    <string name="squats1">Squats are really great exercises for your buttocks and legs. Stand erect with your feet approximately one shoulder width apart. Push your hips back, slowly bending your knees to a 90 degree angle. Keep your back straight and eyes looking ahead. Slowly rise to starting position. Inhale on the way down, exhale on the way backup. If you find this exercise routine difficult then try the same sitting on a chair and standing up, now repeat this process a number of times to tone your body and provide some benefit to it.</string>
+    <string name="walking_lunges">Walking Lunges</string>
+    <string name="walking_lunges1">Walking Lunges are very high intensity exercises that help in strengthening thighs and hips. Stand tall with your feet shoulder-width apart. Now step forward with your left foot and then bend on your left knee and then on forefoot. Make sure that you keep your knees at 90 degrees approximately. Stand on forward leg with the help of rear leg. Alter the leg and repeat it again. This exercise can be done by holding a pair of dumbbells in both your hands.</string>
+    <string name="superman">SuperMan Back Extension</string>
+    <string name="superman1">This exercise will help you increase the strength of the muscles along the lower back and gluteus. In order to perform this exercise, Lie on your stomach and gently raise your legs and upper body at the same time. Always keep your head straight in this position. Hold it there for 2 - 3 seconds and repeat it for 10 - 12 times daily to increase your leg power.</string>
+    ------------------------------------
+    <string name="yoga">Yoga</string>
+    <string name="suryanamaskar">SuryaNamaskar Pose</string>
+    <string name="suryanamaskar1">Step 1 : In standing position join the palms together, thumbs at a 90 degree angle from the fingers, pressed against the sternum. Exhale and while inhaling stretch the arms up, look up and gently bend backwards.\n\nStep 2 : Exhale, bend forward from the hips coming into standing forward bend, try to place the palms on the floor and head toward the knees or shins.\n\nStep 3 : Inhale, step the left leg back into half cobra position, keeping the foot erect and resting the left knee on the floor. Push the hips down towards the ground and bend the neck back. Push the chest forward, opening the chest and pulling the shoulders back.\n\nStep 4 : Try to bring the calf and thigh of the right leg close together. Hold the breath, bring the right leg back, joining the feet together, keeping the arms, legs and back straight in Plank Pose. Your feet should remain erect.\n\nStep 5 : While exhaling, first bring the knees to the ground, then the chest and finally the forehead, coming into Ashtanga position, keeping the hips and abdomen off the ground.\n\nStep 6 : While inhaling come into the Cobra Position, straightening the arms, keeping the toes erect and legs together, knees and hips on the ground. Push the chest forward and pull the shoulders back, gazing up towards the ceiling.\n\nStep 7 : Exhale raise the hips up into downward dog. Keep the arms and legs straight. Tuck the chin in towards the chest, push the body backwards and try to lower the heels to the floor. Push the forehead down towards the floor.\n\nStep 8 : Inhale and step the right leg forward between the hands coming back into the half cobra position.\n\nStep 9 : While exhaling bring the left leg forward into Standing Forward Bend.\n\nStep 10 : Inhale, straighten the body up and come back to standing with palms joined in front of your chest.</string>
+    <string name="bhekasana">Bhekasana Pose</string>
+    <string name="bhekasana1">Lie on your belly and reach back to grab your feet as in bow pose. Now through inhalation, lift up your chest and squeeze the shoulders towards each other. Fold your feet towards the hip region and let your hands hold the toes. Hold this pose for 5 breaths and then gradually release.</string>
+    <string name="dhanurasana">Dhanurasana Pose</string>
+    <string name="dhanurasana1">This is also known as Bow pose. All you have to do here is to lie down on the floor with your belly touching the ground. Keep your hands besides your chest. Now take a deep breath and lift your legs &amp; thighs up. At the same time, you have to try to catch your legs with your hands. Remain in this position for 30 seconds &amp; release.</string>
+    <string name="shalabhasana">Shalabhasana Pose</string>
+    <string name="shalabhasana1">Lie on your belly with your hands resting below your thighs while forehead and chin are resting on the floor. Now try to raise your left leg up to 10 inches. Keep your leg straight. Do not bend your knees. After that, try doing the same with your right leg too. At the final stage, do this with both your legs.</string>
+    <string name="chakki">Chakki Chalanasana Pose</string>
+    <string name="chakki1">This is again a very effective exercise &amp; asana for reducing belly fat. For this, you have to sit in a comfortable position &amp; spread your legs straight in front of you.Both your legs should touch each other. Do not bend your knees. After that join your hands &amp; move it in circular motion over your legs. This gives a good massage &amp; stretch to your stomach, hands &amp; legs. Do it 10 times in clockwise position &amp; 10 times in anti-clockwise position. Release slowly.</string>
+    -------------------------------------------
+    <string name="routinemakersub1">Here\'s how can make your own routine for workout</string>
+    <string name="routinemakersub2">Following information will help you to do so.</string>
+    <string name="routinemakersub3">Quads- squats, lunges, one legged squats, box jumps.\n\nButt and Hamstrings- hip raises, deadlifts, straight leg deadlifts,step ups.\n\nPush (chest, shoulders, and triceps)- overhead press, bench press, incline dumbbell press, push ups, dips.\n\nPull (back, biceps, and forearms)- chin ups, pull ups, inverse body weight rows, dumbbell rows.\n\nCore (abs and lower back)- planks,side planks, exercise ball crunches,mountain climbers, jumping knee tucks, hanging leg raises.</string>
+    <string name="routinemakersub4">Pick one exercise from each category above for a workout, and you\'ll work almost every single muscle in your body. These are just a few examples for what you can do, but you really don\'t need to make things more complicated than this.Do 4-5 sets ofexercise a day with 5-10 reps .You may increase it up to 15 reps also.You can also select other exercises from the "List of exercise".</string>
+    <string name="routinemakersub5">Add some variety - If you do the same routine, three days a week, for months and months both you and your muscles will get bored.Pick a different exercise each time and your muscles will stay excited (and so will you).</string>
+    <string name="routinemakersub6">Give your muscles 48-72 hours to recover between workouts. A Monday-Wednesday-Friday workout works well to ensure enough time to recover.</string>
+    ---------------------------------------------
+    <string name="mon">Monday:</string>
+    <string name="mon1">Cardio exercise for 30-45 minutes. It can be anything like running, jogging, walking, Dancing, etc. Do this twice in the day for eg morning and evening. You can jog/run/walk during morning time and dance on your favorite beat at evening or do other exercise such as jump squat, skipping, etc.</string>
+    <string name="tue">Tuesday:</string>
+    <string name="tue1">Total body strength training such as squats, crunches, step-up bicep curls, etc.on this day. Strength training and cardio must be balanced for great results.</string>
+    <string name="wed">Wednesday:</string>
+    <string name="wed1">Take rest or you can get involved in yoga or stretching to relax your muscles from the intense workout.</string>
+    <string name="thur">Thursday:</string>
+    <string name="thur1">Today again is the day of cardio for 30 mins.</string>
+    <string name="fri">Friday:</string>
+    <string name="fri1" translatable="false">Total body strength training.</string>
+    <string name="sat">Saturday:</string>
+    <string name="sat1">Cardio exercise.</string>
+    <string name="sun">Sunday:</string>
+    <string name="sun1">Take rest and relax.</string>
+    -------------------------------------------------
+    <string name="stsub1">Do this all-over strength workout 2-3 times per week, leaving at least a day\'s rest in between. Each move is a "compound" exercise, meaning it targets multiple muscle groups, so you get a really big bang for your strength-training buck! Rest for 30-60 seconds after each set.</string>
+    <string name="sq">Aquat to Overhead Press</string>
+    <string name="sqsub1">Work quadriceps, hamstrings, butt, abs, shoulders</string>
+    <string name="sqsub2">A.Stand with feet shoulder-width apart,elbows bent, a 5-pound weight in each hand at shoulder height, palms forward. Lower into a squat (don\'t let knees go past toes), hold for a moment.\n\nB.Push through heels to stand up, pressing weights overhead. Return to starting position. Do 3 sets of 15 reps.</string>
+    <string name="si">Single-Leg Dumbbell Row</string>
+    <string name="sisub1">1.Stand holding a 5 to 10 pound weight in left hand. Hinge forward so back is flat and almost parallel to floor, rest right hand on a chair or low shelf for support. Extend left arm toward floor, palm facing in; lift straight left leg behind you, so body forms a T.\n2.Slowly bend left elbow and draw weight up until elbow is even with torso, hold for a moment, then lower weight. Do 15 reps, then switch sides and repeat. Do 3 sets.</string>
+    <string name="st">Step-Up With Bicep Curl</string>
+    <string name="stsub2">1.Stand with left foot on a sturdy bench or step, a 5-pound weight in each hand.\n2.With weight on left foot, lift to standing on the step, right thigh raised so it\'s parallel to floor, at the same time,curl weights up toward shoulders. Return to starting position. Do 15 reps, then switch sides and repeat. Do 3 sets.</string>
+    <string name="dol">Dolphin Plank</string>
+    <string name="dolsub1">Lie facedown with toes tucked. Keeping forearms on floor, pull bellybutton in toward spine, and raise hips to come into low plank position.Inhale while lifting hips further so body forms an inverted V, pause, then slowly return to starting position. Do 3 sets of 15 reps.</string>
+    <string name="man">Superman</string>
+    <string name="man1">Lie facedown with arms and legs extended,toes pointed, palms down. Inhale while raising arms and legs as high as you can, pause, then exhale while slowly returning to starting position. Do 3 sets of 15 reps.</string>
+    -----------------------------------------
+    <string name="ice1">Ice</string>
+    <string name="ice2">Ice can be used to quickly reduce the redness, swelling and inflammation of pimples.It helps to improve blood circulation on the affected area.Wrap the ice in a piece of cloth and hold it on the affected area for some seconds.Wait a few minutes and repeat the process.</string>
+    <string name="lemon1">Lemon</string>
+    <string name="lemon2">Another quick way to get rid of pimples is the use of lemon juice, which is rich in vitamin C. Lemon juice helps pimples dry up faster. Be sure to use fresh lemon juice and not bottled juice, which has preservatives. There are a couple of ways to apply this remedy.</string>
+    <string name="lemon3">Dip a clean cotton swab in fresh lemon juice and apply it to the pimples before going to bed. You can also mix one tablespoon of lemon juice with one teaspoon of cinnamon powder and put it on the pimples overnight. In the morning, wash the skin well with lukewarm water. However, this particular remedy is not suitable for those with sensitive skin.</string>
+    <string name="steam1">Steam</string>
+    <string name="steam2">Steaming is wonderful for your skin at any time, but particularly when you have pimples.This helps get rid of oils, dirt and bacteria trapped in the pores that can cause infection or inflammation, steam will open your pores and allow your skin to breathe</string>
+    <string name="steam3">1.Fill a large container with hot water and allow the steam to come in contact with your face for a few minutes.\n2.Rinse your face with lukewarm water and, after drying, apply an oil-free moisturizer.</string>
+    <string name="garlic1">Garlic</string>
+    <string name="garlic2">Garlic is an antiviral, antifungal, antiseptic and antioxidant agent that can help in the fast treatment of pimples. The sulfur in garlic also promotes quick healing of pimples.</string>
+    <string name="garlic3">1.Cut a fresh garlic clove into two pieces.\n2.Rub the garlic on the pimples and leave it for five minutes before washing the skin with lukewarm water.\n3.Repeat the treatment several times a day.</string>
+    <string name="garlic4">Eating one raw garlic clove daily can also help purify your blood. But do not to eat too much raw garlic as it can upset the stomach.</string>
+    <string name="honey1">Honey</string>
+    <string name="honey2">Honey is a source of natural antibiotics that can speed up the healing process, as well as help prevent infections.When used with lemon has great effect.</string>
+    <string name="honey3">1.Take 1tbsp of honey and 1tbsp of lemon juice in a bowl.\n2.Mix it and soak a cotton ball into it and apply on your face.\n3.Keep it for half an hour and wash with cold water.</string>
+    <string name="lemon4">Take a fresh lemon and cut it into half. Rub the juicy part on the scar. Lemon works as a natural bleach and thus, reduces the blemishes and scars. Drink lemon juice (without mixing sugar in it) twice a day for 15 days.</string>
+    <string name="ice3">Ice Cubes</string>
+    <string name="ice4">Ice cube is a very easy and simple home remedy for fading the scars. Take an ice cube and rub it gently on the scars.</string>
+    <string name="aloevera1">Aloe Vera</string>
+    <string name="aloevera2">Take an aloe vera leaf and cut it into half. Squeeze out the gel and apply it on the scar.</string>
+    <string name="teatree1">Tea Tree Oil</string>
+    <string name="teatree2">Tea tree oil is a very effective natural remedy for removing scars. It works like a charm on scars. Make sure, you use the diluted tea tree oil.</string>
+    <string name="honey4">Apply honey on the scar. It works great in removing scars.</string>
+    <string name="walnut1">Walnut</string>
+    <string name="walnut2">Walnuts can bring a beautiful glow to dull, dry and lifeless skin. Walnuts have antioxidants that help repair skin cells and promote radiant skin. Walnut in powder form can be used to and remove impurities and dirt that an ordinary cleansing product cannot do. Mix two teaspoons of walnut powder with two tablespoons of plain yogurt to make a paste. Apply this paste on your face and neck. When the paste dries, scrub the mixture around your face and then rinse it off with lukewarm water. Use this face mask once a week.</string>
+    <string name="walnut3">Soak three walnuts in water overnight. In the morning, mix in one teaspoon of rose water to make a paste. Apply the paste on your face. Leave it on for an hour and then rinse it off with lukewarm water. Follow this remedy once a week. You can also eat two or three walnuts with a glass of milk every morning.</string>
+    <string name="mint1">Mint</string>
+    <string name="mint2">The main ingredient in mint is menthol, which has cooling and soothing properties that help . Also, it has wonderful healing properties that help fight off skin infections. keep the skin healthy and glowing.</string>
+    <string name="mint3">1.Put one teaspoon of mint powder and one tablespoon each of plain yogurt and fuller\'s earth in a bowl.\n2.Set it aside for half an hour so that all ingredients get soaked properly. Then stir it to get a smooth paste.\n3.Apply this homemade face pack on your face and neck.\n4.Leave it on until it dries naturally, and then rinse it off with lukewarm water.\n5.Use this face mask once a week to enjoy clear skin.</string>
+    <string name="almond1">Almond face mask for fair and glowing skin</string>
+    <string name="almond2">This homemade face mask of almonds can do wonders with the colour of your skin. Use daily for a fortnight and see the result yourself. Better than any skin care product in the market. I have tried it and you can see the result the very first day.</string>
+    <string name="almond3">Ingredients:</string>
+    <string name="almond4">3-4 Almonds\nMilk to soak the Almonds.</string>
+    <string name="almond5">Preparation:</string>
+    <string name="almond6">In the morning soak 3 or four almonds(according to the area on which to be applied may be used for other parts of the body as well) in the milk. At night mash these almonds in the milk you can use some more milk. Mash it to form very fine paste. Apply to the face. Leave for whole night. In the morning wash face with cold water. With this face mask your skin becomes lighter as well as glowing. This homemade remedy for getting fair and glowing skin also leaves your skin smooth and silky. For dry skin, you can use daily. For oily skin use twice in the week.</string>
+    <string name="cucumber1">Cucumber and watermelon face mask for fair and glowing skin</string>
+    <string name="cucumber2">Ingredients:</string>
+    <string name="cucumber3">Cucumber juice 2 tablespoon\nWatermelon juice 2 tablespoon\nYogurt 1 tablespoon\nMilk Powder 1 tablespoon</string>
+    <string name="cucumber4">Preparation:</string>
+    <string name="cucumber5">Mix all the ingredients and apply on your face for about fifteen minutes, Watermelon helps in clearing the skin. It removes blemishes and act as toner. Cucumber juice is well known for its skin lightning effect. Yogurt softens and tightens the skin. Milk powder act as a binding agent as well as it helps in cleanising the skin and lightening the skin tone. This is a wonder full face mask for fair and glowing skin. You must try it and see its wonderful effects of this home remedy for getting fair and glowing skin naturally at home.</string>
+    <string name="milk1">Milk cream and Saffrons face mask for getting fair and glowing skin</string>
+    <string name="milk2">Ingredients:</string>
+    <string name="milk3">Milk Cream 2 tablespoon\nSaffron</string>
+    <string name="milk4">Preparation:</string>
+    <string name="milk5">Mix Saffron in milk cream and leave it overnight. In the morning blend the milk cream with fingers and apply on the face. The above home remedy will lighten the skin tone and give a very healthy glow to your skin naturally. A few drops of lemon juice may also be added.</string>
+    <string name="hairoil1">Hair Oil Massage</string>
+    <string name="hairoil2">The first step that you can take to reduce hair loss is to massage your scalp with appropriate hair oil. Proper hair and scalp massage will increase blood flow to the hair follicles, condition the scalp, and enhance the strength of your hair\'s roots.</string>
+    <string name="hairoil3">You can use hair oils like coconut or almond oil, olive oil, castor oil, amla oil, or others.</string>
+    <string name="hairoil4" translatable="false">1.Massage any of the hair oils mentioned above onto your hair and scalp by applying light pressure with your fingertips.\n2.Do this at least once a week.</string>
+    <string name="fenugreek1">Fenu Greek</string>
+    <string name="fenugreek2">Fenugreek, also known as methi, is highly effective in treating hair loss. Fenugreek seeds contain hormone antecedents that enhance hair growth and help rebuild hair follicles. They also contain proteins and nicotinic acid that stimulate hair growth.</string>
+    <string name="fenugreek3">1.Soak one cup of fenugreek seeds in water overnight.\n2.In the morning, grind them to make a paste.\n3.Apply the paste to your hair and cover with a shower cap.\n4.After about 40 minutes, rinse your hair.Follow this remedy every morning for a month.</string>
+    <string name="onionjuice1">Onion Juice</string>
+    <string name="onionjuice2">Onion juice helps treat hair loss due to its high sulfur content, which helps improve blood circulation to the hair follicles, regenerate hair follicles and reduce inflammation. Extract the juice of one onion by grating it and then strain it. Apply the juice directly onto the scalp. Leave it on for about 30 minutes, and then wash it off. Finally, shampoo your hair.</string>
+    <string name="onionjuice3">Mix together three tablespoons of onion juice and two tablespoons of aloe vera gel. You can also add one tablespoon of olive oil. Apply this mixture onto your scalp and leave it on for at least 30 minutes before rinsing it off and shampooing your hair. Repeat either of these remedies two or three times a week for several weeks.</string>
+    <string name="al1" translatable="false">Aloe Vera</string>
+    <string name="al2">1.Apply aloe vera gel or juice onto the scalp.\n2.Leave it on for a few hours and then wash it off with lukewarm water.\n3.Repeat the process three to four times a week.</string>
+    <string name="al3">You can also consume one tablespoon of aloe vera juice daily on an empty stomach to enjoy better hair growth.</string>
+    <string name="he1">Healthy Diet</string>
+    <string name="he2">For overcoming the problem of hair loss maintaining a good and healthy diet is essential.Include fruits and vegetables in your diet.Do not forget to add proteins.</string>
+    <string name="he3">A healthy lifestyle will help to cure hair problems.</string>
+    <string name="sesameoil1">Massaging Scalp with Sesame Oil</string>
+    <string name="sesameoil2">Massaging Scalp with Sesame Oil twice a week will give you good results. After one hour wash your hair. You can use a mild herbal shampoo or Shikakai for washing your hair</string>
+    <string name="co1">Lemon Juice with Coconut Oil</string>
+    <string name="co2">Mix Lemon Juice with Coconut oil and then apply it on the scalp, leave it on the hair for 30 minutes. Wash the hair with Herbal shampoo.</string>
+    <string name="neem1">Neem Leaves</string>
+    <string name="neem2">Use Neem Leaves water to wash your hair after shampooing. This will kill the bacteria which cause Dandruff. This remedy even clears any pimple problems that you may have.</string>
+    <string name="tt1">Tea Tree Oil Treatment</string>
+    <string name="tt2">Tea Tree oil is the one of best remedy for dandruff problems. Mixing two to three drops in your regular shampoo or in water for washing hair will be very effective in reducing dandruff.</string>
+    <string name="amla1">Amla (GooseBerry)</string>
+    <string name="amla2">Amla (gooseberry) is another Remedy for Dandruff. Eating and applying Gooseberry\'s juice with almond oil will cure Dandruff easily.</string>
+    <string name="scalp1">Massage your Scalp</string>
+    <string name="scalp2">Massaging any part of your body improves circulation by increasing blood flow to the area, and your scalp is no exception. When you massage your scalp, the increased blood flow stimulates your hair follicles to grow. Scalp massage is a simple technique for helping your hair grow in healthy and fast.</string>
+    <string name="scalp3">Try massaging your scalp every time you take a shower. Use the tips of your fingers to gently rub your scalp in a circular motion. Be sure to cover the front, back and sides of your head. Repeat the process as often as you like. It has the added benefit of reducing tension and helping you feel calm.</string>
+    <string name="po1">Eat plenty of Protein</string>
+    <string name="po2">Hair is mostly composed of protein, making it the most important component of a hair-healthy diet. Examine your diet and make sure you\'re getting plenty of protein every day. When your diet is protein deficient, your body doesn\'t produce as much hair.</string>
+    <string name="to1">Dont\'t use heat styling tools</string>
+    <string name="to2">Air drying is really the healthiest choice when it comes to growing out your hair. Drying your hair with a hair dryer eventually weakens the hair shaft and leads to damage. The same goes for other heat styling tools like curling irons, flat irons and hot rollers.</string>
+    <string name="to3">After your shower, pat your hair dry with a towel. Don\'t roughly towel it dry. Comb it out with a wide tooth comb. Apply product, such as leave-in conditioner, then let it fully air dry.</string>
+    <string name="rub1">Rub your scalp with essential oils</string>
+    <string name="rub2">Certain essential oils have been shown to help stimulate new hair growth. Increase the benefits of your scalp massage by working in a small amount of essential oil. Pour five to ten drops of oil over your fingertips and massage the oil all over your scalp.</string>
+    <string name="rub3">Try one of these essential oils</string>
+    <string name="rub4">Peppermint, which improves circulation.\nTea tree oil, which soothes the scalp and helps improve dandruff.\nLemon oil, which promotes healthy hair growth.</string>
+    <string name="trims1">Get frequent Trims</string>
+    <string name="trims2">Yes, really. It may seem counterintuitive, but if you want long hair that\'s actually healthy, you need to get regular trims.</string>
+    ---------------------------------------------
+    <string name="gin1">Ginger Tea</string>
+    <string name="gin2">It helps by drying up a running and dripping nose and expels phlegm from the respiratory tract. Also ginger is known to soothe a common cold to make it bearable and perhaps even speed up the recovery process.</string>
+    <string name="gar1">Gargle therapy</string>
+    <string name="gar2">Salt-water gargle is an age-old therapy for cough, but you can also add turmeric to it. Salt and turmeric fight cough and will give you relief that you really need.</string>
+    <string name="water1">Water</string>
+    <string name="water2">Drink luke warm water to fight a common cold, cough and sore throat. Drinking warm water reduces the inflammation in the throat. Plus, water helps replenish the fluids in the body and washes out the infection.</string>
+    <string name="her1">Herbal Tea</string>
+    <string name="her2">Make an herbal tea by adding one teaspoon of turmeric powder and one teaspoon of carom seeds to a cup of water, and boil it until water reduces to one-half cup. Add some honey and drink this herbal solution two to three times a day.</string>
+    <string name="tu1">Turmeric</string>
+    <string name="tu2">Roast turmeric root and grind it into a smooth powder. Mix it with water and honey, and drink it twice a day.</string>
+    ---------------------------------------
+    <string name="esm1">Enjoy Some Mint</string>
+    <string name="esm2">Fresh peppermint tea (or just peppermint tea in general) can help relax stomach muscles. It also helps improve the flow of bile, which helps you digest properly. This is especially useful if suffering from indigestion or gas/bloating .</string>
+    <string name="esm3">You will need:</string>
+    <string name="esm4">A handful of fresh peppermint leaves OR 1-2 teaspoons dried\n\nMug\n\n1 cup water</string>
+    <string name="esm5">Directions:</string>
+    <string name="esm6">Cover the peppermint with 1 cup of boiling water, cover, and let steep for 5-10 minutes. Sip slowly while it\'s still toasty warm. If using the fresh peppermint leaves, you can chew on them as well to ease stomach pains. You can also just use a pre-made teabag if you find that more desirable.</string>
+    <string name="us1">Use a warm compress</string>
+    <string name="us2">Adding heat over your stomach can help to reduce the tight, uncomfortable crampy feeling you are experiencing. Use a hot-water bottle or a (clean) sock filled with rice heated to a comfortable temperature and place it over your stomach. For the best results, lie down with the heating device lying over your belly.</string>
+    <string name="tr1">Try aloe vera juice</string>
+    <string name="tr2">Not straight aloe vera from the plant, but aloe vera juice. This is a supplement you can find at many health food stores that has shown to decrease the pain of stomach cramps. It also has ties to helping with constipation and indigestion as well.</string>
+    <string name="tg1">Try Ginger Water</string>
+    <string name="tg2">Ginger with its medicine properties and alternative health advantages regulates the digestion and reduces the abdomen pain. Fresh ginger works better and fast as compared to dry one. Toss a few recent ginger pieces in hot water, now strain and drink it to induce relaxation. However if you can\'t handle spicy foods choose other forms like ginger supplements that you\'ll be able to find easily in the market.</string>
+    <string name="yo1">Yogurt</string>
+    <string name="yo2">Yogurt is good for your stomach\'s overall health. In fact, yogurt with live cultures (good bacteria) and relieves stomach aches due to indigestion.</string>
+    <string name="yo3">Directions:</string>
+    <string name="yo4">Mix two tablespoons of plain yogurt and a pinch of salt in a cup of water.\n\nAdd three teaspoons of juice from fresh coriander leaves.\n\nFinally, mix in one-half teaspoon of cardamom powder.\n\nDrink this one hour after eating your meals to ease a stomach ache.</string>
+    <string name="yo5">You can also eat plain, unsweetened yogurt several times a day until you notice improvement in your condition. </string>
+    ---------------------------------------
+    <string name="ba1">Basil</string>
+    <string name="ba2">Basil works as a muscle relaxant, making it a helpful treatment for mild headaches caused by tense muscles. Plus, it has calming and analgesic effects. Put three or four fresh basil leaves in a cup of boiling water and let it simmer for a few minutes. Optionally, add a little honey and then sip the tea slowly. You can also boil one tablespoon of basil leaves or a few drops of basil oil to a pot of boiling water and carefully lean over the pot to take in the steam. Alternatively, chew some fresh basil leaves or massage your forehead with basil oil mixed with a base oil.</string>
+    <string name="ip1">Ice Pack</string>
+    <string name="ip2">The cold from ice helps reduce inflammation that contributes to headaches. Plus, it has a numbing effect on the pain. Applying an ice pack to the back of your neck can give you relief from a migraine headache. You can also place a washcloth dipped in ice-cold water over your head for five minutes. Repeat the process several times. Alternatively, you can use a bag of frozen vegetables as a cold compress. Within half an hour you will feel some relief.</string>
+    <string name="cl1">Cloves</string>
+    <string name="cl2">Cloves can be used to ease tension headaches as it has a cooling and pain-relieving properties. Crush a few cloves gently and put them in a sachet or a clean handkerchief. Inhale the smell of the crushed cloves whenever you have a headache until you get some relief from the pain. Another option is to put two drops of clove oil in a tablespoon of carrier oil and massage your forehead and temples with it. You can also mix together two teaspoons of coconut oil, one teaspoon of sea salt and two drops of clove oil and rub this mixture gently on your forehead.</string>
+    <string name="cof1">Coffee</string>
+    <string name="cof2">Have a cup of strong coffee. Caffeine reduces blood-vessel swelling, and thus can help relieve a headache. This is why caffeine is an ingredient in some extra - strength painkillers like Excedrin . However, if you are already a heavy coffee drinker, skip this . Caffeine withdrawal can cause headaches, creating a vicious cycle .</string>
+    <string name="yog1">Do Yoga</string>
+    <string name="yog2">Yoga will get your mind focused, stretch out your muscles, and get you moving in ways that can help you drop the tension-and if you drop the tension, you can drop the tension-headache. Just doing a few moves when the pain starts up can help, but the best thing to do is a set aside a few minutes each day to practice regularly and prevent headaches before they happen.</string>
+    ---------------------------------------
+    <string name="exe1">Exercises</string>
+    <string name="exe2">1. Supine Hanstring Stretch</string>
+    <string name="exe3">Lying on your back, bend your right knee into your chest and place a strap or rolled-up towel around the ball of your foot. Straighten your leg toward the ceiling. Press out through both heels. If the lower back feels strained, bend the left knee and place the foot on the ground. Hold for 3-5 minutes and then switch to the left let for 3-5 minutes.</string>
+    <string name="exe4">2. Two-Knee Twist</string>
+    <string name="exe5">Lying on your back, bend your knees into your chest and bring your arms out at a T. As you exhale lower your knees to ground on the right. Keep both shoulders pressing down firmly. If the left shoulder lifts, lower your knees further away from the right arm. Hold for 1-2 minutes each side.</string>
+    <string name="exe6">3. Thread the Needle</string>
+    <string name="exe7">Lying on your back, bend both knees with the feet flat on the ground. Bend the right knee like a figure four, with the outer left ankle to the right thigh. Lift the left foot into the air, bringing the left calf parallel to the ground. Thread your right hand between the opening of the legs and interlace your hands behind your left thigh. Hold 2-3 minutes and then repeat on the other side.</string>
+    <string name="exe8">4. Bottom to heels stretch</string>
+    <string name="exe9">Stretches and mobilises the spine</string>
+    <string name="exe10">Start position: Kneel on all fours, with your knees under hips and hands under shoulders. Don\'t over-arch your lower back. Keep your neck long, your shoulders back and don\'t lock your elbows. </string>
+    <string name="exe11">Action: Slowly take your bottom backwards, maintaining the natural curve in the spine. Hold the stretch for one deep breath and return to the starting position. Repeat 8 to 10 times. </string>
+    <string name="exe12">Tips: Avoid sitting back on your heels if you have a knee problem. Ensure correct positioning with the help of a mirror. Only stretch as far as feels comfortable.</string>
+    <string name="exe13">Legs Up the Wall</string>
+    <string name="exe14">Scoot your buttocks all the way into the wall and swing your feet up the wall. This pose is excellent for relaxing the muscles of the lower back and drains stagnant fluid from the feet and ankles. Do this pose after a challenging workout and always after traveling by plane. Hold for 5-10 minutes</string>
+    <string name="res1">Rest</string>
+    <string name="res2">Ceasing activity for a few days allows injured tissue and even nerve roots to begin to heal, which in turn will help relieve lower back pain. However, more than a few days of rest can lead to a weakening of the muscles, and weak muscles have to struggle to adequately support the spine. People who do not regularly exercise to build strength and flexibility are more likely to experience recurrent or prolonged lower back pain.</string>
+    <string name="hip1">Heat and Ice Packs</string>
+    <string name="hip2">Heat and/or cold therapy helps relieve most types of low back pain by reducing inflammation. Often people use ice, but some prefer heat. Both may be used alternately.</string>
+    <string name="mgp1">Maintain Good Posture</string>
+    <string name="mgp2">The pain may have started after a long workout at the gym, but the strain that caused it has probably been building for years. Wilmarth says most people have poor posture when going about their daily activities, putting unnecessary strain on their backs. "Little things add up," she says. "You can increase the pressure on your back by 50% simply by leaning over the sink incorrectly to brush your teeth. Keeping the right amount of curvature in the back takes pressure off the nerves and will reduce back pain."</string>
+    <string name="rsr1">Rub in some relief</string>
+    <string name="rsr2">Ask a partner to massage the aching area . If you want to use a "back rub" cream or ointment, go ahead , but use caution , as most topical creams produce skin irritation after a few applications. For a simple back -massage aid , stuff several tennis balls into a long sock, tie the end of the sock , and have your partner roll it over your back .</string>
+    ------------------------------------------
+    <string name="mas1">Massage</string>
+    <string name="mas2">Massage therapy helps relieve joint pain by improving circulation and soothing inflammation. In fact, several studies indicate that regular massage can improve pain, stiffness and range of motion in the affected joint. To massage the affected area, use warm oil like coconut, olive, mustard, castor or garlic oil and apply gentle pressure while massaging.</string>
+    <string name="hcc1">Heat and Cold Compresses</string>
+    <string name="hcc2">Alternating hot and cold compresses can also help ease joint pain. Heat therapy helps decrease pain, increase blood flow and relax sore muscles and joints. Cold therapy reduces inflammation and numbs the areas around the affected joint.</string>
+    <string name="hcc3">1.Wrap both compresses in separate towels before using them. They should not be applied directly to the skin.\n\n2.Place the hot compress on the affected area for about three minutes.\n\n3.Remove the compress and immediately put a cold compress in its place for about one minute.\n\n4.Repeat the process for 15 to 20 minutes a few times daily until you get relief.</string>
+    <string name="hcc4">Do not use heat therapy if the affected area is red, hot and irritated. Do not use cold therapy if you have circulatory problems.</string>
+    <string name="trm1">Turmeric</string>
+    <string name="trm2">Turmeric is an excellent Ayurvedic remedy for joint pain. It contains an active ingredient called curcumin with anti-inflammatory and antioxidant properties. Mix one teaspoon of turmeric powder and a little honey in a glass of warm milk. Drink it daily, at least for a few days. Another option is to take 250 to 500 mg turmeric capsules three times daily until you are satisfied with the results.</string>
+    <string name="dmw1">Drink more Water</string>
+    <string name="dmw2">Among the lesser-known benefits of drinking more water is that it softens cartilage and keeps it hydrated. Water helps you maintain an adequate blood volume so that nutrients can move through your blood and into your joints. It also moves waste away from your joints, making them less likely to ache.</string>
+    <string name="acv1" translatable="false">Apple Cider Vinegar</string>
+    <string name="acv2" translatable="false">Apple cider vinegar helps reduce joint pain by eliminating accumulated toxins from the joints and connective tissues. Due to its alkalizing effect, it is particularly beneficial for those suffering from arthritis. Plus, it is rich in minerals like magnesium, calcium, potassium and phosphorus.</string>
+    <string name="acv3" translatable="false">Mix one to three teaspoons of organic apple cider vinegar and a little honey in a cup of warm water. Drink this solution two or three times a day, preferably before meals. You can continue this simple treatment on a regular basis because, in addition to helping with joint pain, it is good for your overall health.</string>
+    ------------------------------------
+    Sun Burn
+    <string name="pop1">Potato paste</string>
+    <string name="pop2">If you\'ve found yourself with searing hot red skin, root up a few potatoes. Potatoes have been known as a pain reliever throughout the years, working particularly well on minor skin irritations and soothing scratches, bites, and burns, as well as possibly reducing inflammation. Some people feel that the juice of the potato works the best, while others feel just slices are sufficient. Try both, and see which one is the best remedy for your sunburn.</string>
+    <string name="pop3">You will need:</string>
+    <string name="pop4">2 potatoes\nA grater, blender, or knife\nCotton balls, cotton pads, facial tissue, or gauze</string>
+    <string name="pop5">Directions</string>
+    <string name="pop6">Wash and scrub your potatoes thoroughly, and then either grate them over a bowl or cut them up and put them in a blender. There is no need to remove the peels. If you\'re using a blender, give them a whirl until they\'ve become quite liquid. If they seem too dry, you can add a small amount of water. Pour out the mixture, soak cotton balls thoroughly in it, and apply to sunburn. An easier perhaps more effective method would be to soak gauze and lay it over the burn. If you\'re using a grater, grate the potatoes over a bowl and apply the pulp, trying to get as much juice as possible. You can also try simply slicing the potatoes, and lying the slices directly on your burn.</string>
+    <string name="dru1">Drink Up</string>
+    <string name="dru2">Sunburn is a burn. It sounds like stating the obvious, but we often don\'t think about the fact that we really, truly, seared our skin. As with any other thing that burns your skin is dried out, and your body is probably dehydrated too. Keep a tall glass or bottle of ice cold water on hand at all times to make sure you\'re keeping yourself full of H20, which is necessary to heal your damaged skin</string>
+    <string name="cmt1">Cool off with Mint Tea</string>
+    <string name="cmt2">Mint naturally cools and soothes whatever it touches, and sunburns are no exception. The tannic acid and theobromine found in green tea also helps relieve pain and heal damaged skin when applied topically.</string>
+    <string name="cmt3">You will need:</string>
+    <string name="cmt4">1 quart of boiling water\n5 green tea bags\n3 cups of fresh mint leaves\nCotton pads or a clean soft cloth</string>
+    <string name="cmt5">Directions</string>
+    <string name="cmt6">Bring 1 quart of water to a boil. Remove the strings and tags from the 5 tea bags and add them, as well as 3 cups of fresh mint leaves, to a pan. Pour the boiling water over the mint leaves and tea bags and cover with a lid, letting it sit for approximately an hour so you can get all the good stuff out of it. Strain and then chill. When the mixture has chilled thoroughly, use cotton pads or a clean soft cloth soaked in the liquid and apply directly to the burn. You can also pour it over the burn if you wish. If you find yourself without green tea you can substitute black tea, which also contains tannins.</string>
+    <string name="isa1">Indulge in some aloe</string>
+    <string name="isa2">Aloe vera gel is many peoples go-to when they have sunburn. It\'s cool, soothing, and seems to suck the sting and redness right out of your sunburn. Because aloe is useful for a number of other ailments (such as acne or heartburn) it\'s handy to have a plant growing in your house. They\'re easy to maintain, free from any additives, and you won\'t have to keep running out to buy more from the store all the time once it\'s big enough. If you would really rather prefer not having the plant, getting some good quality aloe vera gel from the store is the next best thing-it\'s also more practical for treating larger areas.</string>
+    <string name="isa3">You will need:</string>
+    <string name="isa4">An aloe plant with thick, juicy, leaves\nEnough store bought gel to cover your burn</string>
+    <string name="isa5">If using the plant, slit several big leaves down the middle, not cutting all the way through. Spread them flat, and lay on your burn. You can also squeeze the gel out. If you\'re using gel that\'s already been extracted, apply however much you need to your sunburn. The plant is usually more practical when treating smaller areas, while the purchased aloe gel is easier to spread over a big burn. A combination of both works as well.</string>
+    <string name="upy1">Use plain Yogurt</string>
+    <string name="upy2">Live cultured plain yogurt contains an abundance of probiotics and enzymes that help heal our skin. When you find yourself red and sunburned, it can help you recover faster. Make sure it\'s truly plain yogurt, not vanilla, and that it has probiotics.</string>
+    <string name="upy3">You will need:</string>
+    <string name="upy4">1/2 cup or so of plain live cultured yogurt</string>
+    <string name="upy5">A half cup of plain yogurt should be sufficient to treat facial burns at least, but feel free to use more if you want to cover more area. Wash your hands and apply cool yogurt directly to your burn, and let it sit for at least 5 minutes. When the pain has subsided, gently rinse it off with cool or tepid water.</string>
+    ------------------------------
+    <string name="helpfaq">FAQ</string>
+    <string name="helpterms">Terms and Privacy Policy</string>
+    <string name="helpappinfo">App Info</string>
+    ---------------------------------
+    <string name="pb">Port Blair</string>
+    <string name="hi">Havelock Island</string>
+    <string name="ni">Neil Island</string>
+    <string name="la">Little Andaman</string>
+    <string name="anantapur">Anantapur</string>
+    <string name="chittoor">Chittoor</string>
+    <string name="eg">East Godavari</string>
+    <string name="guntur">Guntur</string>
+    <string name="ysr">Y.S.R(Kadapa)</string>
+    <string name="krishna">Krishna</string>
+    <string name="kurnool">Kurnool</string>
+    <string name="nellore">Nellore</string>
+    <string name="prakasam">Prakasam</string>
+    <string name="srikakulam">Srikakulam</string>
+    <string name="visakhapatnam">Visakhapatnam</string>
+    <string name="vizianagaram">Vizianagaram</string>
+    <string name="wg">West Godavari</string>
+    <string name="anjaw">Anjaw</string>
+    <string name="changlang">Changlang</string>
+    <string name="dv">Dibang Valley</string>
+    <string name="ek">East Kameng</string>
+    <string name="es">East Siang</string>
+    <string name="lohit">Lohit</string>
+    <string name="tawang">Tawang</string>
+    <string name="morigaon">Morigaon(Marigaon)</string>
+    <string name="sonitpur">Sonitpur</string>
+    <string name="udalguri">Udalguri</string>
+    <string name="patna">Patna</string>
+    <string name="saharsa">Saharsa</string>
+    <string name="vaishali">Vaishali</string>
+    <string name="bilaspur">Bilaspur</string>
+    <string name="bj">Bijapur</string>
+    <string name="durg">Durg</string>
+    <string name="raipur">Raipur</string>
+    <string name="dn">Dadra and Nagar Haveli</string>
+    <string name="daman">Daman</string>
+    <string name="diu">Diu</string>
+    <string name="ng">North Goa</string>
+    <string name="sg">South Goa</string>
+    <string name="ahmadabad" translatable="false">Ahmadabad(Ahmedabad)</string>
+    <string name="narmada">Narmada</string>
+    <string name="patan">Patan</string>
+    <string name="rajkot">Rajkot</string>
+    <string name="gurgaon">Gurgaon</string>
+    <string name="panipat">Panipat</string>
+    <string name="shimla">Shimla</string>
+    <string name="jammu">Jammu</string>
+    <string name="srinagar">Srinagar</string>
+    <string name="bokaro">Bokaro</string>
+    <string name="ranchi">Ranchi</string>
+    <string name="bangalore">Bangalore</string>
+    <string name="kolar">Kolar</string>
+    <string name="mysore">Mysore</string>
+    <string name="kollam">Kollam</string>
+    <string name="malappuram">Malappuram</string>
+    <string name="thiruvananthapuram">Thiruvananthapuram</string>
+    <string name="lw">Lakshadweep</string>
+    <string name="bhopal">Bhopal</string>
+    <string name="indore">Indore</string>
+    <string name="jabalpur" translatable="false">Jabalpur</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="nagpur">Nagpur</string>
+    <string name="pune">Pune</string>
+    <string name="shridi">Shridi</string>
+    <string name="imphal">Imphal</string>
+    <string name="thoubal">Thoubal</string>
+    <string name="guwahati">Guwahati</string>
+    <string name="shillong">Shillong</string>
+    <string name="aizawl" translatable="false">Aizawl</string>
+    <string name="nd">New Delhi</string>
+    <string name="kohima">Kohima</string>
+    <string name="bhubaneswar">Bhubaneswar</string>
+    <string name="puri">Puri</string>
+    <string name="sambalpur">Sambalpur</string>
+    <string name="pondicherry">Pondicherry</string>
+    <string name="yanam">Yanam</string>
+    <string name="amritsar">Amritsar</string>
+    <string name="chandigarh">Chandigarh</string>
+    <string name="jaipur">Jaipur</string>
+    <string name="udaipur">Udaipur</string>
+    <string name="gangtok">Gangtok</string>
+    <string name="chennai">Chennai</string>
+    <string name="coimbatore">Coimbatore</string>
+    <string name="hosur">Hosur</string>
+    <string name="madurai">Madurai</string>
+    <string name="ooty">Ooty</string>
+    <string name="salem" translatable="false">Salem</string>
+    <string name="thanjavur">Thanjavur</string>
+    <string name="vellore">Vellore</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="nalagonda">Nalagonda</string>
+    <string name="warangal">Warangal</string>
+    <string name="secunderabad">Secunderabad</string>
+    <string name="agartala" translatable="false">Agartala</string>
+    <string name="badrinath">Badrinath</string>
+    <string name="dehradun" translatable="false">Dehardun</string>
+    <string name="agra" translatable="false">Agra</string>
+    <string name="kanpur">Kanpur</string>
+    <string name="lucknow">Lucknow</string>
+    <string name="kolkata">Kolkata</string>
+    <string name="durgapur">Durgapur</string>
+    ------------------------------------------------------------------
+    <string name="alarm_on">Alarm On</string>
+    <string name="alarm_off">Alarm Off</string>
+    <string name="alarm_text">Reminder your Alarm</string>
+    -------------------------------------------------------------------
+    <string-array name="whale_array">
+        <item>Pick a whale sound!</item>
+        <item>Humpback bubble net</item>
+        <item>Humpback contact Call Moo</item>
+        <item>Humpback contact Call Whup</item>
+        <item>Humpback feeding Call</item>
+        <item>Humpback flipper splash</item>
+        <item>Humpback Tail slaps</item>
+        <item>Humpback whale song</item>
+        <item>Humpback whale song with outboard engine</item>
+        <item>Humpback wheeze blows</item>
+        <item>Killer whale echolocation clicks</item>
+        <item>Killer whale offshore</item>
+        <item>Killer whale resident</item>
+        <item>Killer whale transient</item>
+    </string-array>
+    -----------------------------------------------------
+    <string name="title_activity_portal">Portal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">HCMS</string>
+    <string name="nav_header_subtitle">Health Care Management System</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_admin">Admin Details</string>
+    <string name="title_activity_doctor">Doctor Details</string>
+    <string name="title_activity_google_map">Google Map</string>
+    <string name="title_activity_top_hsp">Top 15 Hospitals in India</string>
+    <string name="title_activity_hospital">Hospitals in INDIA</string>
+    <string name="title_activity_donate_bld">Donate Blood</string>
+    <string name="title_activity_msg">Message</string>
+    <string name="title_activity_calls">Call</string>
+    <string name="title_activity_vitamin">Vitamin</string>
+    <string name="title_activity_total_hlth">Total Health Tips</string>
+    <string name="title_activity_alarms">Alarm Reminder</string>
+    <string name="title_activity_live_cht">Live Chat</string>
+    <string name="title_activity_alrm">Alarm</string>
+    ---------------------------------------------------------
+    <string-array name="States_and_Cities">
+        <item>Andaman and Nicobar Islands (আন্দামান ও নিকোবর আইল্যান্ডস)</item>
+        <item>Andhra Pradesh (ఆంధ్రప్రదేశ్)</item>
+        <item>Arunachal Pradesh (অরুণাচল প্রদেশ)</item>
+        <item>Assam (অশাম)</item>
+        <item>Bihar (बिहार)</item>
+        <item>Chhattisgarh (छत्तीसगढ़)</item>
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
+        <item>Daman and Diu (ડામાન ાનદ ડિુ)</item>
+        <item>Delhi (दिल्ली)</item>
+        <item>Goa (घॊा)</item>
+        <item>Gujarat (ઙુજારાત)</item>
+        <item>Haryana (हरयाणा)</item>
+        <item>Himachal Pradesh (हिमाचल प्रदेश)</item>
+        <item>Jammu and Kashmir (ژاممو اند خاسحمير)</item>
+        <item>Jharkhand (झारखंड)</item>
+        <item>Karnataka (ಕರ್ನಾಟಕ)</item>
+        <item>Kerala (കേരളം)</item>
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
+        <item>Madhya Pradesh (मध्य प्रदेश)</item>
+        <item>Maharashtra (महाराष्ट्र)</item>
+        <item>Manipur (Mानिपुर)</item>
+        <item>Meghalaya (Mেগহালায়া)</item>
+        <item>Mizoram (Mizoram)</item>
+        <item>Nagaland (नगालैंड)</item>
+        <item>Odisha (ଓଦିସହା)</item>
+        <item>Puducherry (Pுடுசஹெ்ரய)</item>
+        <item>Punjab (Pੁਨਜਾਬ)</item>
+        <item>Rajasthan (राजस्थान)</item>
+        <item>Sikkim (शिखिम)</item>
+        <item>Tamil Nadu (தமிழ்நாடு)</item>
+        <item>Telangana (తెలంగాణ)</item>
+        <item>Tripura (টরিপুরা)</item>
+        <item>Uttar Pradesh (उत्तर प्रदेश)</item>
+        <item>Uttarkhand (उत्तराखंड)</item>
+        <item>West Bengal (Wেসত ভেনগাল)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Andaman">
+        <item>Port Blair (পোর্ট ব্লেয়ার)</item>
+        <item>Havelock Island (হাভেলক দ্বীপ)</item>
+        <item>Neil Island (নীল দ্বীপ)</item>
+        <item>Little Andaman (লিটল আন্দামান)</item>
+    </string-array>
+    ------------------------------------
+    <string-array name="Andhra_Pradesh">
+        <item>Anantapur (అనంతపురం)</item>
+        <item>Chittoor (చిత్తూరు)</item>
+        <item>East Godavari (తూర్పు గోదావరి)</item>
+        <item>Guntur (గుంటూరు)</item>
+        <item>Krishna (కృష్ణ)</item>
+        <item>Kurnool (కర్నూలు)</item>
+        <item>Prakasam (ప్రకాశం)</item>
+        <item>Srikakulam (శ్రీకాకుళం)</item>
+        <item>Nellore (నెల్లూరు)</item>
+        <item>Visakhapatnam (విశాఖపట్నం)</item>
+        <item>Vizianagaram (విజయనగరం)</item>
+        <item>West Godavari (పశ్చిమ గోదావరి)</item>
+        <item>Y.S.R(Kadapa) (కడప)</item>
+    </string-array>
+    ---------------------------------------------
+    <string-array name="Arunachal_Pradesh">
+        <item>Anjaw (Anjaw)</item>
+        <item>Changlang (Changlang)</item>
+        <item>Dibang Valley (দিবাং ভ্যালি)</item>
+        <item>East Kameng (পূর্ব কামেন)</item>
+        <item>East Siang (পূর্ব সিয়াং)</item>
+        <item>Lohit (লোহিত)</item>
+        <item>Tawang (Tawang)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Assam">
+        <item>Morigaon(Marigaon) (Mোৰিগাোন(Mাৰিগাোন))</item>
+        <item>Sonitpur (শোনিতপুৰ)</item>
+        <item>Udalguri (উদালগুৰি)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Bihar">
+        <item>Patna (पटना)</item>
+        <item>Saharsa (सहरसा</item>
+        <item>Vaishali (वैशाली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Chhattisgarh">
+        <item>Bijapur (बीजापुर)</item>
+        <item>Bilaspur (बिलासपुर)</item>
+        <item>Durg (दुर्ग)</item>
+        <item>Raipur (रायपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Dadra_and_Nagar_Haveli">
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Daman_and_Diu">
+        <item>Daman (ડામાન)</item>
+        <item>Diu (ડિુ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Delhi">
+        <item>New Delhi (नई दिल्ली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Goa">
+        <item>North Goa (णॊरतह घॊा)</item>
+        <item>South Goa (शॊुतह घॊा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Gujarat">
+        <item>Ahmadabad(Ahmedabad) (અહમાદાબાદ(અહમેદાબાદ))</item>
+        <item>Narmada (ણારમાદા)</item>
+        <item>Patan (Pાતાન)</item>
+        <item>Rajkot (ઋાજકોત)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Haryana">
+        <item>Gurgaon (गुडगाँव)</item>
+        <item>Panipat (पानीपत)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Himachal_Pradesh">
+        <item>Shimla (शिमला)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jammu_and_Kashmir">
+        <item>Jammu (ژاممو)</item>
+        <item>Srinagar (صريناگار)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jharkhand">
+        <item>Bokaro (बोकारो)</item>
+        <item>Ranchi (रांची)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Karnataka">
+        <item>Bangalore (ಬೆಂಗಳೂರು)</item>
+        <item>Kolar (ಕೋಲಾರ್)</item>
+        <item>Mysore (ಮೈಸೂರು)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Kerala">
+        <item>Kollam (കൊല്ലം)</item>
+        <item>Malappuram (മലപ്പുറം)</item>
+        <item>Thiruvananthapuram (തിരുവനന്തപുരം)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Lakshadweep">
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Madhya_Pradesh">
+        <item>Bhopal (भोपाल)</item>
+        <item>Indore (इंदौर)</item>
+        <item>Jabalpur (जबलपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Maharashtra">
+        <item>Mumbai (मुंबई)</item>
+        <item>Pune (पुणे)</item>
+        <item>Nagpur (नागपुर)</item>
+        <item>Shridi (शिरडी)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Manipur">
+        <item>Imphal (इमपहाल)</item>
+        <item>Thoubal (टहोुबाल)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Meghalaya">
+        <item>Shillong (শহিঌোনগ)</item>
+        <item>Guwahati (ঘুবাহাতি)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Mizoram">
+        <item>Aizawl (Aizawl)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Nagaland">
+        <item>Kohima (कोहिमा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Odisha">
+        <item>Bhubaneswar (ଭହୁବାନେସୱାର)</item>
+        <item>Sambalpur (ଶାମବାଲପୁର)</item>
+        <item>Puri (Pୁରି)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Puducherry">
+        <item>Pondicherry (Pொநடிசஹெ்ரய)</item>
+        <item>Yanam (ஞாநாம)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Punjab">
+        <item>Amritsar (ਅਮਰਿਤਸਾਰ)</item>
+        <item>Chandigarh (ਛਹਾਨਦਿਗਾਰਹ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Rajasthan">
+        <item>Jaipur (जयपुर)</item>
+        <item>Udaipur (उदयपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Sikkim">
+        <item>Gangtok (घानगतोक)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tamil_Nadu">
+        <item>Chennai (சென்னை)</item>
+        <item>Madurai (மதுரை)</item>
+        <item>Coimbatore (கோயம்புத்தூர்)</item>
+        <item>Salem (சேலம்)</item>
+        <item>Thanjavur (தஞ்சாவூர்)</item>
+        <item>Vellore (வேலூர்)</item>
+        <item>Ooty (ஊட்டி)</item>
+        <item>Hosur (ஓசூர்)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Telangana">
+        <item>Hyderabad (హైదరాబాద్)</item>
+        <item>Warangal (వరంగల్)</item>
+        <item>Nalgonda (నల్గొండ)</item>
+        <item>Secunderabad (సికింద్రాబాద్)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tripura">
+        <item>Agartala (অগারতালা)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttar_Pradesh">
+        <item>Lucknow (अगरतला)</item>
+        <item>Agra (आगरा)</item>
+        <item>Kanpur (कानपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttarkhand">
+        <item>Dehradun (देहरादून)</item>
+        <item>Badrinath (बद्रीनाथ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="West_Bengal">
+        <item>Kolkata (খোলকাতা)</item>
+        <item>Durgapur (ডুরগাপুর)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Settings">
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Choose Language</item>
+        <item>Recover Password</item>
+        <item>Feedback</item>
+        <item>Version</item>
+        <item>SignOut</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="SkipSettings">
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Choose Language</item>
+        <item>Feedback</item>
+        <item>Version</item>
+    </string-array>
+    -------------------------------------------------
+    <string name="login_success">Login success</string>
+    <string name="Username" translatable="false">Email</string>
+    <string name="Password" translatable="false">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="register">REGISTER</string>
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+    <string name="title_activity_portal_page">Portal Page</string>
+    <string name="title_activity_other">Other Activity</string>
+    <string name="hcms_chat" translatable="false">HCMS Chat</string>
+    ------------------------------------------------
+    <string name="communicate">Communicate</string>
+    <string name="daily_tips">Daily Tips</string>
+    <string name="others">Others</string>
+    -------------------------------------------------------
+    <string name="feedback2">Please Feedback Us by pressing the Button or By Right-Top Three Dots</string>
+    <string name="feedback3">Please Feel Free Us to Feedback Us...</string>
+    <string name="feedback_btn">Feedback Us</string>
+    --------------------------------------------------------
+    ChatActivity
+    <string name="getting_all_users">Getting all Users....</string>
+    <string name="add_user" translatable="false">Add User</string>
+    <string name="enter_user_email">Enter User Email</string>
+    <string name="email_not_found">Email not found</string>
+    <string name="finding_user">Finding User...</string>
+    <string name="fail">Fail</string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="false1">False</string>
+    <string name="false_to_add_user_account">False to add User success</string>
+    <string name="false_to_add_user_success">False to add User success</string>
+    <string name="success">Success</string>
+    <string name="add_user_success" translatable="false">Add User success</string>
+    <string name="delete_user">Delete User</string>
+    <string name="delete_msg">Are you sure want to delete</string>
+    <string name="delete_msg1">Deleting...</string>
+    <string name="error">Error</string>
+    <string name="error_msg">Error occurred during deleting User</string>
+    <string name="user_deleting_successfully">User deleting successfully</string>
+    <string name="avatar">Avatar</string>
+    <string name="avatar_msg">Are you sure want to change avatar profile?</string>
+    <string name="avatar_update">Avatar updating....</string>
+    <string name="avatar_update1">Update avatar successfully!</string>
+    <string name="avatar_false">False to update avatar</string>
+    <string name="edit_username">Edit Username</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_pswd">Are you sure want to reset password?</string>
+    <string name="pswd_recovery">Password Recovery</string>
+    <string name="sent_email_to">Sent email to</string>
+    <string name="ok">Ok</string>
+    <string name="false_email">False to sent email to</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_internet_msg">You need to have Mobile Data or wifi to access this. Press ok to Exit</string>
+    <string name="prepare_alarm">Preparing to send notification...:</string>
+    <string name="call_msg">There is no app that support this action</string>
+    <string name="showing_nearby_hospital">Showing Nearby Hospitals</string>
+    <string name="showing_nearby_medicalshops">Showing Nearby Medical Shops</string>
+    <string name="hospitals_in_states_and_cities">Hospitals in STATES and CITIES</string>
+    <string name="invalid_password">Invalid email or empty password</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="register1">Registering....</string>
+    <string name="register_false">Register false</string>
+    <string name="email_exist_or_weak">Email exist or weak password!</string>
+    <string name="register_and_login_success">Register and Login success</string>
+    <string name="login1">Login....</string>
+    <string name="login_false">Login False</string>
+    <string name="email_not_exist_or_weak">Email not exist or wrong password!</string>
+    <string name="sms">sms:</string>
+    <string name="field_cant_be_empty">Field Cant be Empty</string>
+    <string name="msg_action">You dont have required permission to make the Action</string>
+    <string name="invalid_email_or_password">Invalid email or not match password</string>
+    <string name="version_hcms">HCMS 1.0</string>
+    <string name="daily_tips1">Daily Health TIPS</string>
+    <string name="some_types_of_vitamins">VITAMINS</string>
+    <string name="andaman_nicobar">Andaman and Nicobar Island Cities</string>
+    <string name="ap">Andhra Pradesh Cities</string>
+    <string name="arp">Arunachal Pradesh Cities</string>
+    <string name="assam">Assam Cities</string>
+    <string name="bihar">Bihar Cities</string>
+    <string name="chhattisgarh">Chhattisgarh Cities</string>
+    <string name="dadra">Dadra and Nagar Haveli Cities</string>
+    <string name="daman1">Daman and Diu Cities</string>
+    <string name="delhi">Delhi Cities</string>
+    <string name="goa">Goa Cities</string>
+    <string name="gujarat">Gujarat Cities</string>
+    <string name="haryana">Haryana Cities</string>
+    <string name="himachal">Himachal Pradesh Cities</string>
+    <string name="jammu1">Jammu and Kashmir Cities</string>
+    <string name="jharkhand">Jharkhand Cities</string>
+    <string name="karnataka">Karnataka Cities</string>
+    <string name="kerala">Kerala Cities</string>
+    <string name="lakshadweep">Lakshadweep Cities</string>
+    <string name="madhya">Madhya Pradesh Cities</string>
+    <string name="maharashtra">Maharashtra Cities</string>
+    <string name="manipur">Manipur Cities</string>
+    <string name="meghalaya">Meghalaya Cities</string>
+    <string name="mizoram" translatable="false">Mizoram Cities</string>
+    <string name="nagaland">Nagaland Cities</string>
+    <string name="odisha">Odisha Cities</string>
+    <string name="puducherry">Puducherry Cities</string>
+    <string name="punjab">Punjab Cities</string>
+    <string name="rajasthan">Rajasthan Cities</string>
+    <string name="sikkim">Sikkim Cities</string>
+    <string name="telangana">Telangana Cities</string>
+    <string name="tn">Tamil Nadu Cities</string>
+    <string name="tripura">Tripura Cities</string>
+    <string name="up">Uttar Pradesh Cities</string>
+    <string name="uttarakhand">Uttarakhand Cities</string>
+    <string name="wb">West Bengal Cities</string>
+    ----------------------------------------------------------------
+    ResetPassword
+    <string name="email_id">Enter your registered email id</string>
+    <string name="reset_msg">We have sent you instructions to reset your password!</string>
+    <string name="reset_msg1">Failed to send reset email!</string>
+    -----------------------------------------------------------------
+    <string name="name1">Name</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="view">View</string>
+    <string name="msg">Message To Clarify Doubts</string>
+    <string name="msg1">This Will Message through Normal Message App</string>
+    <string name="call1">Call To Clarify Doubts</string>
+    <string name="call2">This Will Call through Normal Call App</string>
+    <string name="remedy1">Remedy 1</string>
+    <string name="remedy2">Remedy 2</string>
+    <string name="remedy3">Remedy 3</string>
+    <string name="remedy4">Remedy 4</string>
+    <string name="remedy5">Remedy 5</string>
+    <string name="ginger">Ginger Juice</string>
+    <string name="gargle">Gargle Therapy</string>
+    <string name="water">Water</string>
+    <string name="herbal">Herbal Tea</string>
+    <string name="turmeric">Turmeric</string>
+    <string name="diet1">Diet 1</string>
+    <string name="diet2">Diet 2</string>
+    <string name="diet3">Diet 3</string>
+    <string name="diet4">Diet 4</string>
+    <string name="face_mask1">Face Mask 1</string>
+    <string name="face_mask2">Face Mask 2</string>
+    <string name="face_mask3">Face Mask 3</string>
+    <string name="face_mask4">Face Mask 4</string>
+    <string name="face_mask5">Face Mask 5</string>
+    <string name="honey_lemon">Honey-Lemon</string>
+    <string name="lemon_juice">Lemon Juice</string>
+    <string name="sample1">Sample 1</string>
+    <string name="sample2">Sample 2</string>
+    <string name="sample3">Sample 3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_dashboard">HCMS</string>
+    <string name="main">HCMS - Health Care Management System</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_vitamins">Vitamins</string>
+    <string name="title_activity_total_tips">TotalTips</string>
+    <string name="title_activity_communicate">Communicate</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="empty_view_text">Press the Floating Action Button to add an alarm!</string>
+
+    <!-- Edit Alarms Activity/Fragment -->
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="days">Days</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="add_alarm" translatable="false">Add Alarm</string>
+    <string name="add_label_hint" translatable="false">Add a label!</string>
+    <string name="update_complete">Changes Saved</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="delete_complete">Alarm Deleted</string>
+    <string name="delete_failed">Delete Failed</string>
+    <string name="delete_dialog_title">Confirm Delete Alarm</string>
+    <string name="delete_dialog_content">Are you sure you would like to delete this alarm?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Edit Alarms Menu -->
+    <string name="action_save" translatable="false">Save</string>
+    <string name="action_delete" translatable="false">Delete</string>
+
+    <!-- Alarms Landing Page Activity/Fragment -->
+    <string name="launch_main_activity">Launch Main Activity</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Days -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <!-- Notification -->
+    <string name="channel_name">Simple Alarms</string>
+    <string name="title_activity_donate_blood">Donate Blood</string>
+    <string name="title_activity_message">Message</string>
+    <string name="title_activity_call">Call</string>
+
+    <string name="title_activity_maps">Google Maps</string>
+
+    <string name="add_post" translatable="false">Add New Post</string>
+    <string name="post_detail">Post Detail</string>
+    <string name="profile">Profile</string>
+</resources>

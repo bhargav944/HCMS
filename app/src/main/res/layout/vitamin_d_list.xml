@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Vitamin"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+
+        <ImageView
+            android:id="@+id/rImageVw"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:src="@drawable/loadingimage"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/rTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Title"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/LightBlue"/>
+
+        <TextView
+            android:id="@+id/rTitledes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Title Description"
+            android:textSize="18dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/rFunc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Function"
+            android:textColor="@color/LightBlue"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:id="@+id/rFuncdes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Functions Description"
+            android:textSize="18dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/rInter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Interaction"
+            android:textSize="23dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/LightBlue"/>
+
+        <TextView
+            android:id="@+id/rInterdes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Interaction Description"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,709 @@
+<resources>
+    <string name="app_name">HCMS</string>
+    <string name="skip">Sauter</string>
+    <string name="next">Suivant</string>
+    <string name="start">Début</string>
+    <string name="slide_1_title">Entraînement quotidien</string>
+    <string name="slide_1_desc">Définissez votre programme d\'entraînement quotidien à l\'aide d\'un entraîneur</string>
+    <string name="slide_2_title">Techniques de méditation </string>
+    <string name="slide_2_desc">En savoir plus sur les différentes techniques de méditation et les pratiquer</string>
+    <string name="slide_3_title">Tableau de régime</string>
+    <string name="slide_3_desc">Faites votre tableau de régime à l\'aide d\'experts en santé</string>
+    <string name="Welcome">Bienvenue</string>
+    <string name="choose">Choisissez la langue</string>
+    <string name="health">Système de gestion des soins de santé</string>
+    <string name="login">s\'identifier</string>
+    <string name="login_activities">Connectez-vous ici</string>
+    <string name="about">À propos de nous</string>
+    <string name="about_activities">InfraStructure d\'hôpital</string>
+    <string name="contact">Contactez nous</string>
+    <string name="contact_activities">Clarifiez vos détails</string>
+    <string name="developed">Développé par</string>
+    <string name="name">G BHARGAV</string>
+    <string name="text">N\'hésitez pas à nous contacter pour clarifier vos doutes et améliorer le statut de votre demande</string>
+    <string name="email">Email</string>
+    <string name="emailid">bhargav.gurramkonda@gmail.com</string>
+    <string name="contact1">Contact</string>
+    <string name="phone">9492515352,7097034116</string>
+    <string name="version">version: 1.0.0</string>
+    <string name="password">Mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+    <string name="link_to_register">Inscrivez-vous ici</string>
+    <string name="minimum_password">Mot de passe trop court, entrez au moins 6 caractères!</string>
+    <string name="auth_failed">L\'authentification a échoué, vérifiez votre email et votre mot de passe ou inscrivez-vous</string>
+    <string name="portal">Page portail</string>
+    <string name="sign_in_short">registre</string>
+    <string name="link_to_login">Déjà inscrit.Connectez-vous ici!</string>
+    <string name="forgot_password_msg">Nous avons juste besoin de votre email ID enregistré pour vous envoyer des instructions pour réinitialiser votre mot de passe</string>
+    <string name="reset_password">réinitialiser le mot de passe</string>
+    <string name="back">Retour</string>
+    <string name="admin">Admin</string>
+    <string name="admin_details">Détails de l\'administrateur</string>
+    <string name="doctor">Médecin</string>
+    <string name="doctor_activities">Docteur Détails</string>
+    <string name="message">Message</string>
+    <string name="message_me">Message au docteur et à l\'administrateur</string>
+    <string name="call">Appel</string>
+    <string name="call_me">Appel au docteur et à l\'administrateur</string>
+    <string name="feedback">Retour d\'information</string>
+    <string name="livechat_userinfo">Chat en direct et informations utilisateur</string>
+    <string name="livechatuserinfo">LC et UI</string>
+    <string name="googlemap">Google Map</string>
+    <string name="google_map">Naviguez dans les hôpitaux proches</string>
+    <string name="totalhealth">Conseils de santé totale</string>
+    <string name="totalhealth_me">Total des conseils de santé</string>
+    <string name="tophospital">Top Hôpitaux</string>
+    <string name="tophospital_me">Top 15 des hôpitaux en Inde</string>
+    <string name="hospital">Les hôpitaux</string>
+    <string name="hospital1">Hosps en Inde</string>
+    <string name="hospitals">Hôpitaux en Inde</string>
+    <string name="logout_message">Êtes-vous sûr de vouloir vous déconnecter de HCMS?</string>
+    <string name="thanks_message">Merci d’utiliser HCMS Application.Any Doubts Please Feedback</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="india_me">États et villes hôpitaux en Inde</string>
+    <string name="blooddonation">Donner du sang</string>
+    <string name="blooddonation_me">Donner du sang sauver la vie</string>
+    <string name="alarm">Alarme</string>
+    <string name="alarm_me">Rappel de santé</string>
+    <string name="vitamins">Vitamines</string>
+    <string name="vitamins_me">Conseils de vitamines</string>
+    <string name="medications">Les médicaments</string>
+    <string name="medications_me">Tablettes Détails</string>
+    <string name="phoneno">Entrez le numéro de téléphone ....</string>
+    <string name="message1">Texte votre message ....</string>
+    <string name="sendmessage">Envoyer le message</string>
+    <string name="msg_sent">Message envoyé</string>
+    <string name="integer_only">S\'il vous plaît entrer uniquement en entier</string>
+    <string name="msg_permission">Vous n’avez pas l’autorisation requise pour effectuer l’action</string>
+    <string name="title_activity_tophospital_web_view">Détails de l\'hôpital</string>
+    <string name="text1">Entrez le nom, le groupe sanguin, le numéro de téléphone</string>
+    <string name="donateblood">Donner du sang</string>
+    <string name="title_activity_login">se connecter</string>
+    <string name="title_activity_register">S\'inscrire</string>
+    <string name="title_activity_reset_password">Réinitialiser l\'activité du mot de passe</string>
+    <string name="to">À:</string>
+    <string name="subject">Assujettir:</string>
+    <string name="message2">Message:</string>
+    <string name="feedback1">Commentaires nous pour clarifier vos doutes</string>
+    <string name="doctordetails">Docteur Détails</string>
+    <string name="admindetails">Détails de l\'administrateur</string>
+    <string name="help">Aidez-moi</string>
+    <string name="help_me">Clarifiez vos doutes</string>
+    <string name="logout">Connectez - Out</string>
+    <string name="logout_me">Déconnexion de HCMS</string>
+    <string name="immunization">Immunisation</string>
+    <string name="diet_plan">Régime alimentaire</string>
+    <string name="exercise">Exercice</string>
+    <string name="routinemaker">Fabricant de routine</string>
+    <string name="workoutmanagement">Gestion des séances d\'entraînement</string>
+    <string name="pimples">Acné / boutons</string>
+    <string name="scars">Cicatrices</string>
+    <string name="facecare">Soins du visage</string>
+    <string name="hairloss">Chute de cheveux</string>
+    <string name="dandruff">Pellicules</string>
+    <string name="hairgrowth">La pousse des cheveux</string>
+    <string name="cough">Rhume et la toux</string>
+    <string name="stomach_ache">Maux d\'estomac</string>
+    <string name="headache">Mal de tête</string>
+    <string name="backpain">Mal au dos</string>
+    <string name="jointpain">Douleur articulaire</string>
+    <string name="sunburn">Sun Burn</string>
+    <string name="immunization_me">Organisation mondiale de la santé</string>
+    <string name="a">A</string>
+    <string name="b1">B1</string>
+    <string name="b2">B2</string>
+    <string name="b3">B3</string>
+    <string name="b5">B5</string>
+    <string name="b6">B6</string>
+    <string name="b7">B7</string>
+    <string name="b9">B9</string>
+    <string name="b12">B12</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="k">K</string>
+    <string name="vitamina">Vitamine A</string>
+    -------------------------------------------------------------------
+    <string name="vitaminb1">Vitamine B1</string>
+    -------------------
+    <string name="vitaminb2">Vitamine B2</string>
+    ---------------------
+    <string name="vitaminb3">Vitamine B3</string>
+     ---------------------
+    <string name="vitaminb5">Vitamine B5</string>
+    ------------------------
+    <string name="vitaminb6">Vitamine B6</string>
+    ------------------------
+    <string name="vitaminb7">Vitamine B7</string>
+    ---------------------------
+    <string name="vitaminb9">Vitamine B9</string>
+    --------------------------
+    <string name="vitaminb12">Vitamine B12</string>
+    ------------------------------
+    <string name="vitaminc">Vitamine C</string>
+    ----------------------------
+    <string name="vitamind">Vitamine D</string>
+    ------------------------
+    <string name="vitamine">Vitamine E</string>
+    -----------------------------
+    <string name="vitamink">Vitamine K</string>
+    --------------------------------
+    <string name="pb">Port Blair</string>
+    <string name="hi">Havelock Island</string>
+    <string name="ni">Neil Island</string>
+    <string name="la">Little Andaman</string>
+    <string name="anantapur">Anantapur</string>
+    <string name="eg">East Godavari</string>
+    <string name="guntur">Guntur</string>
+    <string name="krishna">Krishna</string>
+    <string name="kurnool">Kurnool</string>
+    <string name="prakasam">Prakasam</string>
+    <string name="srikakulam">Srikakulam</string>
+    <string name="nellore">Nellore</string>
+    <string name="visakhapatnam">Visakhapatnam</string>
+    <string name="vizianagaram">Vizianagaram</string>
+    <string name="wg">West Godavari</string>
+    <string name="ysr">Y.S.R(Kadapa)</string>
+    <string name="anjaw">Anjaw</string>
+    <string name="changlang">Changlang</string>
+    <string name="dv">Dibang Valley</string>
+    <string name="ek">East Kameng</string>
+    <string name="es">East Siang</string>
+    <string name="lohit">Lohit</string>
+    <string name="tawang">Tawang</string>
+    <string name="morigaon">Morigaon(Marigaon)</string>
+    <string name="sonitpur">Sonitpur</string>
+    <string name="udalguri">Udalguri</string>
+    <string name="patna">Patna</string>
+    <string name="saharsa">Saharsa</string>
+    <string name="vaishali">Vaishali</string>
+    <string name="bj">Bijapur</string>
+    <string name="bilaspur">Bilaspur</string>
+    <string name="durg">Durg</string>
+    <string name="raipur">Raipur</string>
+    <string name="dn">Dadra and Nagar Haveli</string>
+    <string name="daman">Daman</string>
+    <string name="diu">Diu</string>
+    <string name="nd">New Delhi</string>
+    <string name="ng">North Goa</string>
+    <string name="sg">South Goa</string>
+    <string name="ahmadabad">Ahmadabad(Ahmedabad)</string>
+    <string name="narmada">Narmada</string>
+    <string name="patan">Patan</string>
+    <string name="rajkot">Rajkot</string>
+    <string name="gurgaon">Gurgaon</string>
+    <string name="panipat">Panipat</string>
+    <string name="shimla">Shimla</string>
+    <string name="jammu">Jammu</string>
+    <string name="srinagar">Srinagar</string>
+    <string name="kollam">Kollam</string>
+    <string name="malappuram">Malappuram</string>
+    <string name="thiruvananthapuram">Thiruvananthapuram</string>
+    <string name="lw">Lakshadweep</string>
+    <string name="bhopal">Bhopal</string>
+    <string name="indore">Indore</string>
+    <string name="jabalpur">Jabalpur</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="pune">Pune</string>
+    <string name="nagpur">Nagpur</string>
+    <string name="shridi">Shridi</string>
+    <string name="imphal">Imphal</string>
+    <string name="thoubal">Thoubal</string>
+    <string name="shillong">Shillong</string>
+    <string name="guwahati">Guwahati</string>
+    <string name="aizawl">Aizawl</string>
+    <string name="kohima">Kohima</string>
+    <string name="bhubaneswar">Bhubaneswar</string>
+    <string name="sambalpur">Sambalpur</string>
+    <string name="puri">Puri</string>
+    <string name="pondicherry">Pondicherry</string>
+    <string name="yanam">Yanam</string>
+    <string name="amritsar">Amritsar</string>
+    <string name="chandigarh">Chandigarh</string>
+    <string name="jaipur">Jaipur</string>
+    <string name="udaipur">Udaipur</string>
+    <string name="gangtok">Gangtok</string>
+    <string name="chennai">Chennai</string>
+    <string name="madurai">Madurai</string>
+    <string name="coimbatore">Coimbatore</string>
+    <string name="salem">Salem</string>
+    <string name="thanjavur">Thanjavur</string>
+    <string name="vellore">Vellore</string>
+    <string name="ooty">Ooty</string>
+    <string name="hosur">Hosur</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="warangal">Warangal</string>
+    <string name="nalagonda">Nalagonda</string>
+    <string name="secunderabad">Secunderabad</string>
+    <string name="agartala">Agartala</string>
+    <string name="lucknow">Lucknow</string>
+    <string name="agra">Agra</string>
+    <string name="kanpur">Kanpur</string>
+    <string name="dehradun">Dehardun</string>
+    <string name="badrinath">Badrinath</string>
+    <string name="kolkata">Kolkata</string>
+    <string name="durgapur">Durgapur</string>
+    <string name="bokaro">Bokaro</string>
+    <string name="Ranchi">Ranchi</string>
+    <string name="bangalore">Bangalore</string>
+    <string name="kolar">Kolar</string>
+    <string name="mysore">Mysore</string>
+    <string name="chittoor">Chittoor</string>
+    <string name="ranchi">Ranchi</string>
+    ------------------------------------------------------------------
+    <string name="alarm_on">Alarme sur</string>
+    <string name="alarm_off">Alarme éteinte</string>
+    <string name="alarm_text">Rappelez votre alarme</string>
+    -------------------------------------------------------------------
+    <string-array name="whale_array">
+        <item>Choisissez un son de baleine!</item>
+        <item>Filet à bulles à bosse</item>
+        <item>Contact à bosse Appeler Moo</item>
+        <item>Contact à bosse Appeler Whup</item>
+        <item>Appel à bosse</item>
+        <item>Splash flipper flipper</item>
+        <item>Queue de bosse gifles</item>
+        <item>Chant de baleine à bosse</item>
+        <item>Chant de baleine à bosse avec moteur hors-bord</item>
+        <item>Respiration sifflante de bosse</item>
+        <item>Clics d\'écholocation des épaulards</item>
+        <item>Épaulard au large</item>
+        <item>Résident d\'épaulard</item>
+        <item>Épaulard transitoire</item>
+    </string-array>
+    -----------------------------------------------------
+    <string name="title_activity_portal">Portail</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">HCMS</string>
+    <string name="nav_header_subtitle">Système de gestion des soins de santé</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="action_settings">Réglages</string>
+    <string name="title_activity_admin">Détails de l\'administrateur</string>
+    <string name="title_activity_doctor">Docteur Détails</string>
+    <string name="title_activity_google_map">Google Map</string>
+    <string name="title_activity_top_hsp">Top 15 des hôpitaux en Inde</string>
+    <string name="title_activity_hospital">Hôpitaux en Inde</string>
+    <string name="title_activity_donate_bld">Donner du sang</string>
+    <string name="title_activity_msg">Message</string>
+    <string name="title_activity_calls">Appel</string>
+    <string name="title_activity_vitamin">Vitamine</string>
+    <string name="title_activity_total_hlth">Santé totale</string>
+    <string name="title_activity_alarms">Rappel d\'alarme</string>
+    <string name="title_activity_live_cht">Chat en direct</string>
+    <string name="title_activity_alrm">Alarme</string>
+    ---------------------------------------------------------
+    <string-array name="States_and_Cities">
+        <item>Andaman and Nicobar Islands (আন্দামান ও নিকোবর আইল্যান্ডস)</item>
+        <item>Andhra Pradesh (ఆంధ్రప్రదేశ్)</item>
+        <item>Arunachal Pradesh (অরুণাচল প্রদেশ)</item>
+        <item>Assam (অশাম)</item>
+        <item>Bihar (बिहार)</item>
+        <item>Chhattisgarh (छत्तीसगढ़)</item>
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
+        <item>Daman and Diu (ડામાન ાનદ ડિુ)</item>
+        <item>Delhi (दिल्ली)</item>
+        <item>Goa (घॊा)</item>
+        <item>Gujarat (ઙુજારાત)</item>
+        <item>Haryana (हरयाणा)</item>
+        <item>Himachal Pradesh (हिमाचल प्रदेश)</item>
+        <item>Jammu and Kashmir (ژاممو اند خاسحمير)</item>
+        <item>Jharkhand (झारखंड)</item>
+        <item>Karnataka (ಕರ್ನಾಟಕ)</item>
+        <item>Kerala (കേരളം)</item>
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
+        <item>Madhya Pradesh (मध्य प्रदेश)</item>
+        <item>Maharashtra (महाराष्ट्र)</item>
+        <item>Manipur (Mानिपुर)</item>
+        <item>Meghalaya (Mেগহালায়া)</item>
+        <item>Mizoram (Mizoram)</item>
+        <item>Nagaland (नगालैंड)</item>
+        <item>Odisha (ଓଦିସହା)</item>
+        <item>Puducherry (Pுடுசஹெ்ரய)</item>
+        <item>Punjab (Pੁਨਜਾਬ)</item>
+        <item>Rajasthan (राजस्थान)</item>
+        <item>Sikkim (शिखिम)</item>
+        <item>Tamil Nadu (தமிழ்நாடு)</item>
+        <item>Telangana (తెలంగాణ)</item>
+        <item>Tripura (টরিপুরা)</item>
+        <item>Uttar Pradesh (उत्तर प्रदेश)</item>
+        <item>Uttarkhand (उत्तराखंड)</item>
+        <item>West Bengal (Wেসত ভেনগাল)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Andaman">
+        <item>Port Blair (পোর্ট ব্লেয়ার)</item>
+        <item>Havelock Island (হাভেলক দ্বীপ)</item>
+        <item>Neil Island (নীল দ্বীপ)</item>
+        <item>Little Andaman (লিটল আন্দামান)</item>
+    </string-array>
+    ------------------------------------
+    <string-array name="Andhra_Pradesh">
+        <item>Anantapur (అనంతపురం)</item>
+        <item>Chittoor (చిత్తూరు)</item>
+        <item>East Godavari (తూర్పు గోదావరి)</item>
+        <item>Guntur (గుంటూరు)</item>
+        <item>Krishna (కృష్ణ)</item>
+        <item>Kurnool (కర్నూలు)</item>
+        <item>Prakasam (ప్రకాశం)</item>
+        <item>Srikakulam (శ్రీకాకుళం)</item>
+        <item>Nellore (నెల్లూరు)</item>
+        <item>Visakhapatnam (విశాఖపట్నం)</item>
+        <item>Vizianagaram (విజయనగరం)</item>
+        <item>West Godavari (పశ్చిమ గోదావరి)</item>
+        <item>Y.S.R(Kadapa) (కడప)</item>
+    </string-array>
+    ---------------------------------------------
+    <string-array name="Arunachal_Pradesh">
+        <item>Anjaw (Anjaw)</item>
+        <item>Changlang (Changlang)</item>
+        <item>Dibang Valley (দিবাং ভ্যালি)</item>
+        <item>East Kameng (পূর্ব কামেন)</item>
+        <item>East Siang (পূর্ব সিয়াং)</item>
+        <item>Lohit (লোহিত)</item>
+        <item>Tawang (Tawang)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Assam">
+        <item>Morigaon(Marigaon) (Mোৰিগাোন(Mাৰিগাোন))</item>
+        <item>Sonitpur (শোনিতপুৰ)</item>
+        <item>Udalguri (উদালগুৰি)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Bihar">
+        <item>Patna (पटना)</item>
+        <item>Saharsa (सहरसा</item>
+        <item>Vaishali (वैशाली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Chhattisgarh">
+        <item>Bijapur (बीजापुर)</item>
+        <item>Bilaspur (बिलासपुर)</item>
+        <item>Durg (दुर्ग)</item>
+        <item>Raipur (रायपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Dadra_and_Nagar_Haveli">
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Daman_and_Diu">
+        <item>Daman (ડામાન)</item>
+        <item>Diu (ડિુ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Delhi">
+        <item>New Delhi (नई दिल्ली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Goa">
+        <item>North Goa (णॊरतह घॊा)</item>
+        <item>South Goa (शॊुतह घॊा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Gujarat">
+        <item>Ahmadabad(Ahmedabad) (અહમાદાબાદ(અહમેદાબાદ))</item>
+        <item>Narmada (ણારમાદા)</item>
+        <item>Patan (Pાતાન)</item>
+        <item>Rajkot (ઋાજકોત)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Haryana">
+        <item>Gurgaon (गुडगाँव)</item>
+        <item>Panipat (पानीपत)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Himachal_Pradesh">
+        <item>Shimla (शिमला)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jammu_and_Kashmir">
+        <item>Jammu (ژاممو)</item>
+        <item>Srinagar (صريناگار)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jharkhand">
+        <item>Bokaro (बोकारो)</item>
+        <item>Ranchi (रांची)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Karnataka">
+        <item>Bangalore (ಬೆಂಗಳೂರು)</item>
+        <item>Kolar (ಕೋಲಾರ್)</item>
+        <item>Mysore (ಮೈಸೂರು)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Kerala">
+        <item>Kollam (കൊല്ലം)</item>
+        <item>Malappuram (മലപ്പുറം)</item>
+        <item>Thiruvananthapuram (തിരുവനന്തപുരം)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Lakshadweep">
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Madhya_Pradesh">
+        <item>Bhopal (भोपाल)</item>
+        <item>Indore (इंदौर)</item>
+        <item>Jabalpur (जबलपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Maharashtra">
+        <item>Mumbai (मुंबई)</item>
+        <item>Pune (पुणे)</item>
+        <item>Nagpur (नागपुर)</item>
+        <item>Shridi (शिरडी)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Manipur">
+        <item>Imphal (इमपहाल)</item>
+        <item>Thoubal (टहोुबाल)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Meghalaya">
+        <item>Shillong (শহিঌোনগ)</item>
+        <item>Guwahati (ঘুবাহাতি)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Mizoram">
+        <item>Aizawl (Aizawl)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Nagaland">
+        <item>Kohima (कोहिमा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Odisha">
+        <item>Bhubaneswar (ଭହୁବାନେସୱାର)</item>
+        <item>Sambalpur (ଶାମବାଲପୁର)</item>
+        <item>Puri (Pୁରି)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Puducherry">
+        <item>Pondicherry (Pொநடிசஹெ்ரய)</item>
+        <item>Yanam (ஞாநாம)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Punjab">
+        <item>Amritsar (ਅਮਰਿਤਸਾਰ)</item>
+        <item>Chandigarh (ਛਹਾਨਦਿਗਾਰਹ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Rajasthan">
+        <item>Jaipur (जयपुर)</item>
+        <item>Udaipur (उदयपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Sikkim">
+        <item>Gangtok (घानगतोक)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tamil_Nadu">
+        <item>Chennai (சென்னை)</item>
+        <item>Madurai (மதுரை)</item>
+        <item>Coimbatore (கோயம்புத்தூர்)</item>
+        <item>Salem (சேலம்)</item>
+        <item>Thanjavur (தஞ்சாவூர்)</item>
+        <item>Vellore (வேலூர்)</item>
+        <item>Ooty (ஊட்டி)</item>
+        <item>Hosur (ஓசூர்)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Telangana">
+        <item>Hyderabad (హైదరాబాద్)</item>
+        <item>Warangal (వరంగల్)</item>
+        <item>Nalgonda (నల్గొండ)</item>
+        <item>Secunderabad (సికింద్రాబాద్)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tripura">
+        <item>Agartala (অগারতালা)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttar_Pradesh">
+        <item>Lucknow (अगरतला)</item>
+        <item>Agra (आगरा)</item>
+        <item>Kanpur (कानपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttarkhand">
+        <item>Dehradun (देहरादून)</item>
+        <item>Badrinath (बद्रीनाथ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="West_Bengal">
+        <item>Kolkata (খোলকাতা)</item>
+        <item>Durgapur (ডুরগাপুর)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Settings">
+        <item>À propos de nous</item>
+        <item>Contactez nous</item>
+        <item>Choisissez la langue</item>
+        <item>Changer le mot de passe</item>
+        <item>Retour d\'information</item>
+        <item>Version</item>
+        <item>Déconnexion</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="SkipSettings">
+        <item>À propos de nous</item>
+        <item>Contactez nous</item>
+        <item>Choisissez la langue</item>
+        <item>Retour d\'information</item>
+        <item>Version</item>
+    </string-array>
+    -------------------------------------------------
+    <string name="login_success">Connexion réussie</string>
+    <string name="Username">Email</string>
+    <string name="Password">Mot de passe</string>
+    <string name="forgot_your_password">Mot de passe oublié ?</string>
+    <string name="repeat_password">Répéter le mot de passe</string>
+    <string name="register">REGISTRE</string>
+    <string name="hint_username">Entrez un nouveau nom d\'utilisateur</string>
+    <string name="hint_email_reset">Entrer votre Email</string>
+    <string name="enter_group_name">Entrez le nom du groupe</string>
+    <string name="title_activity_portal_page">Page portail</string>
+    <string name="title_activity_other">Autre activité</string>
+    <string name="hcms_chat">HCMS Bavarder</string>
+    ------------------------------------------------
+    <string name="communicate">Communiquer</string>
+    <string name="daily_tips">Conseils quotidiens</string>
+    <string name="others">Autres</string>
+    -------------------------------------------------------
+    <string name="feedback2">S\'il vous plaît nous commenter en appuyant sur le bouton ou en haut à droite trois points</string>
+    <string name="feedback3">S\'il vous plaît n\'hésitez pas à nous commenter nous ...</string>
+    <string name="feedback_btn">Commentaires nous</string>
+    --------------------------------------------------------
+    ChatActivity
+    <string name="getting_all_users">Obtenir tous les utilisateurs ....</string>
+    <string name="add_user">Ajouter un utilisateur</string>
+    <string name="enter_user_email">Entrer l\'email de l\'utilisateur</string>
+    <string name="email_not_found">Email non trouvé</string>
+    <string name="finding_user">Trouver un utilisateur ...</string>
+    <string name="fail">Échouer</string>
+    <string name="email_not_valid">Email non valide</string>
+    <string name="false1">Faux</string>
+    <string name="false_to_add_user_account">Faux pour ajouter le succès de l\'utilisateur</string>
+    <string name="false_to_add_user_success">Faux pour ajouter le succès de l\'utilisateur</string>
+    <string name="success">Succès</string>
+    <string name="add_user_success">Ajouter le succès de l\'utilisateur</string>
+    <string name="delete_user">Supprimer l\'utilisateur</string>
+    <string name="delete_msg">Êtes-vous sûr de vouloir supprimer</string>
+    <string name="delete_msg1">Suppression ...</string>
+    <string name="error">Erreur</string>
+    <string name="error_msg">Une erreur s\'est produite lors de la suppression de l\'utilisateur.</string>
+    <string name="user_deleting_successfully">Utilisateur supprimant avec succès</string>
+    <string name="avatar">l\'avatar</string>
+    <string name="avatar_msg">Êtes-vous sûr de vouloir changer de profil d\'avatar?</string>
+    <string name="avatar_update">Avatar mise à jour ....</string>
+    <string name="avatar_update1">Mettre à jour l\'avatar avec succès!</string>
+    <string name="avatar_false">Faux pour mettre à jour l\'avatar</string>
+    <string name="edit_username">Modifier le nom d\'utilisateur</string>
+    <string name="save">sauvegarder</string>
+    <string name="cancel">Annuler</string>
+    <string name="reset_pswd">Êtes-vous sûr de vouloir réinitialiser le mot de passe?</string>
+    <string name="pswd_recovery">Récupération de mot de passe</string>
+    <string name="sent_email_to">Courriel envoyé à</string>
+    <string name="ok">D\'accord</string>
+    <string name="false_email">False to email envoyé à</string>
+    <string name="no_internet">Pas de connexion Internet</string>
+    <string name="no_internet_msg">Vous devez avoir Mobile Data ou wifi pour y accéder. Appuyez sur ok pour quitter</string>
+    <string name="prepare_alarm">Préparer l\'envoi d\'une notification ...:</string>
+    <string name="call_msg">Il n\'y a pas d\'application qui supporte cette action</string>
+    <string name="showing_nearby_hospital">Afficher les hôpitaux à proximité</string>
+    <string name="showing_nearby_medicalshops">Afficher les boutiques médicales à proximité</string>
+    <string name="hospitals_in_states_and_cities">Hôpitaux en ÉTATS et VILLES</string>
+    <string name="invalid_password">Email invalide ou mot de passe vide</string>
+    <string name="invalid_email">Email invalide</string>
+    <string name="register1">Enregistrement....</string>
+    <string name="register_false">Enregistrer faux</string>
+    <string name="email_exist_or_weak">Email existe ou mot de passe faible!</string>
+    <string name="register_and_login_success">Enregistrement et connexion réussie</string>
+    <string name="login1">S\'identifier....</string>
+    <string name="login_false">S\'identifier Faux</string>
+    <string name="email_not_exist_or_weak">Email n\'existe pas ou mot de passe erroné!</string>
+    <string name="sms">SMS:</string>
+    <string name="field_cant_be_empty">Le champ ne peut pas être vide</string>
+    <string name="msg_action">Vous n\'avez pas l\'autorisation requise pour effectuer l\'action</string>
+    <string name="invalid_email_or_password">Email invalide ou mot de passe ne correspond pas</string>
+    <string name="version_hcms">HCMS 1.0</string>
+    <string name="daily_tips1">Conseils santé quotidiens</string>
+    <string name="some_types_of_vitamins">Certains types de vitamines</string>
+    <string name="andaman_nicobar">Andaman and Nicobar Villes</string>
+    <string name="ap">Andhra Pradesh Villes</string>
+    <string name="arp">Arunachal Pradesh Villes</string>
+    <string name="assam">Assam Villes</string>
+    <string name="bihar">Bihar Villes</string>
+    <string name="chhattisgarh">Chhattisgarh Villes</string>
+    <string name="dadra">Dadra and Nagar Haveli Villes</string>
+    <string name="daman1">Daman and Diu Villes</string>
+    <string name="delhi">Delhi Villes</string>
+    <string name="goa">Goa Villes</string>
+    <string name="gujarat">Gujarat Villes</string>
+    <string name="haryana">Haryana Villes</string>
+    <string name="himachal">Himachal Pradesh Villes</string>
+    <string name="jammu1">Jammu and Kashmir Villes</string>
+    <string name="jharkhand">Jharkhand Villes</string>
+    <string name="karnataka">Karnataka Villes</string>
+    <string name="kerala">Kerala Villes</string>
+    <string name="lakshadweep">Lakshadweep Villes</string>
+    <string name="madhya">Madhya Pradesh Villes</string>
+    <string name="maharashtra">Maharashtra Villes</string>
+    <string name="manipur">Manipur Villes</string>
+    <string name="meghalaya">Meghalaya Villes</string>
+    <string name="mizoram">Mizoram Villes</string>
+    <string name="nagaland">Nagaland Villes</string>
+    <string name="odisha">Odisha Villes</string>
+    <string name="puducherry">Puducherry Villes</string>
+    <string name="punjab">Punjab Villes</string>
+    <string name="rajasthan">Rajasthan Villes</string>
+    <string name="sikkim">Sikkim Villes</string>
+    <string name="telangana">Telangana Villes</string>
+    <string name="tn">Tamil Nadu Villes</string>
+    <string name="tripura">Tripura Villes</string>
+    <string name="up">Uttar Pradesh Villes</string>
+    <string name="uttarakhand">Uttarakhand Villes</string>
+    <string name="wb">West Bengal Villes</string>
+    ----------------------------------------------------------------
+    ResetPassword
+    <string name="email_id">Entrez votre identifiant email enregistré</string>
+    <string name="reset_msg">Nous vous avons envoyé des instructions pour réinitialiser votre mot de passe!</string>
+    <string name="reset_msg1">Impossible d\'envoyer l\'email de réinitialisation!</string>
+    -----------------------------------------------------------------
+    <string name="name1">prénom</string>
+    <string name="blood_group">Groupe sanguin</string>
+    <string name="view">Vue</string>
+    <string name="msg">Message Pour Clarifier Les Doutes</string>
+    <string name="msg1">Ce message passera par l\'application Message normale</string>
+    <string name="call1">Appel à clarifier les doutes</string>
+    <string name="call2">Cela va appeler via App appel normal</string>
+    <string name="remedy1">Remède 1</string>
+    <string name="remedy2">Remède 2</string>
+    <string name="remedy3">Remède 3</string>
+    <string name="remedy4">Remède 4</string>
+    <string name="remedy5">Remède 5</string>
+    <string name="ginger">Jus de gingembre</string>
+    <string name="gargle">Thérapie gargarisme</string>
+    <string name="water">Eau</string>
+    <string name="herbal">Thé aux herbes</string>
+    <string name="turmeric">Safran des Indes</string>
+    <string name="diet1">Régime 1</string>
+    <string name="diet2">Régime 2</string>
+    <string name="diet3">Régime 3</string>
+    <string name="diet4">Régime 4</string>
+    <string name="face_mask1">Masque 1</string>
+    <string name="face_mask2">Masque 2</string>
+    <string name="face_mask3">Masque 3</string>
+    <string name="face_mask4">Masque 4</string>
+    <string name="face_mask5">Masque 5</string>
+    <string name="honey_lemon">Miel-citron</string>
+    <string name="lemon_juice">Jus de citron</string>
+    <string name="sample1">Échantillon 1</string>
+    <string name="sample2">Échantillon 2</string>
+    <string name="sample3">Échantillon 3</string>
+
+    <string name="title_activity_communicate">Communiquer</string>
+</resources>
